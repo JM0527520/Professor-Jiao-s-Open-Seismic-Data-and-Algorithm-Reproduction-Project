@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-09T15:46:02+08:00",
+  "status": "passed_for_local_preparation",
+  "tests": {
+    "passed": 37,
+    "failed": 0,
+    "coverage": null
+  },
+  "ruff": "passed",
+  "compileall": "passed",
+  "bash_syntax": "passed",
+  "static_type_checker": "not_configured",
+  "original_source_fingerprints_checked": 477,
+  "preparation_status": "passed",
+  "smoke_status": "passed",
+  "local_smoke_steps_saved": 3,
+  "author_graph_forward_max_absolute_difference": 0.0,
+  "resume_next_update_max_absolute_difference": 0.0,
+  "invalid_reference_positive_total": 24822,
+  "test_used": false,
+  "server_installation_executed": false,
+  "gpu_work_executed": false,
+  "baseline_training_executed": false,
+  "full_validation_prediction_executed": false,
+  "source_inventory": "source_inventory.json"
+}

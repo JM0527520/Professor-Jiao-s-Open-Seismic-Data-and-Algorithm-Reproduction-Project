@@ -1,0 +1,2566 @@
+{
+  "status": "OK",
+  "data": {
+    "id": 4605567,
+    "identifier": "DVN/YBYGBK",
+    "persistentUrl": "https://doi.org/10.7910/DVN/YBYGBK",
+    "protocol": "doi",
+    "authority": "10.7910",
+    "separator": "/",
+    "publisher": "Harvard Dataverse",
+    "publicationDate": "2021-05-04",
+    "image_url": "https://dataverse.harvard.edu/api/datasets/4605567/logo",
+    "storageIdentifier": "s3://10.7910/DVN/YBYGBK",
+    "effectiveDatasetFileCountLimit": 1000,
+    "datasetFileUploadsAvailable": 921,
+    "datasetType": "dataset",
+    "locks": [],
+    "latestVersion": {
+      "id": 251280,
+      "datasetId": 4605567,
+      "datasetPersistentId": "doi:10.7910/DVN/YBYGBK",
+      "datasetType": "dataset",
+      "storageIdentifier": "s3://10.7910/DVN/YBYGBK",
+      "versionNumber": 4,
+      "internalVersionNumber": 20,
+      "versionMinorNumber": 0,
+      "versionState": "RELEASED",
+      "latestVersionPublishingState": "RELEASED",
+      "deaccessionLink": "",
+      "lastUpdateTime": "2021-06-29T07:34:50Z",
+      "releaseTime": "2021-06-29T07:34:50Z",
+      "createTime": "2021-06-27T07:31:39Z",
+      "publicationDate": "2021-05-04",
+      "citationDate": "2021-05-04",
+      "effectiveDatasetFileCountLimit": 1000,
+      "datasetFileUploadsAvailable": 921,
+      "termsOfUse": "This dataset is made available under a Creative Commons CC0 license with the following additional/modified terms and conditions: ",
+      "specialPermissions": "Please also check the CC_BY_4.0 license in the license folder. ",
+      "fileAccessRequest": false,
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "name": "citation",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "A Gigabyte Interpreted Seismic Dataset for Automatic Fault Recognition"
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "An, Yu"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University College Dublin"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Guo, Jiulin"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "C&C Reservoirs"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Ye, Qing"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "China University of Geosciences"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Childs, Conrad"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University College Dublin"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Walsh, John"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University College Dublin"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Dong, Ruihai"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University College Dublin"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "An, Yu"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "University College Dublin"
+                  },
+                  "datasetContactEmail": {
+                    "typeName": "datasetContactEmail",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "yu.an@insight-centre.org"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Data for research paper: Deep Convolutional Neural Network\nfor Automatic FaultRecognition with A Large-scale Interpreted Field Dataset. Data paper: A Gigabyte Interpreted Seismic Dataset for Automatic Fault Recognition"
+                  }
+                },
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "===============================================================\n<br><b>Versions:</b> \n<ul>\n<li><b>V1</b> -- base version </li>\n<li><b>V2</b> -- add a raw fault annotation file (ASCII fault sticks file)</li>\n<li><b>V3</b> -- Replace seistrain2.zip with seistrain_updated2.zip as it was reported badly formed </li>\n<li><b>V4</b> -- add <b>npzfiles</b> folder, which contains the same data in .npz format. Npz is a compression format that comes with NumPy, it can be directly loaded through NumPy. </li>\n</ul>\n==============================================================="
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Computer and Information Science",
+                "Earth and Environmental Sciences"
+              ]
+            },
+            {
+              "typeName": "keyword",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Fault Recognition"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Image segmentation"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Seismic data"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "topicClassification",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "topicClassValue": {
+                    "typeName": "topicClassValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Fault Interpretation"
+                  }
+                },
+                {
+                  "topicClassValue": {
+                    "typeName": "topicClassValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Computer Vision"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "publication",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "publicationCitation": {
+                    "typeName": "publicationCitation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "@article{AN2021104776,\ntitle = {Deep convolutional neural network for automatic fault recognition from 3D seismic datasets},\njournal = {Computers & Geosciences},\nvolume = {153},\npages = {104776},\nyear = {2021},\nissn = {0098-3004},\ndoi = {https://doi.org/10.1016/j.cageo.2021.104776},\nurl = {https://www.sciencedirect.com/science/article/pii/S0098300421000807},\nauthor = {Yu An and Jiulin Guo and Qing Ye and Conrad Childs and John Walsh and Ruihai Dong},\nkeywords = {Fault recognition, Seismic interpretation, Deep learning, Computer vision, Image processing},\nabstract = {With the explosive growth in seismic data acquisition and the successful application of deep convolutional neural networks (DCNN) to various image processing tasks within multidisciplinary fields, many researchers have begun to research DCNN based automatic seismic interpretation techniques. Due to the vast number of parameters considered in deep neural networks, deep learning methods usually require a large amount of data for training. However, collecting a large number of expert interpretations is very time consuming, so related research usually uses synthetic datasets and ignores the practical problems of field datasets. In this paper, we open-source a multi-gigabyte expert-labelled field dataset in response to the challenge of accessing large-scale expert-labelled field datasets. We show that 2D fault recognition within this dataset is an image segmentation or edge detection problem in the computer vision field, that can be expressed as a pixel-level fault/non-fault binary classification. Both types of DCNNs are compared, and we propose a novel fault recognition workflow, which involves processing and screening of seismic images and labels, training DCNNs and automatic numerical evaluation. We have also demonstrated for three case study datasets that effective image augmentation methods can reduce the required labelled crosslines while maintaining satisfactory performance. Our experimental results show that our workflow not only outperforms two state-of-the-art DCNN solutions but also achieves performance comparable to humans on an expert labelled image dataset, even predicting subtle faults that an expert interpreter did not annotate. We suggest that the proposed workflow could reduce the fault interpretation life cycle from months to hours and improve the quality, and define the confidence, of fault interpretation results.}\n}"
+                  },
+                  "publicationIDType": {
+                    "typeName": "publicationIDType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "doi"
+                  },
+                  "publicationIDNumber": {
+                    "typeName": "publicationIDNumber",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://doi.org/10.1016/j.cageo.2021.104776"
+                  },
+                  "publicationURL": {
+                    "typeName": "publicationURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.sciencedirect.com/science/article/pii/S0098300421000807"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "notesText",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Seismic data provided in this dataset is stored using Python NumPy file format and reproduced from the seismic data: Thebe Gas Field in the Exmouth Plateau of the Carnarvan Basin on the NW shelf of Australia (provided by Geoscience Australia, National Oshore Petroleum Titles Administrator in SEGY file format)."
+            },
+            {
+              "typeName": "language",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "English"
+              ]
+            },
+            {
+              "typeName": "contributor",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "contributorType": {
+                    "typeName": "contributorType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "Other"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "depositor",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "An, Yu"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2021-04-30"
+            },
+            {
+              "typeName": "kindOfData",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "Seismic Data",
+                "Fault Annotation"
+              ]
+            },
+            {
+              "typeName": "software",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "softwareName": {
+                    "typeName": "softwareName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Petrel"
+                  }
+                },
+                {
+                  "softwareName": {
+                    "typeName": "softwareName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Python"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "originOfSources",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Seismic data of Thebe Gas Field in the Exmouth Plateau of the Carnarvan Basin\non the NW shelf of Australia"
+            },
+            {
+              "typeName": "characteristicOfSources",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Seismic data"
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "label": "Creative_Commons_Attribution_4_0 International_CC_BY_4_0.pdf",
+          "restricted": false,
+          "directoryLabel": "license",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607371,
+            "persistentId": "",
+            "filename": "Creative_Commons_Attribution_4_0 International_CC_BY_4_0.pdf",
+            "contentType": "application/pdf",
+            "friendlyType": "Adobe PDF",
+            "filesize": 70560,
+            "storageIdentifier": "s3://dvn-cloud:1792d6f5c0d-10374410a08e",
+            "rootDataFileId": -1,
+            "md5": "f4a9238dd823cc87cb6cd5e36260569b",
+            "checksum": {
+              "type": "MD5",
+              "value": "f4a9238dd823cc87cb6cd5e36260569b"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "license",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faults3",
+          "restricted": false,
+          "directoryLabel": "data/raw",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4771443,
+            "persistentId": "",
+            "filename": "faults3",
+            "contentType": "text/plain; charset=US-ASCII",
+            "friendlyType": "Plain Text",
+            "filesize": 6010093,
+            "storageIdentifier": "s3://dvn-cloud:179c1e58ba3-941c09000074",
+            "rootDataFileId": -1,
+            "md5": "e86c1caacc9aa53b165d64db05854689",
+            "checksum": {
+              "type": "MD5",
+              "value": "e86c1caacc9aa53b165d64db05854689"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-31",
+            "publicationDate": "2021-05-31",
+            "directoryLabel": "data/raw",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest1.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607325,
+            "persistentId": "",
+            "filename": "faulttest1.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf8bf33-e1fd7bbca396",
+            "rootDataFileId": -1,
+            "md5": "9ab5fb7e0ff5d195612557621ccc966e",
+            "checksum": {
+              "type": "MD5",
+              "value": "9ab5fb7e0ff5d195612557621ccc966e"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest1.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862483,
+            "persistentId": "",
+            "filename": "faulttest1.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1091568,
+            "storageIdentifier": "s3://dvn-cloud:17a4d06462b-98ebf61912eb",
+            "rootDataFileId": -1,
+            "md5": "37b0b800e6d043e63d4a79a62608310b",
+            "checksum": {
+              "type": "MD5",
+              "value": "37b0b800e6d043e63d4a79a62608310b"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest2.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607329,
+            "persistentId": "",
+            "filename": "faulttest2.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf8d5ba-adf121650edc",
+            "rootDataFileId": -1,
+            "md5": "58f40998dec28d8ca4dd4770996ae031",
+            "checksum": {
+              "type": "MD5",
+              "value": "58f40998dec28d8ca4dd4770996ae031"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest2.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862488,
+            "persistentId": "",
+            "filename": "faulttest2.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1053314,
+            "storageIdentifier": "s3://dvn-cloud:17a4d063873-e3937c150ef5",
+            "rootDataFileId": -1,
+            "md5": "0205653ea23937a4de9f66ba28eb2ed6",
+            "checksum": {
+              "type": "MD5",
+              "value": "0205653ea23937a4de9f66ba28eb2ed6"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest3.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607330,
+            "persistentId": "",
+            "filename": "faulttest3.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf8eca7-ce80ae503189",
+            "rootDataFileId": -1,
+            "md5": "7edf79b95ee171f635600168356138da",
+            "checksum": {
+              "type": "MD5",
+              "value": "7edf79b95ee171f635600168356138da"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest3.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862497,
+            "persistentId": "",
+            "filename": "faulttest3.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1079681,
+            "storageIdentifier": "s3://dvn-cloud:17a4d064d71-5974bffc312c",
+            "rootDataFileId": -1,
+            "md5": "c01f7f94fe5c3cacc0e3eac6ac42fbd8",
+            "checksum": {
+              "type": "MD5",
+              "value": "c01f7f94fe5c3cacc0e3eac6ac42fbd8"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest4.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607327,
+            "persistentId": "",
+            "filename": "faulttest4.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf90344-170e92c7c096",
+            "rootDataFileId": -1,
+            "md5": "97c0fcd1bff99fc64aa78d601efc6c5f",
+            "checksum": {
+              "type": "MD5",
+              "value": "97c0fcd1bff99fc64aa78d601efc6c5f"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest4.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862485,
+            "persistentId": "",
+            "filename": "faulttest4.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1076361,
+            "storageIdentifier": "s3://dvn-cloud:17a4d06358d-202208fd73f0",
+            "rootDataFileId": -1,
+            "md5": "9cb3c6f9c171d97ddc4f46538fb96d51",
+            "checksum": {
+              "type": "MD5",
+              "value": "9cb3c6f9c171d97ddc4f46538fb96d51"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest5.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607328,
+            "persistentId": "",
+            "filename": "faulttest5.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf91ac1-704b7cb41983",
+            "rootDataFileId": -1,
+            "md5": "cc44b71a00be7185f220853252414200",
+            "checksum": {
+              "type": "MD5",
+              "value": "cc44b71a00be7185f220853252414200"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest5.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862496,
+            "persistentId": "",
+            "filename": "faulttest5.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1092287,
+            "storageIdentifier": "s3://dvn-cloud:17a4d0649ec-2d1b05f98cf5",
+            "rootDataFileId": -1,
+            "md5": "6693f3be6c432031ef212fde4aa070ce",
+            "checksum": {
+              "type": "MD5",
+              "value": "6693f3be6c432031ef212fde4aa070ce"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest6.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607331,
+            "persistentId": "",
+            "filename": "faulttest6.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf93284-b7ed96142610",
+            "rootDataFileId": -1,
+            "md5": "b4d71adba363d8540eb596aa4a4e9b5f",
+            "checksum": {
+              "type": "MD5",
+              "value": "b4d71adba363d8540eb596aa4a4e9b5f"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest6.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862492,
+            "persistentId": "",
+            "filename": "faulttest6.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1084141,
+            "storageIdentifier": "s3://dvn-cloud:17a4d062c00-9b486c4ffddd",
+            "rootDataFileId": -1,
+            "md5": "9d67832a110868db6e0ea6978a53ffb3",
+            "checksum": {
+              "type": "MD5",
+              "value": "9d67832a110868db6e0ea6978a53ffb3"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest7.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607326,
+            "persistentId": "",
+            "filename": "faulttest7.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 502479242,
+            "storageIdentifier": "s3://dvn-cloud:1792cf94a6f-e448ea573f70",
+            "rootDataFileId": -1,
+            "md5": "54917c2ab310a9fb7f23889300f65ec6",
+            "checksum": {
+              "type": "MD5",
+              "value": "54917c2ab310a9fb7f23889300f65ec6"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttest7.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862486,
+            "persistentId": "",
+            "filename": "faulttest7.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1009603,
+            "storageIdentifier": "s3://dvn-cloud:17a4d06626f-fedc2289bc39",
+            "rootDataFileId": -1,
+            "md5": "1491cda6751d2541c8ecf0326e0454b8",
+            "checksum": {
+              "type": "MD5",
+              "value": "1491cda6751d2541c8ecf0326e0454b8"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain1.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607333,
+            "persistentId": "",
+            "filename": "faulttrain1.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cfc2cf5-f115bd86bcd5",
+            "rootDataFileId": -1,
+            "md5": "03a714a281a47bc50fd283deda7a02b0",
+            "checksum": {
+              "type": "MD5",
+              "value": "03a714a281a47bc50fd283deda7a02b0"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain1.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862484,
+            "persistentId": "",
+            "filename": "faulttrain1.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 917861,
+            "storageIdentifier": "s3://dvn-cloud:17a4d063b9b-a903983e3439",
+            "rootDataFileId": -1,
+            "md5": "0b393c61283986c82c804172147dcde9",
+            "checksum": {
+              "type": "MD5",
+              "value": "0b393c61283986c82c804172147dcde9"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain2.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607334,
+            "persistentId": "",
+            "filename": "faulttrain2.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cfc4399-a5e6b48e8365",
+            "rootDataFileId": -1,
+            "md5": "68843863b3c016b6ce7b69322a1578f4",
+            "checksum": {
+              "type": "MD5",
+              "value": "68843863b3c016b6ce7b69322a1578f4"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain2.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862490,
+            "persistentId": "",
+            "filename": "faulttrain2.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 940250,
+            "storageIdentifier": "s3://dvn-cloud:17a4d064214-7489799a319e",
+            "rootDataFileId": -1,
+            "md5": "898c0f7cbc5289402ecd46af3658fd8b",
+            "checksum": {
+              "type": "MD5",
+              "value": "898c0f7cbc5289402ecd46af3658fd8b"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain3.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607335,
+            "persistentId": "",
+            "filename": "faulttrain3.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cfc5a93-3c47210e8d55",
+            "rootDataFileId": -1,
+            "md5": "47b44c02dea4277095815477fa039038",
+            "checksum": {
+              "type": "MD5",
+              "value": "47b44c02dea4277095815477fa039038"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain3.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862491,
+            "persistentId": "",
+            "filename": "faulttrain3.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 881272,
+            "storageIdentifier": "s3://dvn-cloud:17a4d06510d-87b033c27026",
+            "rootDataFileId": -1,
+            "md5": "3ebf4981311b3300c312245f55d46c95",
+            "checksum": {
+              "type": "MD5",
+              "value": "3ebf4981311b3300c312245f55d46c95"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain4.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607336,
+            "persistentId": "",
+            "filename": "faulttrain4.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cfc7180-f129a97f6a3c",
+            "rootDataFileId": -1,
+            "md5": "0428ccc667b84e72b491441ad30834fe",
+            "checksum": {
+              "type": "MD5",
+              "value": "0428ccc667b84e72b491441ad30834fe"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain4.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862489,
+            "persistentId": "",
+            "filename": "faulttrain4.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 767929,
+            "storageIdentifier": "s3://dvn-cloud:17a4d065cd5-6d959370bf53",
+            "rootDataFileId": -1,
+            "md5": "04728c9d7857eddfaf96edfba69e2ebd",
+            "checksum": {
+              "type": "MD5",
+              "value": "04728c9d7857eddfaf96edfba69e2ebd"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain5.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607332,
+            "persistentId": "",
+            "filename": "faulttrain5.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cfc970a-54235540f416",
+            "rootDataFileId": -1,
+            "md5": "ec59162ae3e724b940339086e6ab1d29",
+            "checksum": {
+              "type": "MD5",
+              "value": "ec59162ae3e724b940339086e6ab1d29"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain5.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862499,
+            "persistentId": "",
+            "filename": "faulttrain5.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 764613,
+            "storageIdentifier": "s3://dvn-cloud:17a4d0632c1-32736c8401bc",
+            "rootDataFileId": -1,
+            "md5": "0a25101f89bed8d60938e8fc546a89e7",
+            "checksum": {
+              "type": "MD5",
+              "value": "0a25101f89bed8d60938e8fc546a89e7"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain6.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607315,
+            "persistentId": "",
+            "filename": "faulttrain6.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf1fbcc-5b8bbc9d89bf",
+            "rootDataFileId": -1,
+            "md5": "3cac216800dd303f5daaa38149c874f2",
+            "checksum": {
+              "type": "MD5",
+              "value": "3cac216800dd303f5daaa38149c874f2"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain6.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862487,
+            "persistentId": "",
+            "filename": "faulttrain6.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 772705,
+            "storageIdentifier": "s3://dvn-cloud:17a4d063e90-6fb098a3ec2d",
+            "rootDataFileId": -1,
+            "md5": "c5a47e6fdc92fef6e3870e08e3da2fc7",
+            "checksum": {
+              "type": "MD5",
+              "value": "c5a47e6fdc92fef6e3870e08e3da2fc7"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain7.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607320,
+            "persistentId": "",
+            "filename": "faulttrain7.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf21263-32e22d5e67e3",
+            "rootDataFileId": -1,
+            "md5": "c9173e85a5ef40ae6c0f09bb6a26f238",
+            "checksum": {
+              "type": "MD5",
+              "value": "c9173e85a5ef40ae6c0f09bb6a26f238"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain7.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862493,
+            "persistentId": "",
+            "filename": "faulttrain7.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 937424,
+            "storageIdentifier": "s3://dvn-cloud:17a4d0653f3-fbebbd934bbe",
+            "rootDataFileId": -1,
+            "md5": "d57832d5af92db6952fa880b5427e4f9",
+            "checksum": {
+              "type": "MD5",
+              "value": "d57832d5af92db6952fa880b5427e4f9"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain8.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607317,
+            "persistentId": "",
+            "filename": "faulttrain8.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf2296b-3ba46c1a8aa9",
+            "rootDataFileId": -1,
+            "md5": "11a1c6609e914712a1375ac17a57ad4f",
+            "checksum": {
+              "type": "MD5",
+              "value": "11a1c6609e914712a1375ac17a57ad4f"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain8.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862495,
+            "persistentId": "",
+            "filename": "faulttrain8.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 911311,
+            "storageIdentifier": "s3://dvn-cloud:17a4d065f99-e64175b12e4a",
+            "rootDataFileId": -1,
+            "md5": "40e309325d7606865e6d2df589cfadb3",
+            "checksum": {
+              "type": "MD5",
+              "value": "40e309325d7606865e6d2df589cfadb3"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain9.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607316,
+            "persistentId": "",
+            "filename": "faulttrain9.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf2403c-0c0a76bebbf2",
+            "rootDataFileId": -1,
+            "md5": "fd8b978da451ec4c85d775aa421baa12",
+            "checksum": {
+              "type": "MD5",
+              "value": "fd8b978da451ec4c85d775aa421baa12"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faulttrain9.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862500,
+            "persistentId": "",
+            "filename": "faulttrain9.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 955922,
+            "storageIdentifier": "s3://dvn-cloud:17a4d065735-30bae304295f",
+            "rootDataFileId": -1,
+            "md5": "865f5fd141ab4e2e2663cbc7c77778ae",
+            "checksum": {
+              "type": "MD5",
+              "value": "865f5fd141ab4e2e2663cbc7c77778ae"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faultval1.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/val",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607324,
+            "persistentId": "",
+            "filename": "faultval1.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf77fe6-408c6b9e4fd2",
+            "rootDataFileId": -1,
+            "md5": "e360e344a3dd5abb7c032c3a0ac67f4b",
+            "checksum": {
+              "type": "MD5",
+              "value": "e360e344a3dd5abb7c032c3a0ac67f4b"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/val",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faultval1.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862498,
+            "persistentId": "",
+            "filename": "faultval1.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1088280,
+            "storageIdentifier": "s3://dvn-cloud:17a4d063011-acf99f567673",
+            "rootDataFileId": -1,
+            "md5": "22059e5e5155bff0f3e39e142d47c032",
+            "checksum": {
+              "type": "MD5",
+              "value": "22059e5e5155bff0f3e39e142d47c032"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faultval2.npy",
+          "restricted": false,
+          "directoryLabel": "data/fault/val",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607323,
+            "persistentId": "",
+            "filename": "faultval2.npy",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 487843928,
+            "storageIdentifier": "s3://dvn-cloud:1792cf796a9-b67e1bf13ce0",
+            "rootDataFileId": -1,
+            "md5": "29bd893cdbb0be040967fa9f12cfc983",
+            "checksum": {
+              "type": "MD5",
+              "value": "29bd893cdbb0be040967fa9f12cfc983"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/fault/val",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "faultval2.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/fault",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862494,
+            "persistentId": "",
+            "filename": "faultval2.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1216734,
+            "storageIdentifier": "s3://dvn-cloud:17a4d065a1f-106daf3cf198",
+            "rootDataFileId": -1,
+            "md5": "3abd127cf2ce4c49823aea96cd0bc1c2",
+            "checksum": {
+              "type": "MD5",
+              "value": "3abd127cf2ce4c49823aea96cd0bc1c2"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/fault",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "petrel workflow instruction.pdf",
+          "restricted": false,
+          "directoryLabel": "docs",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4620765,
+            "persistentId": "",
+            "filename": "petrel workflow instruction.pdf",
+            "contentType": "application/pdf",
+            "friendlyType": "Adobe PDF",
+            "filesize": 2656069,
+            "storageIdentifier": "s3://dvn-cloud:17936153fae-9bab70055935",
+            "rootDataFileId": -1,
+            "md5": "b9d53cab3d4d09107ff363562c4abd1c",
+            "checksum": {
+              "type": "MD5",
+              "value": "b9d53cab3d4d09107ff363562c4abd1c"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-04",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "docs",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "preprocessimages.ipynb",
+          "restricted": false,
+          "directoryLabel": "code",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607372,
+            "persistentId": "",
+            "filename": "preprocessimages.ipynb",
+            "contentType": "application/x-ipynb+json",
+            "friendlyType": "Jupyter Notebook",
+            "filesize": 1858635,
+            "storageIdentifier": "s3://dvn-cloud:1792d6f6792-e8a51411764a",
+            "rootDataFileId": -1,
+            "md5": "aacbceb1d3468f0bdd37916bfbfc9c52",
+            "checksum": {
+              "type": "MD5",
+              "value": "aacbceb1d3468f0bdd37916bfbfc9c52"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "code",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "readSGY.ipynb",
+          "restricted": false,
+          "directoryLabel": "code",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607374,
+            "persistentId": "",
+            "filename": "readSGY.ipynb",
+            "contentType": "application/x-ipynb+json",
+            "friendlyType": "Jupyter Notebook",
+            "filesize": 123117,
+            "storageIdentifier": "s3://dvn-cloud:1792d6f6a51-ddcdfad03e5d",
+            "rootDataFileId": -1,
+            "md5": "55ec63a9867c04e61ed5d43774390ae7",
+            "checksum": {
+              "type": "MD5",
+              "value": "55ec63a9867c04e61ed5d43774390ae7"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "code",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest1.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4863110,
+            "persistentId": "",
+            "filename": "seistest1.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1476208507,
+            "storageIdentifier": "s3://dvn-cloud:17a53bf24ec-2fb9ab4e7ef7",
+            "rootDataFileId": -1,
+            "md5": "1bd5ce5a060d19658faf09859078631d",
+            "checksum": {
+              "type": "MD5",
+              "value": "1bd5ce5a060d19658faf09859078631d"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest1.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606759,
+            "persistentId": "",
+            "filename": "seistest1.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1476208555,
+            "storageIdentifier": "s3://dvn-cloud:1792600d751-d0f3f070825f",
+            "rootDataFileId": -1,
+            "md5": "ee53635076d6fb7b35b33f80ad8dd8a2",
+            "checksum": {
+              "type": "MD5",
+              "value": "ee53635076d6fb7b35b33f80ad8dd8a2"
+            },
+            "tabularData": false,
+            "creationDate": "2021-04-30",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest2.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4863111,
+            "persistentId": "",
+            "filename": "seistest2.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1544597269,
+            "storageIdentifier": "s3://dvn-cloud:17a53c48e68-e16d4540aeff",
+            "rootDataFileId": -1,
+            "md5": "42ae86cff74b73dce43dec49a8c408b3",
+            "checksum": {
+              "type": "MD5",
+              "value": "42ae86cff74b73dce43dec49a8c408b3"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest2.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606785,
+            "persistentId": "",
+            "filename": "seistest2.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1544597317,
+            "storageIdentifier": "s3://dvn-cloud:1792619f854-23395bef4e65",
+            "rootDataFileId": -1,
+            "md5": "0c65ef2994be27c57acde91a4e927f37",
+            "checksum": {
+              "type": "MD5",
+              "value": "0c65ef2994be27c57acde91a4e927f37"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-01",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest3.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4863109,
+            "persistentId": "",
+            "filename": "seistest3.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1605001133,
+            "storageIdentifier": "s3://dvn-cloud:17a53ca34c1-81ba8a9b5eaa",
+            "rootDataFileId": -1,
+            "md5": "2e576ff51ffb3f27c38d3cfabf93566a",
+            "checksum": {
+              "type": "MD5",
+              "value": "2e576ff51ffb3f27c38d3cfabf93566a"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest3.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606783,
+            "persistentId": "",
+            "filename": "seistest3.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1605001181,
+            "storageIdentifier": "s3://dvn-cloud:17926210bde-f8ecb03f7fb4",
+            "rootDataFileId": -1,
+            "md5": "b3007bbd1ac23bbb36af8add07b62e2e",
+            "checksum": {
+              "type": "MD5",
+              "value": "b3007bbd1ac23bbb36af8add07b62e2e"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-01",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest4.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4863126,
+            "persistentId": "",
+            "filename": "seistest4.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1610578476,
+            "storageIdentifier": "s3://dvn-cloud:17a53d23995-5a66083da645",
+            "rootDataFileId": -1,
+            "md5": "e2b2987359230eba382e60f85f987168",
+            "checksum": {
+              "type": "MD5",
+              "value": "e2b2987359230eba382e60f85f987168"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest4.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606784,
+            "persistentId": "",
+            "filename": "seistest4.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1610578524,
+            "storageIdentifier": "s3://dvn-cloud:1792627f422-f9b974b08f18",
+            "rootDataFileId": -1,
+            "md5": "79604e5c2dd28365b4ce4b5eab3b687b",
+            "checksum": {
+              "type": "MD5",
+              "value": "79604e5c2dd28365b4ce4b5eab3b687b"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-01",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest5.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4863125,
+            "persistentId": "",
+            "filename": "seistest5.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1475926673,
+            "storageIdentifier": "s3://dvn-cloud:17a53d77fd4-3c501d9000ce",
+            "rootDataFileId": -1,
+            "md5": "1962ce086998dfceeeb3a8bc9fa8e756",
+            "checksum": {
+              "type": "MD5",
+              "value": "1962ce086998dfceeeb3a8bc9fa8e756"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest5.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606786,
+            "persistentId": "",
+            "filename": "seistest5.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1475926721,
+            "storageIdentifier": "s3://dvn-cloud:179262fc9a7-496fbce44aed",
+            "rootDataFileId": -1,
+            "md5": "f7782b84319071d394ca6d86140f179b",
+            "checksum": {
+              "type": "MD5",
+              "value": "f7782b84319071d394ca6d86140f179b"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-01",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest6.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4863123,
+            "persistentId": "",
+            "filename": "seistest6.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1295771351,
+            "storageIdentifier": "s3://dvn-cloud:17a53e0a337-2637e87278da",
+            "rootDataFileId": -1,
+            "md5": "3aea3f13bf55c2226facbf7115605a2c",
+            "checksum": {
+              "type": "MD5",
+              "value": "3aea3f13bf55c2226facbf7115605a2c"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest6.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606788,
+            "persistentId": "",
+            "filename": "seistest6.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1295771399,
+            "storageIdentifier": "s3://dvn-cloud:1792647a01a-cb659c4d4197",
+            "rootDataFileId": -1,
+            "md5": "dccf4bd28f27b9de66e94e4392daf361",
+            "checksum": {
+              "type": "MD5",
+              "value": "dccf4bd28f27b9de66e94e4392daf361"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-01",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest7.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4863124,
+            "persistentId": "",
+            "filename": "seistest7.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1163971209,
+            "storageIdentifier": "s3://dvn-cloud:17a53e95613-59840116df4f",
+            "rootDataFileId": -1,
+            "md5": "05c004c280b36f6bc6b34723949cc47d",
+            "checksum": {
+              "type": "MD5",
+              "value": "05c004c280b36f6bc6b34723949cc47d"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistest7.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/test",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606787,
+            "persistentId": "",
+            "filename": "seistest7.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1163971257,
+            "storageIdentifier": "s3://dvn-cloud:179264d79ee-a45d7e23923b",
+            "rootDataFileId": -1,
+            "md5": "822596e807cb2b4ba431611ab52a0a13",
+            "checksum": {
+              "type": "MD5",
+              "value": "822596e807cb2b4ba431611ab52a0a13"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-01",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/test",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain1.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862642,
+            "persistentId": "",
+            "filename": "seistrain1.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 831794776,
+            "storageIdentifier": "s3://dvn-cloud:17a4ec082f0-ff56fcfacb03",
+            "rootDataFileId": -1,
+            "md5": "534e78ab34bb0ece32ca0a9b69ee99cd",
+            "checksum": {
+              "type": "MD5",
+              "value": "534e78ab34bb0ece32ca0a9b69ee99cd"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain1.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606060,
+            "persistentId": "",
+            "filename": "seistrain1.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 831794826,
+            "storageIdentifier": "s3://dvn-cloud:17923970309-c75fba8b9dc5",
+            "rootDataFileId": -1,
+            "md5": "55b8d1bf468f4b65afbd233651773835",
+            "checksum": {
+              "type": "MD5",
+              "value": "55b8d1bf468f4b65afbd233651773835"
+            },
+            "tabularData": false,
+            "creationDate": "2021-04-30",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain2.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862655,
+            "persistentId": "",
+            "filename": "seistrain2.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 869268913,
+            "storageIdentifier": "s3://dvn-cloud:17a4ed7519a-b3c4e7c53ea9",
+            "rootDataFileId": -1,
+            "md5": "bf2635853b8876b0b5022d95787f8d15",
+            "checksum": {
+              "type": "MD5",
+              "value": "bf2635853b8876b0b5022d95787f8d15"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "description": "the original seistrain2.zip was corrupted during upload. ",
+          "label": "seistrain2_updated.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862473,
+            "persistentId": "",
+            "filename": "seistrain2_updated.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 876722679,
+            "description": "the original seistrain2.zip was corrupted during upload. ",
+            "storageIdentifier": "s3://dvn-cloud:17a4c4bd395-7954a3768765",
+            "rootDataFileId": -1,
+            "md5": "1ab05a8c3eb82b8a50805a48cda581ec",
+            "checksum": {
+              "type": "MD5",
+              "value": "1ab05a8c3eb82b8a50805a48cda581ec"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-27",
+            "directoryLabel": "data/seis/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain3.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862656,
+            "persistentId": "",
+            "filename": "seistrain3.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 907831974,
+            "storageIdentifier": "s3://dvn-cloud:17a4eee4b20-b6fa0432c8c0",
+            "rootDataFileId": -1,
+            "md5": "a495c748c10c8777c50166f1f4ae3350",
+            "checksum": {
+              "type": "MD5",
+              "value": "a495c748c10c8777c50166f1f4ae3350"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain3.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606058,
+            "persistentId": "",
+            "filename": "seistrain3.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 907832024,
+            "storageIdentifier": "s3://dvn-cloud:179239ece44-85b9a86937bf",
+            "rootDataFileId": -1,
+            "md5": "4f07fbf79b26fff9f4486c59d1c05b82",
+            "checksum": {
+              "type": "MD5",
+              "value": "4f07fbf79b26fff9f4486c59d1c05b82"
+            },
+            "tabularData": false,
+            "creationDate": "2021-04-30",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain4.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862781,
+            "persistentId": "",
+            "filename": "seistrain4.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 946948282,
+            "storageIdentifier": "s3://dvn-cloud:17a508ecd85-c872758bf80e",
+            "rootDataFileId": -1,
+            "md5": "5bd3d9ea4f0bc917c8094adb8a79338c",
+            "checksum": {
+              "type": "MD5",
+              "value": "5bd3d9ea4f0bc917c8094adb8a79338c"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain4.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606061,
+            "persistentId": "",
+            "filename": "seistrain4.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 946948631,
+            "storageIdentifier": "s3://dvn-cloud:17923ca0db4-38533590a5fd",
+            "rootDataFileId": -1,
+            "md5": "0bc5b96811d59db1a22d49aecf7e9fab",
+            "checksum": {
+              "type": "MD5",
+              "value": "0bc5b96811d59db1a22d49aecf7e9fab"
+            },
+            "tabularData": false,
+            "creationDate": "2021-04-30",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain5.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862788,
+            "persistentId": "",
+            "filename": "seistrain5.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 984757778,
+            "storageIdentifier": "s3://dvn-cloud:17a50ab39df-15e3570a8824",
+            "rootDataFileId": -1,
+            "md5": "8d978647692dd884b35336dfe2f634ff",
+            "checksum": {
+              "type": "MD5",
+              "value": "8d978647692dd884b35336dfe2f634ff"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-27",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain5.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606687,
+            "persistentId": "",
+            "filename": "seistrain5.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 984758127,
+            "storageIdentifier": "s3://dvn-cloud:17923d03752-252c452f6363",
+            "rootDataFileId": -1,
+            "md5": "4252d87ad67cf398148448d47ddd7068",
+            "checksum": {
+              "type": "MD5",
+              "value": "4252d87ad67cf398148448d47ddd7068"
+            },
+            "tabularData": false,
+            "creationDate": "2021-04-30",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain6.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862793,
+            "persistentId": "",
+            "filename": "seistrain6.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1026095580,
+            "storageIdentifier": "s3://dvn-cloud:17a50cf4059-375ed24593c6",
+            "rootDataFileId": -1,
+            "md5": "037b6148a91c13df80cbbffa51d47475",
+            "checksum": {
+              "type": "MD5",
+              "value": "037b6148a91c13df80cbbffa51d47475"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain6.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606688,
+            "persistentId": "",
+            "filename": "seistrain6.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1026095929,
+            "storageIdentifier": "s3://dvn-cloud:17923d499d8-27dd6b6b7c82",
+            "rootDataFileId": -1,
+            "md5": "7262430c77dcc001645da5ca6577ea3a",
+            "checksum": {
+              "type": "MD5",
+              "value": "7262430c77dcc001645da5ca6577ea3a"
+            },
+            "tabularData": false,
+            "creationDate": "2021-04-30",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain7.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4862823,
+            "persistentId": "",
+            "filename": "seistrain7.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1213723277,
+            "storageIdentifier": "s3://dvn-cloud:17a50f8329b-d3aaf4cde5dc",
+            "rootDataFileId": -1,
+            "md5": "53867c696953123259ed56ef05af1764",
+            "checksum": {
+              "type": "MD5",
+              "value": "53867c696953123259ed56ef05af1764"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain7.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606686,
+            "persistentId": "",
+            "filename": "seistrain7.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1213723626,
+            "storageIdentifier": "s3://dvn-cloud:17923d9b88c-9b7c66063f33",
+            "rootDataFileId": -1,
+            "md5": "aeedf0b1fec311874ab9998b05d7e748",
+            "checksum": {
+              "type": "MD5",
+              "value": "aeedf0b1fec311874ab9998b05d7e748"
+            },
+            "tabularData": false,
+            "creationDate": "2021-04-30",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain8.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4863049,
+            "persistentId": "",
+            "filename": "seistrain8.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1231111389,
+            "storageIdentifier": "s3://dvn-cloud:17a5385f627-2d3089cb642d",
+            "rootDataFileId": -1,
+            "md5": "90d52ccc4722f7aefeaca70522aa1bbc",
+            "checksum": {
+              "type": "MD5",
+              "value": "90d52ccc4722f7aefeaca70522aa1bbc"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain8.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606685,
+            "persistentId": "",
+            "filename": "seistrain8.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1231111738,
+            "storageIdentifier": "s3://dvn-cloud:17923df155d-097851e4e6f2",
+            "rootDataFileId": -1,
+            "md5": "36c83bb6fe5a98a8bcb885dad60293ef",
+            "checksum": {
+              "type": "MD5",
+              "value": "36c83bb6fe5a98a8bcb885dad60293ef"
+            },
+            "tabularData": false,
+            "creationDate": "2021-04-30",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain9.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4863068,
+            "persistentId": "",
+            "filename": "seistrain9.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1239650990,
+            "storageIdentifier": "s3://dvn-cloud:17a538c2ae0-ce51311c404e",
+            "rootDataFileId": -1,
+            "md5": "8b0bc91b6ca766fef8a6bb04aceaa544",
+            "checksum": {
+              "type": "MD5",
+              "value": "8b0bc91b6ca766fef8a6bb04aceaa544"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seistrain9.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/train",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4606684,
+            "persistentId": "",
+            "filename": "seistrain9.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1239651040,
+            "storageIdentifier": "s3://dvn-cloud:17923e789fb-6101edc26a50",
+            "rootDataFileId": -1,
+            "md5": "6bd73723948b42b545a50a5bbb3f819c",
+            "checksum": {
+              "type": "MD5",
+              "value": "6bd73723948b42b545a50a5bbb3f819c"
+            },
+            "tabularData": false,
+            "creationDate": "2021-04-30",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/train",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seisval1.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4863099,
+            "persistentId": "",
+            "filename": "seisval1.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1314676313,
+            "storageIdentifier": "s3://dvn-cloud:17a53ae4d41-292336fefe42",
+            "rootDataFileId": -1,
+            "md5": "518d2979a1f90d535ebc2a44f615970f",
+            "checksum": {
+              "type": "MD5",
+              "value": "518d2979a1f90d535ebc2a44f615970f"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seisval1.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/val",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4605569,
+            "persistentId": "",
+            "filename": "seisval1.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1314676359,
+            "storageIdentifier": "s3://dvn-cloud:179234a9c54-2b1f832429da",
+            "rootDataFileId": -1,
+            "md5": "26fd2361a41073df987c0fdc2c1d4aaf",
+            "checksum": {
+              "type": "MD5",
+              "value": "26fd2361a41073df987c0fdc2c1d4aaf"
+            },
+            "tabularData": false,
+            "creationDate": "2021-04-30",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/val",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seisval2.npz",
+          "restricted": false,
+          "directoryLabel": "data/npzfiles/seis",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4863098,
+            "persistentId": "",
+            "filename": "seisval2.npz",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 1391502667,
+            "storageIdentifier": "s3://dvn-cloud:17a53b7f58a-5099951bd4ac",
+            "rootDataFileId": -1,
+            "md5": "5fdd962b6b7190c0ce1de46b3edc8b7b",
+            "checksum": {
+              "type": "MD5",
+              "value": "5fdd962b6b7190c0ce1de46b3edc8b7b"
+            },
+            "tabularData": false,
+            "creationDate": "2021-06-28",
+            "publicationDate": "2021-06-29",
+            "directoryLabel": "data/npzfiles/seis",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "seisval2.zip",
+          "restricted": false,
+          "directoryLabel": "data/seis/val",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4605568,
+            "persistentId": "",
+            "filename": "seisval2.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 1391502713,
+            "storageIdentifier": "s3://dvn-cloud:179235b36b2-dc3e0ae3c994",
+            "rootDataFileId": -1,
+            "md5": "2124d0ded9a31cc825cb597d2e2b72e9",
+            "checksum": {
+              "type": "MD5",
+              "value": "2124d0ded9a31cc825cb597d2e2b72e9"
+            },
+            "tabularData": false,
+            "creationDate": "2021-04-30",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "data/seis/val",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "label": "Summary_Creative_Commons_Attribution_4.pdf",
+          "restricted": false,
+          "directoryLabel": "license",
+          "version": 1,
+          "datasetVersionId": 251280,
+          "dataFile": {
+            "id": 4607373,
+            "persistentId": "",
+            "filename": "Summary_Creative_Commons_Attribution_4.pdf",
+            "contentType": "application/pdf",
+            "friendlyType": "Adobe PDF",
+            "filesize": 90495,
+            "storageIdentifier": "s3://dvn-cloud:1792d6f6d18-5e6fb0df9d11",
+            "rootDataFileId": -1,
+            "md5": "d6bc07523ca449d17602039864b4704b",
+            "checksum": {
+              "type": "MD5",
+              "value": "d6bc07523ca449d17602039864b4704b"
+            },
+            "tabularData": false,
+            "creationDate": "2021-05-02",
+            "publicationDate": "2021-05-04",
+            "directoryLabel": "license",
+            "lastUpdateTime": "2021-06-29T07:34:50Z",
+            "fileAccessRequest": false
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "path": "fault_workflow/__init__.py",
+    "sha256": "69e21c2057c648dc05b9aa993b33e80ae015bdaf862f79d5662ecaa0626b8050"
+  },
+  {
+    "path": "fault_workflow/__main__.py",
+    "sha256": "e1cb69c8bedd01cbbb312e407035c1efb5df727ff006112192b8fcfc7f2821b3"
+  },
+  {
+    "path": "fault_workflow/audit.py",
+    "sha256": "e8392921b59b0e2db596798182f896210477242a421c892cd89784fa7e84c598"
+  },
+  {
+    "path": "fault_workflow/baseline.py",
+    "sha256": "4a3d07f1d08b04dd13193b850985bdc04511e910290e58444df9694672dd3ab3"
+  },
+  {
+    "path": "fault_workflow/common.py",
+    "sha256": "d91b5e69364bae71193f8db007e83347ecdb153b08594b55fb52f53a8be68abc"
+  },
+  {
+    "path": "fault_workflow/data.py",
+    "sha256": "d739c0f699af19a5939e669833d61b04417b0e0889db028a1dd811e7bcd2d803"
+  },
+  {
+    "path": "fault_workflow/evaluation.py",
+    "sha256": "5c478c1bfa852a2c257c045fe0a501561f07b229c6465b75f5a8990446a3cd9d"
+  },
+  {
+    "path": "fault_workflow/figures.py",
+    "sha256": "120dfb254efc160b4835a3096e185de0b58d0eb43f2c1207c84b221e19ae9416"
+  },
+  {
+    "path": "fault_workflow/inference.py",
+    "sha256": "d3beaf714a9ef0d51d3d908e74a01a9cbf9d630072f89f8675142f7799d924ce"
+  },
+  {
+    "path": "fault_workflow/policy.py",
+    "sha256": "6f9ee27307b9e711a47cfe0a602d9ac561f163882cdeae0b6107c3aa57359f19"
+  },
+  {
+    "path": "fault_workflow/preparation.py",
+    "sha256": "285c2e4c340c117da1efe6a7fc601f914e64a74e9d4e965d27a78f0ef6800bfc"
+  },
+  {
+    "path": "fault_workflow/prepare_cli.py",
+    "sha256": "eca15ddc0af86d781f1a9f65a170c2e19121e9f2937d26c34ae6e93a98205dce"
+  },
+  {
+    "path": "fault_workflow/training.py",
+    "sha256": "98a545f1e389caff00b96f44a0cc7e829bec9653f98d350b6ded9a2b56984a15"
+  },
+  {
+    "path": "tests/test_preparation.py",
+    "sha256": "3571a47076d4dc1583c3174b37b3e14b93e44a3579a01ff245bcb70ab7cca163"
+  },
+  {
+    "path": "tests/test_workflow.py",
+    "sha256": "14ffcd804850528263a3759879eacee27ef38c34bd3be287133b61ede00d6646"
+  },
+  {
+    "path": "configs/baseline.json",
+    "sha256": "a5c9042080ab97888d72befe5eb87273a33009805b6a879d594e48d583eade22"
+  },
+  {
+    "path": "configs/data_policy.json",
+    "sha256": "6487aea00dc79c592017e1a4b94d1491cb5e173f4b2b21a16bb58cc645a90172"
+  },
+  {
+    "path": "configs/local.json",
+    "sha256": "5f01c8411584177c1b72740e88d85c8100da099edbc8b03cec4a47ba7bb53192"
+  },
+  {
+    "path": "scripts/run_local.ps1",
+    "sha256": "fe796c2fa5f809a8ba93cd192af52dd7518c307bfec3304b7705b439d77115d0"
+  },
+  {
+    "path": "scripts/run_server.sh",
+    "sha256": "b9e7d0ea06b6d80ef234459034368b3fb73baf5f473e3d8a94d561eff6ab8740"
+  },
+  {
+    "path": "scripts/setup_server.sh",
+    "sha256": "8d8073c471870ccd5593e3dbff3e2250d1e4e3e02c8d8ff8e783a267eb4acfef"
+  },
+  {
+    "path": "docs/作者训练流程与兼容说明.md",
+    "sha256": "446264cdd0c334f55b574821bbac39750b66b488a2add09506c8fccfe048ae03"
+  },
+  {
+    "path": "docs/数据与算法依据.md",
+    "sha256": "d3c38717acd14adc60d657c15ef1113da91f6451b00d08cd92e46bb30417fed8"
+  },
+  {
+    "path": "docs/数据使用与评价规则.md",
+    "sha256": "8de2d8b09cb80dc9d1e6f15c16cad46a79cd1026ace2c062cf4db1e13acf515c"
+  },
+  {
+    "path": "docs/服务器运行手册.md",
+    "sha256": "17af4082993e820b51948e93de58eace1a1b04360ec91b428910190ee87cca43"
+  },
+  {
+    "path": "server/Dockerfile",
+    "sha256": "509ccfcdcee086733d8a23655ff449bcca16d0dafbe2f222e54ec64823b08811"
+  },
+  {
+    "path": "server/requirements-gpu.txt",
+    "sha256": "fa6735d7cc06605a6fc14568dc2f17adf591b89424e34f215f534987239a8d7c"
+  }
+]

@@ -1,0 +1,1 @@
+python3 finetuning.py --modelName unet  --isPretrain  f3ft_expert --targetData  thebe  --data_folder /mnt/HD_18T_pt1/chen/Datasets/Thebe/train/ --freeze_modules double_conv1 double_conv2 double_conv3

@@ -1,0 +1,1 @@
+python3 finetuning.py --modelName rcf  --isPretrain  f3ft_novice15 --targetData  thebe --data_folder /data/chen/datasets/Thebe/train/ 

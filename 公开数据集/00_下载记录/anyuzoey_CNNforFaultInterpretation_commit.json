@@ -1,0 +1,101 @@
+{
+  "sha": "58eae5db2312feca003b9eb179fd9172beeeab5d",
+  "node_id": "C_kwDOD9RRltoAKDU4ZWFlNWRiMjMxMmZlY2EwMDNiOWViMTc5ZmQ5MTcyYmVlZWFiNWQ",
+  "commit": {
+    "author": {
+      "name": "AN YU (安宇)",
+      "email": "33403629+anyuzoey@users.noreply.github.com",
+      "date": "2022-08-10T10:32:24Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2022-08-10T10:32:24Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "b79468e3f1d90710c36ef244a92d72b7a09ae776",
+      "url": "https://api.github.com/repos/anyuzoey/CNNforFaultInterpretation/git/trees/b79468e3f1d90710c36ef244a92d72b7a09ae776"
+    },
+    "url": "https://api.github.com/repos/anyuzoey/CNNforFaultInterpretation/git/commits/58eae5db2312feca003b9eb179fd9172beeeab5d",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi84k4CRBK7hj4Ov3rIwAAoUgIADKJf3dWiHB2w6Wk2Xu1qyua\nDTaadZOSPmpi+CQPkjdZqy1vVhLKJmELVJEbfX+qhYC8bfjQyU+7D7WAbkFnte3I\nloA3A/jM/YfklSBxX0U/7czpoRGJFmHvvskwZTpVrDJif2hL8SuoJD1X3A10Iyrm\niIofyru5tDkAvTPx0AD+JAx3/6e2Y8Rp/N3GtpcpTjLoDvTK6gTBPvfncKBs77oR\nRDgBnHVg9xTW3sf0eQ/5vhF2Mkf9FLvUSj6NDsdL1sFb4BluPi6QqOVzTT59WPKU\nHSoIZm2DsOo8FaweZO0DWsYQaCMwqGJxOcMs7SW//iiAEWPT7KVAW6hauK56rXo=\n=N9mM\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree b79468e3f1d90710c36ef244a92d72b7a09ae776\nparent 15a0fa9e3e5e460a81ae19a6640d0a3678d60d01\nauthor AN YU (安宇) <33403629+anyuzoey@users.noreply.github.com> 1660127544 +0800\ncommitter GitHub <noreply@github.com> 1660127544 +0800\n\nUpdate README.md",
+      "verified_at": "2024-01-16T19:59:59Z"
+    }
+  },
+  "url": "https://api.github.com/repos/anyuzoey/CNNforFaultInterpretation/commits/58eae5db2312feca003b9eb179fd9172beeeab5d",
+  "html_url": "https://github.com/anyuzoey/CNNforFaultInterpretation/commit/58eae5db2312feca003b9eb179fd9172beeeab5d",
+  "comments_url": "https://api.github.com/repos/anyuzoey/CNNforFaultInterpretation/commits/58eae5db2312feca003b9eb179fd9172beeeab5d/comments",
+  "author": {
+    "login": "anyuzoey",
+    "id": 33403629,
+    "node_id": "MDQ6VXNlcjMzNDAzNjI5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/33403629?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/anyuzoey",
+    "html_url": "https://github.com/anyuzoey",
+    "followers_url": "https://api.github.com/users/anyuzoey/followers",
+    "following_url": "https://api.github.com/users/anyuzoey/following{/other_user}",
+    "gists_url": "https://api.github.com/users/anyuzoey/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/anyuzoey/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/anyuzoey/subscriptions",
+    "organizations_url": "https://api.github.com/users/anyuzoey/orgs",
+    "repos_url": "https://api.github.com/users/anyuzoey/repos",
+    "events_url": "https://api.github.com/users/anyuzoey/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/anyuzoey/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "15a0fa9e3e5e460a81ae19a6640d0a3678d60d01",
+      "url": "https://api.github.com/repos/anyuzoey/CNNforFaultInterpretation/commits/15a0fa9e3e5e460a81ae19a6640d0a3678d60d01",
+      "html_url": "https://github.com/anyuzoey/CNNforFaultInterpretation/commit/15a0fa9e3e5e460a81ae19a6640d0a3678d60d01"
+    }
+  ],
+  "stats": {
+    "total": 7,
+    "additions": 6,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "84df2130c0a3ac99bea719c20ed6c64a494b36d9",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "changes": 7,
+      "blob_url": "https://github.com/anyuzoey/CNNforFaultInterpretation/blob/58eae5db2312feca003b9eb179fd9172beeeab5d/README.md",
+      "raw_url": "https://github.com/anyuzoey/CNNforFaultInterpretation/raw/58eae5db2312feca003b9eb179fd9172beeeab5d/README.md",
+      "contents_url": "https://api.github.com/repos/anyuzoey/CNNforFaultInterpretation/contents/README.md?ref=58eae5db2312feca003b9eb179fd9172beeeab5d",
+      "patch": "@@ -35,7 +35,12 @@ comprison with Cunha et al's transfer learning model is store in SFD-CNN-TL fold\n     we added folder/file: finetune.ipynb, predictNew.ipynb, classifyAndMetricsGSB-compare.ipynb, GSB_predictions, gsbData, xl2800realgt.npy\n \n # Dataset\n-The dataset used in this paper is a multi-megabytes dataset, please download it through the link provided in the paper. To access the original dataset, please check our data paper \"A gigabyte interpreted seismic dataset for automatic fault recognition\"\n+The dataset used in this paper is a multi-megabytes dataset, please download it through the link provided in the paper. (the dataset was deleted by mistake, will upload again later.) To access the original dataset, please check our data paper \"A gigabyte interpreted seismic dataset for automatic fault recognition\" or by link: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YBYGBK\n+To reproduce the same processed seismic dataset used in this paper, please download all seismic and fault annotation files in above dataverse link. and process it using: https://github.com/anyuzoey/CNNforFaultInterpretation/blob/master/generatePatchipyTrainValTest.ipynb\n+\n+seismictrain.npy are splited into 9 files in datavese data repo. similar for faulttrain.npy.\n+You can merge the 9 seismictrain files to seismictrain.npy. \n+\n \n more about converting segy to numpy can be found in link: https://github.com/anyuzoey/SEGY2NUMPY \n "
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "created": "2024-10-13T19:42:19.322350+00:00",
+  "modified": "2026-03-26T23:47:24.194476+00:00",
+  "id": 13926822,
+  "conceptrecid": "11559386",
+  "doi": "10.5281/zenodo.13926822",
+  "conceptdoi": "10.5281/zenodo.11559386",
+  "doi_url": "https://doi.org/10.5281/zenodo.13926822",
+  "metadata": {
+    "title": "CRACKS: Crowdsourcing Resources for Analysis and Categorization of Key Subsurface faults",
+    "doi": "10.5281/zenodo.13926822",
+    "publication_date": "2024",
+    "description": "<p>The webpage associated with this dataset can be found <a href=\"https://alregib.ece.gatech.edu/software-and-datasets/cracks-crowdsourcing-resources-for-analysis-and-categorization-of-key-subsurface-faults/\">here</a>.</p>\n<p>The codebase associated with this work can be found at this&nbsp;<a href=\"https://github.com/olivesgatech/CRACKS\">Github</a>.</p>\n<p>Please refer to our <a href=\"https://github.com/olivesgatech\">lab-wide github</a> for more information regarding the code associated with our other papers.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Prabhushankar, Mohit",
+        "affiliation": "Georgia Institute of Technology",
+        "orcid": "0000-0002-8743-7058"
+      },
+      {
+        "name": "Kokilepersaud, Kiran",
+        "affiliation": "Georgia Institute of Technology",
+        "orcid": "0000-0001-6225-2455"
+      },
+      {
+        "name": "Quesada, Jorge",
+        "affiliation": "Georgia Institute of Technology",
+        "orcid": "0000-0002-0438-0691"
+      },
+      {
+        "name": "Yarici, Yavuz",
+        "affiliation": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Zhou, CHen",
+        "affiliation": "Georgia Institute of Technology"
+      },
+      {
+        "name": "Alotaibi, Mohammad",
+        "affiliation": "Georgia Institute of Technology"
+      },
+      {
+        "name": "AlRegib, Ghassan",
+        "affiliation": "Georgia Institute of Technology",
+        "orcid": "0000-0001-6818-8001"
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "communities": [
+      {
+        "id": "olives_gatech"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "11559386"
+          }
+        }
+      ]
+    }
+  },
+  "title": "CRACKS: Crowdsourcing Resources for Analysis and Categorization of Key Subsurface faults",
+  "links": {
+    "self": "https://zenodo.org/api/records/13926822",
+    "self_html": "https://zenodo.org/records/13926822",
+    "preview_html": "https://zenodo.org/records/13926822?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.13926822",
+    "self_doi": "https://doi.org/10.5281/zenodo.13926822",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.13926822",
+    "reserve_doi": "https://zenodo.org/api/records/13926822/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/11559386",
+    "parent_html": "https://zenodo.org/records/11559386",
+    "parent_doi": "https://doi.org/10.5281/zenodo.11559386",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.11559386",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13926822/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13926822/sequence/default",
+    "files": "https://zenodo.org/api/records/13926822/files",
+    "media_files": "https://zenodo.org/api/records/13926822/media-files",
+    "latest": "https://zenodo.org/api/records/13926822/versions/latest",
+    "latest_html": "https://zenodo.org/records/13926822/latest",
+    "versions": "https://zenodo.org/api/records/13926822/versions",
+    "draft": "https://zenodo.org/api/records/13926822/draft",
+    "access_links": "https://zenodo.org/api/records/13926822/access/links",
+    "access_grants": "https://zenodo.org/api/records/13926822/access/grants",
+    "access_users": "https://zenodo.org/api/records/13926822/access/users",
+    "access_request": "https://zenodo.org/api/records/13926822/access/request",
+    "access": "https://zenodo.org/api/records/13926822/access",
+    "communities": "https://zenodo.org/api/records/13926822/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13926822/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/13926822/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/13926822/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/13926822/quota-increase",
+    "requests": "https://zenodo.org/api/records/13926822/requests"
+  },
+  "updated": "2026-03-26T23:47:24.194476+00:00",
+  "recid": "13926822",
+  "revision": 6,
+  "files": [
+    {
+      "id": "d9b3a491-ff92-4904-9efc-75ae78094388",
+      "key": "Fault segmentations.zip",
+      "size": 20227782,
+      "checksum": "md5:01e1697e886da2079ff3c1967334a7ca",
+      "links": {
+        "self": "https://zenodo.org/api/records/13926822/files/Fault%20segmentations.zip/content"
+      }
+    },
+    {
+      "id": "8c151a4b-22ce-459d-af34-f7b59701a0ac",
+      "key": "images.zip",
+      "size": 94191832,
+      "checksum": "md5:6557236191763af7bd8298ecb136d41e",
+      "links": {
+        "self": "https://zenodo.org/api/records/13926822/files/images.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "106687"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 1268,
+    "unique_downloads": 943,
+    "views": 1170,
+    "unique_views": 1033,
+    "version_downloads": 891,
+    "version_unique_downloads": 574,
+    "version_unique_views": 709,
+    "version_views": 819
+  },
+  "state": "done",
+  "submitted": true
+}

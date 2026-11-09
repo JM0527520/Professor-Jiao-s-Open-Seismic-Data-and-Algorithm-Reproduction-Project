@@ -1,0 +1,101 @@
+{
+  "sha": "bf550594bd55d7741a0fcbfdef0e4ede2567d48b",
+  "node_id": "MDY6Q29tbWl0MTkxMzU3MjY3OmJmNTUwNTk0YmQ1NWQ3NzQxYTBmY2JmZGVmMGU0ZWRlMjU2N2Q0OGI=",
+  "commit": {
+    "author": {
+      "name": "Aina Juell Bugge",
+      "email": "51704291+ajbugge@users.noreply.github.com",
+      "date": "2019-09-23T06:00:15Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2019-09-23T06:00:15Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "0aa7b99db82877d90581ff15202152319d1aab46",
+      "url": "https://api.github.com/repos/ajbugge/HorizonTracker/git/trees/0aa7b99db82877d90581ff15202152319d1aab46"
+    },
+    "url": "https://api.github.com/repos/ajbugge/HorizonTracker/git/commits/bf550594bd55d7741a0fcbfdef0e4ede2567d48b",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdiF9vCRBK7hj4Ov3rIwAAdHIIAJiV99ddKABhfULvuQv7iDYM\niLusI+p6wOQKH5nhFPvFkvmlWCv3N8+PQjeNf0zgI3jNA9JlmR/QPNCnEeS+Fyjj\nJw2iWQ/gyP0DKWarBtMvPa+PWJe5E7WQNiW+WtnvCcYdgriwGacW7NQXNNqF1AO3\nFy/6yDaOY2KfF8xeH705sqTLj1UWh4ML5NX+yy9ZuUx1HwAF6btgygd+DiJ/vUHh\njtDpqNwzE9owAP6aEAa/vJWxTJoCJ9GPPze0hjDC4NXk9sk1Pb13lqyKBv9m+wGW\nIT1pTz1QDWSNtj9KXWP38Il28tdkZ+SxhcZKQIzFvs1m1aEYdnUD82n7eC8l/4k=\n=Jyde\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 0aa7b99db82877d90581ff15202152319d1aab46\nparent 44302c81f090081321781f6e813b02f95ee78772\nauthor Aina Juell Bugge <51704291+ajbugge@users.noreply.github.com> 1569218415 +0200\ncommitter GitHub <noreply@github.com> 1569218415 +0200\n\nUpdate README.md",
+      "verified_at": "2024-01-16T19:59:59Z"
+    }
+  },
+  "url": "https://api.github.com/repos/ajbugge/HorizonTracker/commits/bf550594bd55d7741a0fcbfdef0e4ede2567d48b",
+  "html_url": "https://github.com/ajbugge/HorizonTracker/commit/bf550594bd55d7741a0fcbfdef0e4ede2567d48b",
+  "comments_url": "https://api.github.com/repos/ajbugge/HorizonTracker/commits/bf550594bd55d7741a0fcbfdef0e4ede2567d48b/comments",
+  "author": {
+    "login": "ajbugge",
+    "id": 51704291,
+    "node_id": "MDQ6VXNlcjUxNzA0Mjkx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/51704291?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ajbugge",
+    "html_url": "https://github.com/ajbugge",
+    "followers_url": "https://api.github.com/users/ajbugge/followers",
+    "following_url": "https://api.github.com/users/ajbugge/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ajbugge/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ajbugge/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ajbugge/subscriptions",
+    "organizations_url": "https://api.github.com/users/ajbugge/orgs",
+    "repos_url": "https://api.github.com/users/ajbugge/repos",
+    "events_url": "https://api.github.com/users/ajbugge/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ajbugge/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "44302c81f090081321781f6e813b02f95ee78772",
+      "url": "https://api.github.com/repos/ajbugge/HorizonTracker/commits/44302c81f090081321781f6e813b02f95ee78772",
+      "html_url": "https://github.com/ajbugge/HorizonTracker/commit/44302c81f090081321781f6e813b02f95ee78772"
+    }
+  ],
+  "stats": {
+    "total": 5,
+    "additions": 1,
+    "deletions": 4
+  },
+  "files": [
+    {
+      "sha": "89fe3976a0a6b0bbd6dace0840ed090e84112a50",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "changes": 5,
+      "blob_url": "https://github.com/ajbugge/HorizonTracker/blob/bf550594bd55d7741a0fcbfdef0e4ede2567d48b/README.md",
+      "raw_url": "https://github.com/ajbugge/HorizonTracker/raw/bf550594bd55d7741a0fcbfdef0e4ede2567d48b/README.md",
+      "contents_url": "https://api.github.com/repos/ajbugge/HorizonTracker/contents/README.md?ref=bf550594bd55d7741a0fcbfdef0e4ede2567d48b",
+      "patch": "@@ -25,9 +25,6 @@ Required python packages: <br/>\n ### Citation<br/>\n \n For any use this code, please cite the paper this code is based on: \"Automatic extraction of dislocated horizons from 3D seismic data using non-local trace matching\"\n-\n-\n-### About the method <br/>\n-Extracting key horizons from seismic images is an important element of the seismic interpretation workflow. Although numerous computer-assisted horizon extraction methods exist, they are typically sensitive to structural and stratigraphic discontinuities. As a result, these computer-assisted methods have difficulties extracting non-coherent dislocated horizons. We present a new data-driven method to correlate, track and extract horizons from seismic volumes with complex geological structures. The proposed method correlates seismic horizons across discontinuities and does not require user input in the form of seed points or prior identification of faults. Furthermore, the method is robust towards amplitude changes along a seismic horizon and does not jump from peak to trough or vice versa. We use a large sliding window and match full-length seismic traces using non-local dynamic time warping to extract grids of correlated points for our target horizons. Through computed accuracy measurements, we discard non-accurate correlations before interpolating complete seismic horizons. Because the proposed method does not require manually picked seed points or prior structural restoration, it does not rely on interpretive experience or geological knowledge. <br/>\n+<br/>\n ![Horizon correlation and interpolation](Figure11.png)<br/>\n *Figure from Bugge et al., 2019. The figure shows inline and crossline views for one correlated target horizon in a heavily faulted seismic image from the SW Barents Sea before (a, b) and after (c, d) interpolation. The color bars in (a) and (b) illustrates correlation accuracy.*"
+    }
+  ]
+}

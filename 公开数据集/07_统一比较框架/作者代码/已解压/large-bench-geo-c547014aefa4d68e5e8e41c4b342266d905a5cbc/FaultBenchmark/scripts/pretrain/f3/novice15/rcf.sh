@@ -1,0 +1,1 @@
+python3 pretrain.py --modelName rcf  --isPretrain  none --targetData f3 --label_source novice15  --data_folder  /data/CRACKS 

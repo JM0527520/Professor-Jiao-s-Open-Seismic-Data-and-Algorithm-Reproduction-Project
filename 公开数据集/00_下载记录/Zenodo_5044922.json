@@ -1,0 +1,115 @@
+{
+  "created": "2021-06-30T07:47:29.121166+00:00",
+  "modified": "2021-07-11T01:30:56.081584+00:00",
+  "id": 5044922,
+  "conceptrecid": "5044921",
+  "doi": "10.5281/zenodo.5044922",
+  "conceptdoi": "10.5281/zenodo.5044921",
+  "doi_url": "https://doi.org/10.5281/zenodo.5044922",
+  "metadata": {
+    "title": "zfbi/rgtNet: Deep learning for simultaneously interpreting 3D seismic horizons and faults by estimating a relative geologic time volume",
+    "doi": "10.5281/zenodo.5044922",
+    "publication_date": "2021-06-30",
+    "description": "<p>To train our deep convolutional neural network for Relative Geologic Time (RGT) estimation and fault detection tasks, we automatically generate 400 pairs of synthetic training datasets including 3D seismic images and the corresponding label images (including RGT and fault volumes) with the ground truth of the geologic structures simulated in the seismic images.</p>\n<p>1) The \"seis.zip\" contains 400 3D seismic images and each image is with the dimension of 128X256X256;</p>\n<p>2) The \"rgt.zip\" contains 400 RGT volumes and each volume is with the same dimension of 128X256X256.</p>\n<p>3) The \"fault.zip\" contains 400 label images of the faults and each label image is with the same dimension of 128X256X256.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "zfbi",
+        "affiliation": null
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/zfbi/rgtNet/tree/v1.0.0",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "version": "v1.0.0",
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "license": {
+      "id": "other-open"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": false,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "5044921"
+          }
+        }
+      ]
+    }
+  },
+  "title": "zfbi/rgtNet: Deep learning for simultaneously interpreting 3D seismic horizons and faults by estimating a relative geologic time volume",
+  "links": {
+    "self": "https://zenodo.org/api/records/5044922",
+    "self_html": "https://zenodo.org/records/5044922",
+    "preview_html": "https://zenodo.org/records/5044922?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.5044922",
+    "self_doi": "https://doi.org/10.5281/zenodo.5044922",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5044922",
+    "reserve_doi": "https://zenodo.org/api/records/5044922/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/5044921",
+    "parent_html": "https://zenodo.org/records/5044921",
+    "parent_doi": "https://doi.org/10.5281/zenodo.5044921",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5044921",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:5044922/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:5044922/sequence/default",
+    "files": "https://zenodo.org/api/records/5044922/files",
+    "media_files": "https://zenodo.org/api/records/5044922/media-files",
+    "latest": "https://zenodo.org/api/records/5044922/versions/latest",
+    "latest_html": "https://zenodo.org/records/5044922/latest",
+    "versions": "https://zenodo.org/api/records/5044922/versions",
+    "draft": "https://zenodo.org/api/records/5044922/draft",
+    "access_links": "https://zenodo.org/api/records/5044922/access/links",
+    "access_grants": "https://zenodo.org/api/records/5044922/access/grants",
+    "access_users": "https://zenodo.org/api/records/5044922/access/users",
+    "access_request": "https://zenodo.org/api/records/5044922/access/request",
+    "access": "https://zenodo.org/api/records/5044922/access",
+    "communities": "https://zenodo.org/api/records/5044922/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/5044922/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/5044922/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/5044922/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/5044922/quota-increase",
+    "requests": "https://zenodo.org/api/records/5044922/requests"
+  },
+  "updated": "2021-07-11T01:30:56.081584+00:00",
+  "recid": "5044922",
+  "revision": 5,
+  "files": [
+    {
+      "id": "18b09e7f-e077-4a6a-b57e-4904227db1db",
+      "key": "zfbi/rgtNet-v1.0.0.zip",
+      "size": 22884,
+      "checksum": "md5:83686612bee91fe95054215a87ab7039",
+      "links": {
+        "self": "https://zenodo.org/api/records/5044922/files/zfbi/rgtNet-v1.0.0.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "196287"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 571,
+    "unique_downloads": 525,
+    "views": 3178,
+    "unique_views": 2861,
+    "version_downloads": 290,
+    "version_unique_downloads": 265,
+    "version_unique_views": 1024,
+    "version_views": 1181
+  },
+  "state": "done",
+  "submitted": true
+}

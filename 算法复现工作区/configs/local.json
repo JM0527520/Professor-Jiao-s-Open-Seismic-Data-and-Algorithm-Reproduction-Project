@@ -1,0 +1,14 @@
+{
+  "data_root": "../公开数据集",
+  "output_root": "outputs",
+  "cache_root": "cache",
+  "synthetic_prediction_ids": [0, 1],
+  "checkpoint": "01_FaultSeg3D/预训练模型与预测示例/fseg-60.hdf5",
+  "patch_size": 128,
+  "stride": 64,
+  "tensorflow_cpu_threads": 4,
+  "thebe_demo_split": "val",
+  "thebe_demo_section_start": 36,
+  "thebe_demo_shape_raw": [128, 192, 128],
+  "decision_threshold": 0.5
+}

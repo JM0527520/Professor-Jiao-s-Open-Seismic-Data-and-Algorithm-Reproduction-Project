@@ -1,0 +1,101 @@
+{
+  "sha": "b0e62ee1752e966ab182c5b2ed5ed08cff22ed02",
+  "node_id": "C_kwDOUl6mGdoAKGIwZTYyZWUxNzUyZTk2NmFiMTgyYzViMmVkNWVkMDhjZmYyMmVkMDI",
+  "commit": {
+    "author": {
+      "name": "douyimin",
+      "email": "7240091@qq.com",
+      "date": "2026-09-28T04:09:17Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-09-28T04:09:17Z"
+    },
+    "message": "Update README.zh-CN.md",
+    "tree": {
+      "sha": "a75aaf45c57c6335e88d90d2fba76e9d20e35bc0",
+      "url": "https://api.github.com/repos/douyimin/FaultSegV3/git/trees/a75aaf45c57c6335e88d90d2fba76e9d20e35bc0"
+    },
+    "url": "https://api.github.com/repos/douyimin/FaultSegV3/git/commits/b0e62ee1752e966ab182c5b2ed5ed08cff22ed02",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJquehtCRC1aQ7uu5UhlAAA8JMQAEgqj/xFm9nkPsPgklmkBmgS\ny7SjwSm8rp/j1wz9zRfOu+pAPPIC+t8rN0KbgH8EBXo1qGpi7PvaDrksgb/Y0QJt\n7plZwwAtJMeVfqodXLZ6371b+qgIJ3fdM9uo4/0IP9cFLy3oLYBH5Siz/+ND+bqe\nW+LS3vh5nfxHoxXA1+gCUKNKwfe67kcIhXaX4d9My9FfW8STCtuqzfV9AIJXONTL\nF+Fjzw7NISe+0rqFdvjXdC+P0U+HJo5Xq19KTEWNmtnecfUZl7rHsMNnWU5f5FIN\npqax2vzEsrDC1HoPaQWR07u5DGYBNFGyCqwKHug5uf1UfG2erMlKGS3lKBqb+A/U\nSdUw1jhKTznotgxiwRQ+VFUnWxgFRSU2+6+2Jxwj2YxSsvTEE5b/gYqhnevHWbzu\n2DgO21RTt66u9G75vM8NjY6ODeJ6IuyK2R8p/rkovd8vNYPVpK1z/W9cWekrWQqO\neM+IAJB538MFErPWIzVW+hOYSGd6+Z5wfGWJV7c+j9T2+gPUuPdZOA+H7Et1A+MV\nAfXLSR7ndhhrd0dYMeTu5l5A8tBf6uPzIrswrWnYrQy5ShCATtaxz9mZ5uJXFwVL\n4iBb0YxZuvcZtUY15eT3rBqbMGWyZuOx9nUZp5GBltFWdVbVhbNdYZ1wARe+2TQ4\nqxLrm0ZS03ugptXjUwyP\n=ooHe\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree a75aaf45c57c6335e88d90d2fba76e9d20e35bc0\nparent 83fb7d5c50accaa22e25494f5f1cff6d89a6ff5c\nauthor douyimin <7240091@qq.com> 1790568557 +0800\ncommitter GitHub <noreply@github.com> 1790568557 +0800\n\nUpdate README.zh-CN.md",
+      "verified_at": "2026-09-28T04:09:17Z"
+    }
+  },
+  "url": "https://api.github.com/repos/douyimin/FaultSegV3/commits/b0e62ee1752e966ab182c5b2ed5ed08cff22ed02",
+  "html_url": "https://github.com/douyimin/FaultSegV3/commit/b0e62ee1752e966ab182c5b2ed5ed08cff22ed02",
+  "comments_url": "https://api.github.com/repos/douyimin/FaultSegV3/commits/b0e62ee1752e966ab182c5b2ed5ed08cff22ed02/comments",
+  "author": {
+    "login": "douyimin",
+    "id": 29750445,
+    "node_id": "MDQ6VXNlcjI5NzUwNDQ1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/29750445?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/douyimin",
+    "html_url": "https://github.com/douyimin",
+    "followers_url": "https://api.github.com/users/douyimin/followers",
+    "following_url": "https://api.github.com/users/douyimin/following{/other_user}",
+    "gists_url": "https://api.github.com/users/douyimin/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/douyimin/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/douyimin/subscriptions",
+    "organizations_url": "https://api.github.com/users/douyimin/orgs",
+    "repos_url": "https://api.github.com/users/douyimin/repos",
+    "events_url": "https://api.github.com/users/douyimin/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/douyimin/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "83fb7d5c50accaa22e25494f5f1cff6d89a6ff5c",
+      "url": "https://api.github.com/repos/douyimin/FaultSegV3/commits/83fb7d5c50accaa22e25494f5f1cff6d89a6ff5c",
+      "html_url": "https://github.com/douyimin/FaultSegV3/commit/83fb7d5c50accaa22e25494f5f1cff6d89a6ff5c"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "additions": 1,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "2f8352cb60ef63983f6ac52a39128a762c84754b",
+      "filename": "README.zh-CN.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/douyimin/FaultSegV3/blob/b0e62ee1752e966ab182c5b2ed5ed08cff22ed02/README.zh-CN.md",
+      "raw_url": "https://github.com/douyimin/FaultSegV3/raw/b0e62ee1752e966ab182c5b2ed5ed08cff22ed02/README.zh-CN.md",
+      "contents_url": "https://api.github.com/repos/douyimin/FaultSegV3/contents/README.zh-CN.md?ref=b0e62ee1752e966ab182c5b2ed5ed08cff22ed02",
+      "patch": "@@ -5,7 +5,7 @@\n \n ### Less Is More in Seismic Fault Segmentation\n \n-**保留局部断层线索 · 从合成数据学习 · 向实际工区泛化**\n+\n \n [![PyTorch](https://img.shields.io/badge/PyTorch-3D%20segmentation-EE4C2C?logo=pytorch&logoColor=white)](framework/FaultSegV3.py)\n [![Parameters](https://img.shields.io/badge/Parameters-0.563%20M-00897B)](#网络设计)"
+    }
+  ]
+}

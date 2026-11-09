@@ -1,0 +1,1 @@
+python3 finetuning.py --modelName deeplab  --isPretrain  f3ft_novice15 --targetData  f3 --label_source expert --data_folder   /mnt/HD_18T_pt1/chen/Datasets/CRACKS

@@ -1,0 +1,1 @@
+python3 finetuning.py --modelName unet  --isPretrain  thebeft --targetData  faultSeg --data_folder  /mnt/HD_18T_pt1/chen/Datasets/FaultSeg3D --freeze_modules double_conv1 double_conv2 double_conv3

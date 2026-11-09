@@ -1,0 +1,1 @@
+python3 finetuning.py --modelName deeplab  --isPretrain  f3ft_novice15 --targetData  thebe  --data_folder /mnt/HD_18T_pt1/chen/Datasets/Thebe/train/  --freeze_modules backbone --train_iterations 500 --val_iterations 100

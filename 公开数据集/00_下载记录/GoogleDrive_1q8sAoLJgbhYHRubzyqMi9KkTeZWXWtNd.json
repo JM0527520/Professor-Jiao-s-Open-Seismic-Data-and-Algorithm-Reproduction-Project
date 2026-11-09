@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1IaWKd7lfImf4J6f-W6xUICppG-0_yTMB",
+    "path": "fseg-60.hdf5",
+    "local_path": "D:\\My_Files\\Project\\Jiao_Teacher_Project\\仪陇南部层位智能追踪与断层智能识别\\公开地震数据与算法复现\\公开数据集\\01_FaultSeg3D\\预训练模型与预测示例\\fseg-60.hdf5",
+    "status": "downloaded",
+    "acquisition": "original_google_drive_public_download",
+    "source_url": "https://drive.usercontent.google.com/download?id=1IaWKd7lfImf4J6f-W6xUICppG-0_yTMB&export=download&authuser=0&confirm=t",
+    "sha256": "5174031cb013e6c8a311c1c74689f473157105baf4a089e8463abf01a96349da",
+    "bytes": 17630120
+  },
+  {
+    "id": "1hY8yQLSFKXmPxQAFDxsX3NgecoD-aXNH",
+    "path": "fseg-65.hdf5",
+    "local_path": "D:\\My_Files\\Project\\Jiao_Teacher_Project\\仪陇南部层位智能追踪与断层智能识别\\公开地震数据与算法复现\\公开数据集\\01_FaultSeg3D\\预训练模型与预测示例\\fseg-65.hdf5",
+    "status": "downloaded",
+    "acquisition": "original_google_drive_public_download",
+    "source_url": "https://drive.usercontent.google.com/download?id=1hY8yQLSFKXmPxQAFDxsX3NgecoD-aXNH&export=download&authuser=0&confirm=t",
+    "sha256": "ca072661cece66e18f032522b9105ed5a1acc5b3b6f5ef0ff1da93954dd85ffe",
+    "bytes": 17630120
+  },
+  {
+    "id": "13FuqaZEyUAKpUiWOSzI-39mXkoQaApCB",
+    "path": "fseg-70.hdf5",
+    "local_path": "D:\\My_Files\\Project\\Jiao_Teacher_Project\\仪陇南部层位智能追踪与断层智能识别\\公开地震数据与算法复现\\公开数据集\\01_FaultSeg3D\\预训练模型与预测示例\\fseg-70.hdf5",
+    "status": "downloaded",
+    "acquisition": "original_google_drive_public_download",
+    "source_url": "https://drive.usercontent.google.com/download?id=13FuqaZEyUAKpUiWOSzI-39mXkoQaApCB&export=download&authuser=0&confirm=t",
+    "sha256": "d8f91e555ee07022eed50b82f8546e21e1670a4325c50eb9d1935df42a85068d",
+    "bytes": 17630120
+  },
+  {
+    "id": "1mAYnIlvjBFtogeHyNF9Tc7PHwWGvrifd",
+    "path": "model3.json",
+    "local_path": "D:\\My_Files\\Project\\Jiao_Teacher_Project\\仪陇南部层位智能追踪与断层智能识别\\公开地震数据与算法复现\\公开数据集\\01_FaultSeg3D\\预训练模型与预测示例\\model3.json",
+    "status": "downloaded",
+    "acquisition": "original_google_drive_public_download",
+    "source_url": "https://drive.usercontent.google.com/download?id=1mAYnIlvjBFtogeHyNF9Tc7PHwWGvrifd&export=download&authuser=0&confirm=t",
+    "sha256": "3adf50ee2b74f21d55ac35f7ae9d76292b4c563f030476a5c098c9e4b91bec26",
+    "bytes": 12382
+  },
+  {
+    "id": "1AL0uRqBa0umRc-xHTOuviCc4XWbxWj1j",
+    "path": "pretrained_model.hdf5",
+    "local_path": "D:\\My_Files\\Project\\Jiao_Teacher_Project\\仪陇南部层位智能追踪与断层智能识别\\公开地震数据与算法复现\\公开数据集\\01_FaultSeg3D\\预训练模型与预测示例\\pretrained_model.hdf5",
+    "status": "downloaded",
+    "acquisition": "original_google_drive_public_download",
+    "source_url": "https://drive.usercontent.google.com/download?id=1AL0uRqBa0umRc-xHTOuviCc4XWbxWj1j&export=download&authuser=0&confirm=t",
+    "sha256": "1e08beed00607d3611559fbec48d90c8817170d72719b2cd6deff1393a2383df",
+    "bytes": 113189936
+  }
+]

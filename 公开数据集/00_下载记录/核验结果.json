@@ -1,0 +1,509 @@
+{
+  "time": "2026-11-03T14:37:34+0800",
+  "small_archives": [
+    {
+      "archive": "03_CRACKS_F3_v2\\原始压缩包\\Fault segmentations.zip",
+      "files": 12603,
+      "uncompressed_bytes": 17231691,
+      "crc_verified": true
+    },
+    {
+      "archive": "03_CRACKS_F3_v2\\原始压缩包\\images.zip",
+      "files": 396,
+      "uncompressed_bytes": 94082994,
+      "crc_verified": true
+    },
+    {
+      "archive": "05_DeepRGT\\作者代码\\rgtNet-v1.0.0.zip",
+      "files": 21,
+      "uncompressed_bytes": 69883,
+      "crc_verified": true
+    },
+    {
+      "archive": "01_FaultSeg3D\\作者代码\\faultSeg_0ab8ba1c10cb.zip",
+      "files": 100,
+      "uncompressed_bytes": 589256054,
+      "crc_verified": true
+    },
+    {
+      "archive": "02_Thebe\\作者代码\\CNNforFaultInterpretation_58eae5db2312.zip",
+      "files": 4219,
+      "uncompressed_bytes": 920901402,
+      "crc_verified": true
+    },
+    {
+      "archive": "03_CRACKS_F3_v2\\作者代码\\CRACKS_faaf7c32f1f2.zip",
+      "files": 990,
+      "uncompressed_bytes": 6098211,
+      "crc_verified": true
+    },
+    {
+      "archive": "04_HorizonTracker\\作者示例与代码\\HorizonTracker_bf550594bd55.zip",
+      "files": 9,
+      "uncompressed_bytes": 63294500,
+      "crc_verified": true
+    },
+    {
+      "archive": "06_FaultSegV3_CIG_Bench\\作者代码\\FaultSegV3_b0e62ee1752e.zip",
+      "files": 21,
+      "uncompressed_bytes": 26360598,
+      "crc_verified": true
+    },
+    {
+      "archive": "07_统一比较框架\\作者代码\\large-bench-geo_c547014aefa4.zip",
+      "files": 203,
+      "uncompressed_bytes": 1021395,
+      "crc_verified": true
+    },
+    {
+      "archive": "01_FaultSeg3D\\作者代码\\已解压\\faultSeg-0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe\\data\\train\\fault.zip",
+      "files": 200,
+      "uncompressed_bytes": 1677721600,
+      "crc_verified": true
+    },
+    {
+      "archive": "01_FaultSeg3D\\训练与验证数据\\train\\fault.zip",
+      "files": 200,
+      "uncompressed_bytes": 1677721600,
+      "crc_verified": true
+    }
+  ],
+  "thebe_arrays": {
+    "faulttest1": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttest2": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttest3": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttest4": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttest5": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttest6": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttest7": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          103,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttrain1": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttrain2": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttrain3": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttrain4": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttrain5": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttrain6": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttrain7": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttrain8": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faulttrain9": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faultval1": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "faultval2": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "bool",
+        "fortran": false
+      }
+    ],
+    "seistest1": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistest2": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistest3": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistest4": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistest5": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistest6": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistest7": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          103,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistrain1": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistrain2": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistrain3": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistrain4": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistrain5": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistrain6": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistrain7": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistrain8": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seistrain9": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seisval1": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ],
+    "seisval2": [
+      {
+        "key": "arr_0.npy",
+        "shape": [
+          100,
+          3174,
+          1537
+        ],
+        "dtype": "float64",
+        "fortran": false
+      }
+    ]
+  },
+  "rgt": {
+    "paired_volume_count": 500
+  },
+  "status": "verified"
+}

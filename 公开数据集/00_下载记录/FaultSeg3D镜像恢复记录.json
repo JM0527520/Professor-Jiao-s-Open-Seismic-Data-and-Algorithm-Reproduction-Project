@@ -1,0 +1,4059 @@
+{
+  "status": "complete",
+  "paired_train_volumes": 200,
+  "paired_validation_volumes": 20,
+  "original_files_byte_compared": 48,
+  "axis_conversion": "mirror (t,h,w) -> original serialized (h,w,t), little-endian float32",
+  "mirror_sha256": "76cd54cf2061daaef97e8f3dc8d193a57f33ff06ba1d04939f3ca477bdc6d557",
+  "generated_label_archive": "01_FaultSeg3D\\训练与验证数据\\train\\fault_from_ModelScope.zip",
+  "files": [
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\0.dat",
+      "bytes": 8388608,
+      "sha256": "557bb7a6aadfc8893f80b28e385673d36c2ae5745f263fc4340ac382825360ba",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00000.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\0.dat",
+      "bytes": 8388608,
+      "sha256": "73e1c7aee7912984e58134322e9825aa5bcbc359601d3239630cb227f7e206f6",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00000.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\1.dat",
+      "bytes": 8388608,
+      "sha256": "1a1907f4b430b8c35f8c8f314d1d6cf16a6c04d6c451a7e39b15dab73722a807",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00001.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\1.dat",
+      "bytes": 8388608,
+      "sha256": "f55dc376ccecb0ed1d49f1b99af9880a5e0e0df543882682051aeafc508a1d41",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00001.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\2.dat",
+      "bytes": 8388608,
+      "sha256": "9c57b2e67650be8cb74b691ffc66a13e0e64a1b75591938aba644a3a74f8820e",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00002.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\2.dat",
+      "bytes": 8388608,
+      "sha256": "95744ebf3fa5d29d2d718b61aa3d4d34ae4e15636c867048c56d2ec561271fdf",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00002.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\3.dat",
+      "bytes": 8388608,
+      "sha256": "5f359643cf28d4fe2e7baf60ff7b4547e9268992e9b70508309a7ec80a439d0f",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1IV6Ke7-YzRPGd6hbXv7YJHIOtB7GqQc5&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00003.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\3.dat",
+      "bytes": 8388608,
+      "sha256": "e0922fcada9405c7af75e043d4cc4627364e5fe37242bec69ba6e5362719febd",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00003.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\4.dat",
+      "bytes": 8388608,
+      "sha256": "70e28b4e9193f9ab41516413c2fc6278f066a36129cb93500d284c10026a728f",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1v4cOC24m9GSaBVsf83IFdJ9R2gVUETvn&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00004.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\4.dat",
+      "bytes": 8388608,
+      "sha256": "d682737466f663afccbbd4cfc0a8e5662579393958a961421518c237a6373a91",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00004.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\5.dat",
+      "bytes": 8388608,
+      "sha256": "7495049e8cfdc99a43befcf79941c5344681a0076098084165678ecd7a7bbe77",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1zdFIgUtuKOMQAY7EAwZyu5ECWENwGfKP&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00005.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\5.dat",
+      "bytes": 8388608,
+      "sha256": "b34e5b0051d0ff26294dd04d4da22bc47299e84852bc04841c03fe239f15495a",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00005.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\6.dat",
+      "bytes": 8388608,
+      "sha256": "06c3d333c9c9cce9bc7f2b707b9306a0db1539163bbd50339c36a2dddb908f3a",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1R-6pDcY0bmxvG6MXLj2zdhfMKwqeKJ8F&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00006.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\6.dat",
+      "bytes": 8388608,
+      "sha256": "1b282c3f8d9fffc1d89110d5d3656f921ee3d8db7228ae485d33cb3dda74524c",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00006.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\7.dat",
+      "bytes": 8388608,
+      "sha256": "0b2f2f6a8aa17d25f69fba6db4391dba94e3eabb7e01e6cba2a97ac003ded154",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1vBZJ23O566SzKS1iSN694hw9jvINe3Zk&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00007.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\7.dat",
+      "bytes": 8388608,
+      "sha256": "e3e95ae368475f284a282a6bc4fa7c6a413e0a1752eee74089fa54f3929f0da3",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00007.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\8.dat",
+      "bytes": 8388608,
+      "sha256": "013aa07844880e7f27f7a4c05d50d6d6ad7e3ba4629cfb3f29b1578e5065fd87",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1MzZZNRTktZ2S41uGQvJ3PJEndTOyQBKG&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00008.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\8.dat",
+      "bytes": 8388608,
+      "sha256": "04d523447269b7fc8f42890c41e2c9d3b3292fdf336d85c0d78891ed661c912d",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00008.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\9.dat",
+      "bytes": 8388608,
+      "sha256": "a7bdcd60cc0d6cbf8d34b0f8d850271dff1df6309bebe91e92002ccffbe243cb",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1AJiXI1i_JqS1WB8mDCQUv37x5rHeDUOw&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00009.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\9.dat",
+      "bytes": 8388608,
+      "sha256": "3f2adc0204319d18cc5cccbec736d2b0371a0e2baad85672aba910c92109273e",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00009.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\10.dat",
+      "bytes": 8388608,
+      "sha256": "180784a543b030791a87d8099db44a3976ba984710f38934de54148310aa1771",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00010.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\10.dat",
+      "bytes": 8388608,
+      "sha256": "02f6e1ab94fe28828ef7360410d48254e3e721aea55df318595d3c063db4b2ff",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00010.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\11.dat",
+      "bytes": 8388608,
+      "sha256": "f673181962d8941dcf3371fdcbb2b126b57682c272cc831e94f413948ef5ab6f",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00011.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\11.dat",
+      "bytes": 8388608,
+      "sha256": "d742a0e2d978cef7b10e5300559e1acbd9d5e039674e328fb3c17f0ede7ad3ba",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00011.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\12.dat",
+      "bytes": 8388608,
+      "sha256": "84564147b95fc52f7ddd279cef8ec92ac603ced892670a4fa3c79bbddc77b65e",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00012.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\12.dat",
+      "bytes": 8388608,
+      "sha256": "a546367a30df1cea7124c9f6c2749c6e1cb1a63a55ce074c837aaef44b80460f",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00012.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\13.dat",
+      "bytes": 8388608,
+      "sha256": "c014b66ee33d18a3c4247b3db4be3898a9ccd15fa1178e632a0605ff2d1dfc19",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00013.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\13.dat",
+      "bytes": 8388608,
+      "sha256": "11c4b21496ec839fb7d6d681267c2a4f018a7457a5f65d50b04406f7aee01ce7",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00013.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\14.dat",
+      "bytes": 8388608,
+      "sha256": "bd0a8d3731e79ad9b54cae60e5de1df331481471372d2b686e7a968c077713f2",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=17zwlid0I6KjAgc8L8tXrnNgiIiy3RJok&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00014.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\14.dat",
+      "bytes": 8388608,
+      "sha256": "b885463484dc189d0eb205a54ec7e32525abc8c9673af64ea5fcbf7a82f5aa11",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00014.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\15.dat",
+      "bytes": 8388608,
+      "sha256": "351a5535128f38e4d95c4156bc1e5710d6afbd467de7af1f691f4e9316bfaaf5",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1edmkeXmHrQ23nyp8Jty6MH2xT0qF0qM6&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00015.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\15.dat",
+      "bytes": 8388608,
+      "sha256": "710fb395f5f8cc8aa1ae4d5d98e25a722073e815f808e0ae656c17a5f352b47d",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00015.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\16.dat",
+      "bytes": 8388608,
+      "sha256": "2663cbfed008a61ae0fea5417ed9784ea1bb5591f850e947a9c22de1169af92a",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1Vo0HFmCDVnDQ1eawEdabJNM1QL9_PNeq&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00016.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\16.dat",
+      "bytes": 8388608,
+      "sha256": "05f5aa3a0f6f4f025c759e2a1711097c2b1933c93e110b34553d63b9f9dfced7",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00016.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\17.dat",
+      "bytes": 8388608,
+      "sha256": "85f01509c99cd7ba9647854a641ba8cb1f65867898d70a634a132f4b9f12ee4e",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1wVUW2zwucQjAPh43ZT3CCMl96ByUolzC&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00017.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\17.dat",
+      "bytes": 8388608,
+      "sha256": "ec5d65b9ca43728ed36b2ba6db399eac3ae7f87b61735901ca302a8ef40c9281",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00017.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\18.dat",
+      "bytes": 8388608,
+      "sha256": "235c8f51de6dd9cfbe1d8a9c61eae226004898b00fb3754131b0b08c2ff02d2c",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1ZW5y3l8chmKmmli8BzmQqlqD3w9pvjKg&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00018.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\18.dat",
+      "bytes": 8388608,
+      "sha256": "b6c34253615d22f75706b45ebcb2d2f6dca75a623afc9368e8d4d07773cd7e83",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00018.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\19.dat",
+      "bytes": 8388608,
+      "sha256": "c45db0b9ed154d6c8a8a6335690ae9c45b2ccd13e6e8076fc044f4208c28901e",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1NmzYF6BkJ5OQ57kz3pLQHsmZofKvZeSw&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00019.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\19.dat",
+      "bytes": 8388608,
+      "sha256": "627855aa7b3a5a58e2c806e2694a6b6f129925246eadc3102d5307f4e2ed9af9",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00019.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\20.dat",
+      "bytes": 8388608,
+      "sha256": "3cd7b1585ef7f97ed139541826e0424c7afd5af8f85d296637144b779462fe80",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1nna_KcuCAAHUuGyaTWGtscM7cxM9zQXa&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00020.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\20.dat",
+      "bytes": 8388608,
+      "sha256": "959a62e4ffc17612483e4b3f010d49475ea3dfb04a9bd3e4eef5edbc09db931d",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00020.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\21.dat",
+      "bytes": 8388608,
+      "sha256": "119bf53bfc58233625cc9c277799fe8c34f3319a499121296c01afd08e35c495",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1HvGFkxi65WIbPp_i1VaBixDiVPBdOt32&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00021.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\21.dat",
+      "bytes": 8388608,
+      "sha256": "10d5b0d89a4b0e01413d7cf397c1995cb0a66095870bbdc7fc0fead3df29c169",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00021.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\22.dat",
+      "bytes": 8388608,
+      "sha256": "dca5b19222faab8b2ecd2ab4d27ef225ad8c0a1711743170c05f3be83d227e73",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1F5XdnDC9vJpe5qdi6wlEMwBcscGXmUD0&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00022.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\22.dat",
+      "bytes": 8388608,
+      "sha256": "9d797b0cb46be0716321d819783588c68361714621201447b4cbb75f654d07b8",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00022.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\23.dat",
+      "bytes": 8388608,
+      "sha256": "02b308f9e129aa28892aa06780af76f1d5f3a891432729ce66ba9e9fa4e50732",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=15T0vLE2-xrWFx-bXLeP230DWPSOla5_p&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00023.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\23.dat",
+      "bytes": 8388608,
+      "sha256": "3a30291ff0199ec586c6b1b4d5886d9d075fa8e34d5dd5cfde2c18b5062f0eb4",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00023.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\24.dat",
+      "bytes": 8388608,
+      "sha256": "8eb7c74de60065ec7b94468df10cf6f5e82a6c8e8e72ed392d8f1bf8fb7c2c21",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00024.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\24.dat",
+      "bytes": 8388608,
+      "sha256": "f6321cfffc854c38c936cef9dadcc23d4cca275303b5fed3582c586b38fccced",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00024.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\25.dat",
+      "bytes": 8388608,
+      "sha256": "d2fc6a30e344f25edd98bd1a79e0db56e1c599465fa8301354dedba4fb7ca0aa",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1lLdYUl4FFDIMPZvzk_YHVwUDFjgsuqep&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00025.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\25.dat",
+      "bytes": 8388608,
+      "sha256": "9a1a72db1b7084fa090292cd5c0f13b7c410a04fe603e5f185d2a78cf1edfe8f",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00025.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\26.dat",
+      "bytes": 8388608,
+      "sha256": "3e015c31f16af2b9ad19c500d230efc3752fd1e70e44e89d140c1daee0514d43",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1-dYcW8unJ2P236XPHXnrSKxzInDrqOvZ&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00026.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\26.dat",
+      "bytes": 8388608,
+      "sha256": "0c37cc32c216c9d19b335bd46707242007a890beb107bbd4f072437ce3f90b77",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00026.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\27.dat",
+      "bytes": 8388608,
+      "sha256": "4a7d351e9f18aa447f9ec6fb840c314d6b079ddf3dcace9e1ad6496205c333d0",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1U5qlYpJbfVyT3zP2UARE3uLm7mWgHuGS&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00027.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\27.dat",
+      "bytes": 8388608,
+      "sha256": "5246187b0efb4c009ddd3d2234ebfbe6b65239c9bee43ad5ff11f7d91ef1549c",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00027.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\28.dat",
+      "bytes": 8388608,
+      "sha256": "f7d61ee4185949f6e67d636c6e827559be7abee44c491166caec88335a021725",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1pHb2cm5toXFZoTlTxKqeGh-G4XmSjk5x&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00028.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\28.dat",
+      "bytes": 8388608,
+      "sha256": "63f25ea4ca3781bab7a80a575fc64f57cd65a8aa8acbb2cdcdf68e5b7a8cb834",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00028.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\29.dat",
+      "bytes": 8388608,
+      "sha256": "a263c55fcef1b8cd2de02552c9a2ff0ca01a5cb334cea023b37607e15b7b309c",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1KyYSYOGVUA0KbTvLbBsuRhrOMgvR8RPG&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00029.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\29.dat",
+      "bytes": 8388608,
+      "sha256": "97290677ff97b04187ca4d744233e772952410b4c1adb987eda4dc50574e8f69",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00029.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\30.dat",
+      "bytes": 8388608,
+      "sha256": "d49fd14a38ef5a4dece83ebc9c3297ee3ee2920455e2182925194302c82072c4",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1Cxx86LfNm7N7g4S5415v7Owxm9BajWh_&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00030.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\30.dat",
+      "bytes": 8388608,
+      "sha256": "15193759eb33f4af34b5ad76b4878d7f7b9e1d7d478b5fde8a60938d927917f4",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00030.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\31.dat",
+      "bytes": 8388608,
+      "sha256": "398766daa994ebde35a7df25ee8805d8162c18b24830818edadac7a497c19edf",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1L3sY8zo8N1ydmRTiDZMTqMeEbW0U0HTI&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00031.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\31.dat",
+      "bytes": 8388608,
+      "sha256": "f36714fde327e954133cb06f2764d8aee1c28638ab93f3d83ce99e4e02b4b73c",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00031.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\32.dat",
+      "bytes": 8388608,
+      "sha256": "b45afda4e9001cec6d9af9db8fcd3d52abe0fd4020d3c7294207da616aca0db1",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1uVLirCyAY_M1cJaNcGvBbJmQQPw8WxmX&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00032.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\32.dat",
+      "bytes": 8388608,
+      "sha256": "24b3b5715f9481dc70609dd88ec807e14b05f9f0832a12ca5cdc5edbd5907bea",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00032.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\33.dat",
+      "bytes": 8388608,
+      "sha256": "43852ee89d7a0fbd214182a5a37023a235677610459cc74fb6d6f71f44e16920",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1h5fZfYz3ooSjwIARYm2N-X1KAgQGrmUP&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00033.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\33.dat",
+      "bytes": 8388608,
+      "sha256": "3ded118f790780719b212a31213b8c5a5d82c21267ac8ea6297bdc77c7dc24ac",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00033.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\34.dat",
+      "bytes": 8388608,
+      "sha256": "56750e8e76f01d6fbf77654857c48ff56589326928210c0b4d662a156f05ee68",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1qXTYTmu_A9CQ-3Bi_1JwYRIOTR08RwYs&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00034.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\34.dat",
+      "bytes": 8388608,
+      "sha256": "977893321bd1596c23e163638cc8e665222d1e81038da9b535499a643f1eb3f4",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00034.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\35.dat",
+      "bytes": 8388608,
+      "sha256": "d22e49e2414751d77b5c855a3df8d12c0451122fdb87bb74cbc1eda812e3ff24",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1PMvcDZE1EcN6laSC1r9H4NnSvMGNs7TJ&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00035.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\35.dat",
+      "bytes": 8388608,
+      "sha256": "9df7aca040dac2a2a0e1d2189e4ee0159dfc2cdedd421f923cb456538b660a68",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00035.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\36.dat",
+      "bytes": 8388608,
+      "sha256": "81788c9f235957c1d1ec2ae04422121b7ffaaaa5c49f79ef4b1a922a80eebc31",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1cO4Jj8X8XDcyHyQO0v1HbYTz8EXxby_q&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00036.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\36.dat",
+      "bytes": 8388608,
+      "sha256": "d41e1a71e01595aa2f624fdc9fe74149f592f3c7bc6ac03cdcd3bb6b9ffba7df",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00036.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\37.dat",
+      "bytes": 8388608,
+      "sha256": "5500a764da35c4336d6c4f1375601feaea1742de3245e3cfe05309423d78f619",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=14sJi4s2zhqifD6RVW6oMJYIrr2Q5b_iB&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00037.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\37.dat",
+      "bytes": 8388608,
+      "sha256": "05b9a64729ce5daa65f033f7d46923c0fe59e2428cb96cb90c2fd15e2277943a",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00037.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\38.dat",
+      "bytes": 8388608,
+      "sha256": "f4e5eb577c6568792b1aae57bf822a1467a4b1856a501dfade902ab53c3f0016",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1nKkGqecTYQPDfgM107MFIrEDyOQv_dgj&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00038.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\38.dat",
+      "bytes": 8388608,
+      "sha256": "e06a44e6a0dc520c90488a9f11454de283c23e90b52649268545bc15773ae662",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00038.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\39.dat",
+      "bytes": 8388608,
+      "sha256": "fda0f40ebcd74b737eed11ae14eaf614a5f67436c3c6a6375915a9705e18b4a1",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1tXAatDRLmB9rfIY01-kpEyEYsRUyc7fV&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00039.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\39.dat",
+      "bytes": 8388608,
+      "sha256": "e0ce80bd03f61ce0db8a8d6a7b9e820cb219f1e1740de39fb3c0d248d0ddf226",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00039.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\40.dat",
+      "bytes": 8388608,
+      "sha256": "c495678710e4e9f571df493b09c0f3e6356f48eb7a8c6bdcec380cb8f4a18ef7",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1SJqgkUbDN3cjuGCrC92nSGAKxZv2qqJ7&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00040.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\40.dat",
+      "bytes": 8388608,
+      "sha256": "2ab1ced16e51ec45fb45d915abc96813c6b1a4d4059259beb436dbe6e4db07cd",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00040.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\41.dat",
+      "bytes": 8388608,
+      "sha256": "972e91e7b621a1272a4d5fc317a00dfae196385aee5dfa56090d743a98ea91e6",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=13zhl1p1wB-DdfSGvH8MlnU5ybRXAUD9v&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00041.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\41.dat",
+      "bytes": 8388608,
+      "sha256": "f1d40ea896cbecc93f0d788dde171b182f8377f9f7937aa1b769b945888e2242",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00041.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\42.dat",
+      "bytes": 8388608,
+      "sha256": "9267274ec392efb6cddb2ce529b20bf30ea5e6e1397a4ac4462a3d5b5c6da9f4",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1N6XAUMPyRzIFLurCpI8Jiz9g_yHbW1D_&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00042.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\42.dat",
+      "bytes": 8388608,
+      "sha256": "3492bc830a74acd1fbca197a72e8dbf11a6be55b0413409b06525eb01bab043e",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00042.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\43.dat",
+      "bytes": 8388608,
+      "sha256": "8dcbd4ce16a733f9634d2d52edb4efd9fa89cb77005140b8ff3ad482ddbad57c",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1BCead-hsDctEzw6dfXykfZ_oWbCkQ59y&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00043.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\43.dat",
+      "bytes": 8388608,
+      "sha256": "6932551ca6e9f95d0e820b643ecf4f437f93adcc2ead1ed907f72392bb31af19",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00043.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\44.dat",
+      "bytes": 8388608,
+      "sha256": "d209a5d5402401321685770b363a618b8f5e92501fefc0f6a6eeb1c3b91caee8",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=10fdmSjcT2Ot7pwhIbLyg8NzbTG24JJH4&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00044.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\44.dat",
+      "bytes": 8388608,
+      "sha256": "b5947391fe0b5c5e083f317a867a968f536c9c261f32176e390497ebd269bd47",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00044.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\45.dat",
+      "bytes": 8388608,
+      "sha256": "e9f9c94a3f2443d4078c45abfd5779ba81e56c5fea31e216e5391f25f62854b2",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1m0k4u7RnrXimqkGdopoIAMG-h5B7DW0z&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00045.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\45.dat",
+      "bytes": 8388608,
+      "sha256": "54c29a5f526f92fb444d76cb7d77d96696bcd83b3e5cf841fa0d3ecb7fc5b021",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00045.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\46.dat",
+      "bytes": 8388608,
+      "sha256": "5764869695c5600a2a93dbb9e6a80cc8d880d2a6dc10e6b989f083138baa017e",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1u1Ot4sAXwqE_-IJ1U2Bafv4u-Te5BGCZ&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00046.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\46.dat",
+      "bytes": 8388608,
+      "sha256": "d317b79e7ba6195de195149f1bbe25f2793ca98c3ce278b6d20a8afdd20c8d9e",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00046.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\47.dat",
+      "bytes": 8388608,
+      "sha256": "9e576ecc59dc8afc77f167920eec6a108c3a228561e34741c368274327d397bf",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=13h9lDyEc8EhSMMuvDl25Tl3bMwopUYtb&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00047.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\47.dat",
+      "bytes": 8388608,
+      "sha256": "b4c50b92c275dc6e4d44ea2043441490833d56f6ae6dd19d1cd758b8ef98522f",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00047.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\48.dat",
+      "bytes": 8388608,
+      "sha256": "ce7fe1ec8e5b11fd57ff098c24d32180a48e386ba4c8eb4cbb28905b614f85d8",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1Ak0aRsdFC8dm3llf8u5DRaQLlZSiIQPn&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00048.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\48.dat",
+      "bytes": 8388608,
+      "sha256": "f1e7f4c12143feed55c69a248073f2ffff298604b6b3af5cc7c21bb8b529018a",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00048.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\49.dat",
+      "bytes": 8388608,
+      "sha256": "9c20607d09fc9b8b5e18d7f3e6f97867e833f02f05a0049f16ed5381db907a05",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=14A78CGjPrWoZGCz2g6FCVxTwHE2s-zCE&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00049.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\49.dat",
+      "bytes": 8388608,
+      "sha256": "502e5bcae1ca3865e568246cad02635f28aae5ecc2dd8e1d37ee4508c3fcb949",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00049.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\50.dat",
+      "bytes": 8388608,
+      "sha256": "049b08b7cd7c4144e99f42228104acd1a94bd637752f2568f6096666bf2c03c4",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1F_V2jMpia-OQbYMvhQ7IlNOhAOn5qUMX&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00050.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\50.dat",
+      "bytes": 8388608,
+      "sha256": "3c45f8459d64b36a7ff1055cecefbcec7459a4e08c4532b1603acd79b66ebe33",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00050.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\51.dat",
+      "bytes": 8388608,
+      "sha256": "9e0b9d8da2d04143fb8a2a16d8883eaa462254ecb52d00f05e08ec87d3da0108",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=17H9HTFOSSQwM3EJJctD0zjJJB7u3Ppfj&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00051.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\51.dat",
+      "bytes": 8388608,
+      "sha256": "1ef71c138783ceaf63b5d804700211a77aa91c1bee72b3ba9cf68c7c216b4ce5",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00051.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\52.dat",
+      "bytes": 8388608,
+      "sha256": "bd1141bd3ed5dadb34afc3c7ad1aba3bf102e0f291fa3502cd1afb439a4eaa4f",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1HLyXK2SV9ii3cs-ssgRPTGTpILkod2bW&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00052.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\52.dat",
+      "bytes": 8388608,
+      "sha256": "b7f2705478f35ab45a011d18fb50f9dadfb4b2fa14ca03707d336ae12c240fa0",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00052.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\53.dat",
+      "bytes": 8388608,
+      "sha256": "f76cdcf0c5793a3d94cc71110d66df1e0caf0e1d85bd8a3cdfefee2eb08152cc",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1QyE_4rP1uf_tai33lC_oemav3XjFkvx9&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00053.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\53.dat",
+      "bytes": 8388608,
+      "sha256": "33195cf91ab44c95d15ac486072d2cd7a33aa784dfb4b87d8ab30acb814c929f",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00053.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\54.dat",
+      "bytes": 8388608,
+      "sha256": "187c8d5d4477df3985f478a40cfa1a9240e5c07fc8665830565a572afa8ad650",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=15AsZxAIMHWUEcvMSMjFj3yYpARcHyNgw&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00054.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\54.dat",
+      "bytes": 8388608,
+      "sha256": "a6a9ac3d036c0fcc8615bda22af84285e8f48474a804b4cddf213c01a129aa4f",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00054.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\55.dat",
+      "bytes": 8388608,
+      "sha256": "45d535505e28d42349b22d0f447ade5bbbb9fc8e28faa64a9751c7d1b86ac956",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=106NUHK4DTGFXezxBA88HtUYyrxo9RwR7&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00055.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\55.dat",
+      "bytes": 8388608,
+      "sha256": "d586ce851d66fb214bc155bd6401576da65652e9f4d10addfbd241f393262e9c",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00055.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\56.dat",
+      "bytes": 8388608,
+      "sha256": "18eb144d78c17482a2c630ae49798c7ae5de4492a58d55369e0ef9dc1628baa1",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1Os8Tlbp2qU4AsFk-kmf463kJ304USKic&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00056.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\56.dat",
+      "bytes": 8388608,
+      "sha256": "2cc1df2380120a851eec96b9805185467545b0f9639ac51aaf667b550b15f388",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00056.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\57.dat",
+      "bytes": 8388608,
+      "sha256": "41de6791317c4ea2f4cf5b748b17dab36fdc939f4e38b58980f22c636199d05e",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1DfRx86Wx8f4qZtFupfQDcWbUF5xX-G6a&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00057.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\57.dat",
+      "bytes": 8388608,
+      "sha256": "85fc03e796160a86fa684f06fd810a75933ae81aa2a0ce55fe1a81ab8a04c243",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00057.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\58.dat",
+      "bytes": 8388608,
+      "sha256": "204c129895aee35868f86c93690b5de52b698f7547e461fc066da76959e5493d",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1ykgTtZNFYNlXYWkHfg2FNwfwJeB1xUSX&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00058.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\58.dat",
+      "bytes": 8388608,
+      "sha256": "c92cfaa74b3fd89f4c080a793c828f293fcdd01d0bec65274b1e303d6e51cdad",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00058.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\59.dat",
+      "bytes": 8388608,
+      "sha256": "8eedfb2517ed4fec6a490392172f5d9cabe317ad7f174b998fdcef04d04b0197",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1aDZpcTwNDf_QbxBjSN21d1-Sa0lqHqPP&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00059.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\59.dat",
+      "bytes": 8388608,
+      "sha256": "9e5e739fb2c1c8a0ca26285446d9809ed17773884da2279f73c6469ba5cb6078",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00059.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\60.dat",
+      "bytes": 8388608,
+      "sha256": "c74ab5f3bccc5be09d3fc8d2ba6ecfafdbbada7bdb26f262bd29cc336a928233",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1eL8MG3GPvNacIkyEhSzExqN0loj9x8St&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00060.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\60.dat",
+      "bytes": 8388608,
+      "sha256": "a0adda2af3e472fcbc13d16c762e3281b2d3ad4c9000a3f0605572b9019125e3",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00060.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\61.dat",
+      "bytes": 8388608,
+      "sha256": "acfd17f1cb221524d0a247da43f57830a46ee81f0c5d3f094244534bcb6acaee",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1G-dNZR2zvT2CRIaqfh8QQ8BpGjQaj0pV&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00061.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\61.dat",
+      "bytes": 8388608,
+      "sha256": "ae437cb31e53b558e12e3d254496dc745823431495eca72d2742ceb6b52ab5cf",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00061.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\62.dat",
+      "bytes": 8388608,
+      "sha256": "85eb82eae96086df7931393c42f29a7e6b50094a34110ed3e1d7ef047dad13e9",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1ZqNMI1_XA12TbEqM3oH0VL2pcX6HY9Eo&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00062.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\62.dat",
+      "bytes": 8388608,
+      "sha256": "90d7e039c21fd911a777ed995ca84aed07764d9fe26aeb2c233a5181417c69fe",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00062.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\63.dat",
+      "bytes": 8388608,
+      "sha256": "ed844e047e5315b5787f57f00762f14d7f5af2ebe9b4765c2146e92d2debc042",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1ZJDLMMMFK0F76kPXC5ecwBasLGHZlWL5&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00063.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\63.dat",
+      "bytes": 8388608,
+      "sha256": "bc37bcdac4bcb74a49bfe5652dfc09cdcfa67923ad222126dacb037709ec3e98",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00063.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\64.dat",
+      "bytes": 8388608,
+      "sha256": "c3e2f9f7ae8128f6591948fbc33845ef8b782eb019707c7667074965b59f4220",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1TOwmA11KcAHw-f3y5wOseWXbC1YKyHdQ&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00064.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\64.dat",
+      "bytes": 8388608,
+      "sha256": "283390fd6c5d2ef3170e4712f03b944dfda18a316be206c25b46f8c848af0cd0",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00064.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\65.dat",
+      "bytes": 8388608,
+      "sha256": "3550474138c1c92a883f807ad7f2ce311521a156be3e094825fb5efb6e5c6d43",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1v48q4KsVXvUaUOEXoltjT6rt8GPsUiYq&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00065.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\65.dat",
+      "bytes": 8388608,
+      "sha256": "a7c9524a0c03b40da413cadb1583b4d06861115664be83fcc785eb6c5ff403cc",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00065.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\66.dat",
+      "bytes": 8388608,
+      "sha256": "0aff0d25364b29649cca237350f2f0199b64465300869eae5f9661d518e860fe",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1cpJeludxmXHHaHFQTjhBhlH2qmPqM2Jd&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00066.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\66.dat",
+      "bytes": 8388608,
+      "sha256": "4133393d84380e6f52d69d0b234c9a6df0729e2c25d2e9ef429cdfbff8dad09b",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00066.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\67.dat",
+      "bytes": 8388608,
+      "sha256": "02964bc05cbd719e2111a9a777afde635d3c46a6f303bc53ffae8580dc038a46",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1sUpO2Y6y7FTyid1tdkZtyihn2LfTVXWs&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00067.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\67.dat",
+      "bytes": 8388608,
+      "sha256": "e92a428c84fa20884e30347a3272980f24edf6b3462e5504ccef23f330bdac9e",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00067.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\68.dat",
+      "bytes": 8388608,
+      "sha256": "a84ee2f287a1ac121b979361d06e2cc4e4c95591850357609f1c665a469d8ad1",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1mQfunR-5JmgHH0TpCOIZVuHP-8V-eQVa&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00068.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\68.dat",
+      "bytes": 8388608,
+      "sha256": "e62310d59d23a4f6e90a678a41c92531ddd51af770fcd12069ecd5db2e4e928b",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00068.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\69.dat",
+      "bytes": 8388608,
+      "sha256": "0a5d8593a0d3da6d13649fa56b1d00f3b1a4324956b9c9a06dc8bc68c28f8633",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1ZC3ZfwbmrW4nAPpd3fGcTGVpDnXNysbg&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00069.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\69.dat",
+      "bytes": 8388608,
+      "sha256": "806ab8938119c484d053bb8173094369663ed675bcc797aa0ff64a0535c1867f",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00069.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\70.dat",
+      "bytes": 8388608,
+      "sha256": "d2858914f10322eb6da4d2c128d611f293fd9ccdce6fe752d5d7ef7dc426a344",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1WFA6O0HbVQ8h6bowdevvI3wht8qbh6Km&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00070.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\70.dat",
+      "bytes": 8388608,
+      "sha256": "7a65d9a14c00144ebb6ceea2b46897d50e8df63f689e5ce1fb14133b1716640d",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00070.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\71.dat",
+      "bytes": 8388608,
+      "sha256": "31ea57796f5738b76f32de7e1b721c09aa1ffdcde6abb2764c315fad2a7b40c7",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1bCoSoihAodzgSaXIRMa__0BVPJRqm_jg&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00071.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\71.dat",
+      "bytes": 8388608,
+      "sha256": "8d494509cf977133ea9509d11b7261503a13e1244404fa41b2e567d03856cdcc",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00071.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\72.dat",
+      "bytes": 8388608,
+      "sha256": "0e4b31a0069f94e9a110db517a12ff737b5caaad143b65838afbcebb7276f8b1",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1W7Vb78orp3gY-9_p4ye4k3mdONuKw2YZ&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00072.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\72.dat",
+      "bytes": 8388608,
+      "sha256": "cbd86b64b0186f380b49c1f83a4f162da873e88d146b13058079712bb693e5cb",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00072.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\73.dat",
+      "bytes": 8388608,
+      "sha256": "5569cc2f5501a5d265a116131627e787220378692569ffb04370370876e0e4c0",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1gVOV74NvLiBZ9dIeTd6dAlGIALM0UClo&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00073.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\73.dat",
+      "bytes": 8388608,
+      "sha256": "68587ec146c91d4efb5fffcd38c3e2a52863d391ad4db7587d5439db1bd6f831",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00073.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\74.dat",
+      "bytes": 8388608,
+      "sha256": "197c22e7d85762665d1b7333c6717d7af99b04c520cfb360ab010d034beb6471",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1IeD6mlcLXDQRmVSAjNjy3IO3pF66fUa2&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00074.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\74.dat",
+      "bytes": 8388608,
+      "sha256": "04808fcfddf7950eb5694a2c6c62db2cdd208237b61d04fdc760e355c5b30638",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00074.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\75.dat",
+      "bytes": 8388608,
+      "sha256": "d8cfbd2d2e024383aed2d7cd9b0103b703439622adbeb47a9bcaa3757e409abf",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1ha67O2815CSJkSIe--tbK3SwwooHKUH-&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00075.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\75.dat",
+      "bytes": 8388608,
+      "sha256": "b2869e7ff9420c37d4fc0e785c7d2aad996e7868c4a6b06c0a91b1f74f923e5c",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00075.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\76.dat",
+      "bytes": 8388608,
+      "sha256": "699a290221a26724751514ee9be1681c93a3a5c8f740b2335c3121a6070837b8",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1HHRqa0d4tWEJHOJYRcN-bf6_IznWFL9h&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00076.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\76.dat",
+      "bytes": 8388608,
+      "sha256": "325b18429db8dbd91d763ea6ee006648a6a9bc81ad3c3ba3d7b0a3547d3fa272",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00076.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\77.dat",
+      "bytes": 8388608,
+      "sha256": "9ca1d506711528c41bda6c362faefbbdf7f0fcf7da6fc6e739e43153a93256c0",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1dl1BBnxzuc64DSqr5dNZZk057GK7B93Q&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00077.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\77.dat",
+      "bytes": 8388608,
+      "sha256": "ce739f3590bf42f77577f87da43994666077ae76ac6b3ccb914583242115cd16",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00077.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\78.dat",
+      "bytes": 8388608,
+      "sha256": "59ee898634f009179adb58ebd19763d79c942eeca2695423ea63801c0292892c",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1FOpcjKJNxOXRTdK3WG6xdmgyh_8g5d86&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00078.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\78.dat",
+      "bytes": 8388608,
+      "sha256": "5befe9045d30f3508798499c9ba331a62a7bef2de98dd496f1cc0801e8efdbf2",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00078.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\79.dat",
+      "bytes": 8388608,
+      "sha256": "087dee40628f48aa521018ba792a30eac74bbddf90416108613239d873fea455",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1ql-7JP_WB5_5vDAGayc1Q9YzmY_-urrX&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00079.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\79.dat",
+      "bytes": 8388608,
+      "sha256": "6d6dcfc33d601b0045f8d94cf613bc7e1dc4d5a159ad5bf5f3bb19db713d9f57",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00079.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\80.dat",
+      "bytes": 8388608,
+      "sha256": "4b29660b270691a56b4361ec1a96bedc85aa3b5a9ab6776a3b7348e9ac71a013",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1Uq6KMH1f3QaDllZu2gRD92Q41PpB9IUC&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00080.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\80.dat",
+      "bytes": 8388608,
+      "sha256": "fc7ea759308ae4271fef7ab0136dd19099dd2a502a6a67ebb4a96ed441520856",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00080.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\81.dat",
+      "bytes": 8388608,
+      "sha256": "675a8f2ec41ae2ecf5d46618f872a07f46715b8f4c877e2cb74a62c322f47c36",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1CCdL8ATSHW2ssSTF67sKROewZI3T65p2&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00081.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\81.dat",
+      "bytes": 8388608,
+      "sha256": "486de916740148f25b17fb70ac8e647af2be7103b64059519b71de6ae3718377",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00081.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\82.dat",
+      "bytes": 8388608,
+      "sha256": "be3da73c3f579e3f6b871c07f77bd4f316f9da3c120591aad0bbd85a5cc3a015",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1pCu-boA--sNHC4F8pZ-ArGkFi9L8iAmH&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00082.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\82.dat",
+      "bytes": 8388608,
+      "sha256": "f56d4ec785c161ebca9f5a74ed0713757d0e82e2a5249d6cf834c072de578b23",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00082.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\83.dat",
+      "bytes": 8388608,
+      "sha256": "e954e76974f126ab1cfbfa6f9fb0209913003f0785ee3abd4df148edc058292c",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1Fm4Hr7oIg2i0gKNAYnRKMpgq0pQ3PBgh&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00083.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\83.dat",
+      "bytes": 8388608,
+      "sha256": "f5382822cddf71dba260774e1be669cfca14b130e5bb3fdb55d61a3b38f08985",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00083.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\84.dat",
+      "bytes": 8388608,
+      "sha256": "46f7f44fc1bfaac7e9f52838404caa900206c0e02b0eed54820b46df76f404fb",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=193nQxVyV41KJDUp2V81UL9feWSuxpREb&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00084.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\84.dat",
+      "bytes": 8388608,
+      "sha256": "0359da820f3ccede2fa0da6ac143555d45cf59cf9839ca0a97ce27b4241853a1",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00084.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\85.dat",
+      "bytes": 8388608,
+      "sha256": "382456579d0ce7896194fd4654b6d58ac9baf3ab0dab2d7fc204b6f41bafb16f",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1l7Rc69p33MUQgDVXuokIWVhvzcSQ5kWM&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00085.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\85.dat",
+      "bytes": 8388608,
+      "sha256": "7012628f8b44283c09fc0d7b89509467264a9bf7f9f4bf45b7e78453d0601532",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00085.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\86.dat",
+      "bytes": 8388608,
+      "sha256": "09e526e9042f6866a82df063a7a5392cde00e8871c54def9dcfbda8d29aabdf9",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1Ps3e8fHvp7-1XWr6UR9dhdI_xpUh7haF&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00086.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\86.dat",
+      "bytes": 8388608,
+      "sha256": "b89977630238f786363897a80356489491bc5c0ac209e5e154fdcdc4827645af",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00086.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\87.dat",
+      "bytes": 8388608,
+      "sha256": "705705c10dccf24a8c1e9f3fdafde214e74c6ff64e92de97cfbcbe656cc944ca",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1HW7BVb22XRkoM6VvXGWMAbaqtAnLK6IU&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00087.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\87.dat",
+      "bytes": 8388608,
+      "sha256": "2d8ae8668dbb280af457d06a93a561c8ccce76b4fcb4caf8199c174db1adda52",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00087.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\88.dat",
+      "bytes": 8388608,
+      "sha256": "708908aead86c94e26a2eed2a8df7ae3c7228d0627aebdcc48836d677cf26d7b",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1pwoPXkYo_phPH05H3W4By-2jeRoQfymL&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00088.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\88.dat",
+      "bytes": 8388608,
+      "sha256": "d7eba7bc183ee919f82a10a820e3de23c4a300242fca32aac2cd1e33c7feaee1",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00088.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\89.dat",
+      "bytes": 8388608,
+      "sha256": "766c4502cd08fe17402ea4c55f2c7c570c7f3425b69cbabbc9d1842f20bcf2bb",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1v_sKY4x8etCjf2Sy8A0wnfifcHTX4HSB&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00089.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\89.dat",
+      "bytes": 8388608,
+      "sha256": "d11b56ae929d9792eb4a43e5f905008848c5779ca8d06c3e9f6ef91787ba99b9",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00089.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\90.dat",
+      "bytes": 8388608,
+      "sha256": "5019a4e061d331dc532df61ecf8a0c8bbbf7417d90c15876243d05e866249dde",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1KrPFxc8ABRpOIfLR-P9bOhPFU9OK2Nh1&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00090.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\90.dat",
+      "bytes": 8388608,
+      "sha256": "fb2906b9c8009225a01b826247e855a70a9013ff9ea5539b5c9ad30a29098090",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00090.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\91.dat",
+      "bytes": 8388608,
+      "sha256": "7ed19b6fdfe8c04e5f0a044beb3dac25432d869f8443dfa99261361acae219fa",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1eJvtR6F9jT99bIQEqxWvoTyl2I5s9ake&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00091.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\91.dat",
+      "bytes": 8388608,
+      "sha256": "318d3cbb210b61ec1ad87718ba9dabe27c8b2224dfaedffc07fbba654bc10a16",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00091.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\92.dat",
+      "bytes": 8388608,
+      "sha256": "ada6dd3fc6dc9967abf96a213be9535d5a10511252af55305d992010904c2f99",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1932pdS9Ap7Pxb4gSDG3N-1dQOxhDDh15&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00092.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\92.dat",
+      "bytes": 8388608,
+      "sha256": "4249e10d49ffc6df611778e0fe071cb0246900b11e275dd11cb2ef6b17220c40",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00092.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\93.dat",
+      "bytes": 8388608,
+      "sha256": "632218d8870c7d894ed389922ef652047e5c98b5f9ae1820de79ec4abaaf5cbc",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1qBNIbi-SU9B-BkLR2Kds9aeLQlSZ9o8o&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00093.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\93.dat",
+      "bytes": 8388608,
+      "sha256": "9e07c13a90a0f640d9f72ec53bbb4828d6579ddf64520ecb317e3953c5fa053c",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00093.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\94.dat",
+      "bytes": 8388608,
+      "sha256": "9a3034744a3be12cf9af29224bb9129434b5aa97caa89e0a9f16a4f6a85e1bc1",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1YVm6vhfj7kRtwIZ5-Ix8PiHOi6pqehsf&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00094.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\94.dat",
+      "bytes": 8388608,
+      "sha256": "e90a1a339fe5372a702c7112cdd6c4bd3989cabd2a494a0f5d458ddbd294d789",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00094.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\95.dat",
+      "bytes": 8388608,
+      "sha256": "66d93a0c125482d98df318678e4013624e19bb03a7dada231bd5102702a8ece6",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=14o9GwLsPETpJ_GVfWO815OygqC1bEHo_&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00095.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\95.dat",
+      "bytes": 8388608,
+      "sha256": "fcdbceb1bd5ac4abee9c726f3392fc6ec9de50f3c5dc1a8b2706162ac9054531",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00095.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\96.dat",
+      "bytes": 8388608,
+      "sha256": "5a65bed122c6c1dc9d365948483f4adf325e340bb747ad9f6a4d188f14cf6fcd",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1yo-LTxHl6MNHyqyOpFZtmvD7b8ucSh7Y&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00096.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\96.dat",
+      "bytes": 8388608,
+      "sha256": "e3668d951ee56f73c45609360a158bf0da440055d8f8eb1a7783fbceedc75812",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00096.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\97.dat",
+      "bytes": 8388608,
+      "sha256": "438391d612c09545f618ad75d11ac2eb2a976b9834f7d5cccaf9e80c8f89011e",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1mqhR8NxkCS2gsV0UgV_EGGo_GAuNoMRd&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00097.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\97.dat",
+      "bytes": 8388608,
+      "sha256": "f273d5b858b5e4beadc63ec02c68347e5841cc30ec4a0484f35cd5f0ef598fd4",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00097.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\98.dat",
+      "bytes": 8388608,
+      "sha256": "f3f3ef21ef9a0e734484d4ee8ab597ead423b10718dd2da53009ae4528824e3a",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1zsqwJ_O5T7NWeUoWkraHpPops7jLR7jU&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00098.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\98.dat",
+      "bytes": 8388608,
+      "sha256": "bac322fb3b87580f4b484a892707937816b39ae94205d48f882bf33e3031cc25",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00098.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\99.dat",
+      "bytes": 8388608,
+      "sha256": "16c38de82712215ce8bf850059909a689e1e1f5c15872c73d7c99871c1d5fec5",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1mYdRRFk40IPxjGa5YWAuhWsdXM7r4HSQ&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00099.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\99.dat",
+      "bytes": 8388608,
+      "sha256": "63ce56fdc927ae1ee6569f8faf40faf063bcb045292575a37f282eb886c2ed23",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00099.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\100.dat",
+      "bytes": 8388608,
+      "sha256": "7f7faa7d3a07b8f481778bb31e28ad12f340b455646ed1dd8bbf312783824efd",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00100.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\100.dat",
+      "bytes": 8388608,
+      "sha256": "1a3294daf3e182eec4153e362042cbfa9b448a78870994cb6c8d571ac69665a7",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00100.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\101.dat",
+      "bytes": 8388608,
+      "sha256": "e8b8261ca0477c0b94ff606101f82607c3c7022b3e7151425405bb470d44f314",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00101.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\101.dat",
+      "bytes": 8388608,
+      "sha256": "8bcaa7078199f5433644485708c354b395f1923b5fb558748c6e47a19ae71403",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00101.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\102.dat",
+      "bytes": 8388608,
+      "sha256": "9419ae9adbd63d12ab9b4cb9872968db24b7edabb9b5c444112d827630dcf3f9",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00102.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\102.dat",
+      "bytes": 8388608,
+      "sha256": "82c8302aefc62026908cafd4c0454c44d60ac838cee71b521a41ce5844d4c3e9",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00102.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\103.dat",
+      "bytes": 8388608,
+      "sha256": "c104f026b44ed694353100161d9972a4e151aa69cb8d02b6cde332e612d9510a",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00103.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\103.dat",
+      "bytes": 8388608,
+      "sha256": "1e099c6dd35ea6ee06163d8d39641c637b4707e681b617326a310ffb51f253aa",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00103.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\104.dat",
+      "bytes": 8388608,
+      "sha256": "b7af3c517660c17e44d3e1bc0af00dedd382e4e9d03b122e48dbc5c61e98a1ba",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00104.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\104.dat",
+      "bytes": 8388608,
+      "sha256": "3195d312fd4752c74e62c185de6f1921f491f41beb3d83871ac6cfefbda6e419",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00104.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\105.dat",
+      "bytes": 8388608,
+      "sha256": "15cc15c63ddf95d93ffb515f82a1c89963221e86c7bed60cece6d1090d7d8c09",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00105.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\105.dat",
+      "bytes": 8388608,
+      "sha256": "595dac461eec3c22ceb06a23ca5b543bf75c9d1230cdab1a8710a46c1fd95801",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00105.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\106.dat",
+      "bytes": 8388608,
+      "sha256": "bd9b3f3c0b6067367bb7fdbd925820f1216473ca9c7447d838fc5471bb631018",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00106.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\106.dat",
+      "bytes": 8388608,
+      "sha256": "880457cf9f65a4d1e408744bd2282bb85787f1f4b99d9b6740c5eaeefbd91777",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00106.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\107.dat",
+      "bytes": 8388608,
+      "sha256": "94b14779588dba28b76a0afb7556646653722c4627e44529598bae29d15372c3",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00107.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\107.dat",
+      "bytes": 8388608,
+      "sha256": "a62f627fdc0a0027bbe762bed7d6a514dee072fb63793e760339ce19baf43a5d",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00107.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\108.dat",
+      "bytes": 8388608,
+      "sha256": "3914400fc17c1425cb4a4790931a50156db0393b906291b87eb7398af2fe4afe",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00108.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\108.dat",
+      "bytes": 8388608,
+      "sha256": "58cdb5de240a3a61cae799b8cd044aa15f19846fc6d69fb624f93d8674edf490",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00108.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\109.dat",
+      "bytes": 8388608,
+      "sha256": "9eb0a39a158e66294127a321113a708150a00dd63b749eebabaac8155c446ed7",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00109.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\109.dat",
+      "bytes": 8388608,
+      "sha256": "78fd6694702828eeed666774e8ee92254fa4d4da1f6d5e07e74131343eed5608",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00109.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\110.dat",
+      "bytes": 8388608,
+      "sha256": "b585794e6742b2a544ce795a4bb6e6e37130c48a257850e051b44c8a19ad8edd",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00110.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\110.dat",
+      "bytes": 8388608,
+      "sha256": "a9e93b719d4c30f53d4c507f9b9da0db7a4e2a6ccc0a5c04504d606e49390b9f",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00110.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\111.dat",
+      "bytes": 8388608,
+      "sha256": "4f0b4a059f1240134b402ddd7135d5cba8230896c1831a9acb0fd171c92818e0",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00111.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\111.dat",
+      "bytes": 8388608,
+      "sha256": "5616a770d65ff9f2b7c23b7f116c3b62ef4e63f9d8e95b2e275461d9ccffd800",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00111.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\112.dat",
+      "bytes": 8388608,
+      "sha256": "2e8150396763c90285b45e9e3d56aef77d6e1877dcde6b2f8d680197e799d01e",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00112.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\112.dat",
+      "bytes": 8388608,
+      "sha256": "33ced77956edf1b21cc38f35c8f2510c140b89a2e9d050297f0aa12e22900cee",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00112.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\113.dat",
+      "bytes": 8388608,
+      "sha256": "e1d22ec76f2a980767d2afa6e6c3732ed16f543ae298b441c9ffdfd87483005e",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00113.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\113.dat",
+      "bytes": 8388608,
+      "sha256": "021643499e07c2c0b0cd7e349746a13060cfe2e344096d255120b7e844524e99",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00113.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\114.dat",
+      "bytes": 8388608,
+      "sha256": "e1ed3a604dacd2302b5702c218a21ea301f8aa2d9ca3673aa0483eab2d7bca33",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00114.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\114.dat",
+      "bytes": 8388608,
+      "sha256": "d6a95642202697c6a788cae8f171ed713405a58e37ab45a4c48845d861b1392b",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00114.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\115.dat",
+      "bytes": 8388608,
+      "sha256": "cf668e1c6c77c37667db3dd2525b430e87744935f3b36c95d1a15e9ffa9f14c7",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00115.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\115.dat",
+      "bytes": 8388608,
+      "sha256": "dad244edf6b796736bb080a7d786801391230d884cfcfbaaaf4fe4b5408dca4b",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00115.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\116.dat",
+      "bytes": 8388608,
+      "sha256": "8d866a689bcf8f6c6fc1645aca59ab113b0df385959b159a731c2db764094acf",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00116.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\116.dat",
+      "bytes": 8388608,
+      "sha256": "eda89f9eef18ce5fbe13fe70d3df13abaa67bb73231ed83513d79fc4c4c2abaf",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00116.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\117.dat",
+      "bytes": 8388608,
+      "sha256": "c900345a5abee3394d02d132ca04751dccf2e5aad77fa1a0335f6f3bd62f19c7",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00117.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\117.dat",
+      "bytes": 8388608,
+      "sha256": "dbee2538515110cfbce55f9a61d93f15b2810fe8d4d298d4e81ad6106faf2fa0",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00117.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\118.dat",
+      "bytes": 8388608,
+      "sha256": "26a0065773916c0354954ec3c0fb6d526a60d22c318e6f0c0d14b29ce142327e",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00118.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\118.dat",
+      "bytes": 8388608,
+      "sha256": "2ef48b3e9bc27311249bc24ddb53c324d9d35283cd18856c5c8713811a25c4b7",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00118.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\119.dat",
+      "bytes": 8388608,
+      "sha256": "3e252900922ae6e7eb987aed1d507786023460da937431f3ed3c686c3eaa1f97",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00119.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\119.dat",
+      "bytes": 8388608,
+      "sha256": "ad8a088538781f33fb19fac6624a8b790446af976777e99ed9484cec20e766ad",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00119.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\120.dat",
+      "bytes": 8388608,
+      "sha256": "f30df0937b0c3e513256fb16acd1a7330dda15a85097e361c9c7de7f4e26b43b",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00120.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\120.dat",
+      "bytes": 8388608,
+      "sha256": "4a96ad51bb9b238fb048f911bc96e00e7ee8d6a01e1b131ffc3834b8d124ea08",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00120.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\121.dat",
+      "bytes": 8388608,
+      "sha256": "2b6cc9d71c5a5e33181f4e062ca24f955da959222ed466406dd97796eaecc353",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00121.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\121.dat",
+      "bytes": 8388608,
+      "sha256": "4bef2838db2779b0c29c8abc0bc1eca8ac114ce9320c6d43f8b98ea901dbf2d3",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00121.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\122.dat",
+      "bytes": 8388608,
+      "sha256": "72b6d88ff115932e47665b97d0cad75ebad48687439a09720c17b9788c33f3f5",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00122.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\122.dat",
+      "bytes": 8388608,
+      "sha256": "d860778c3945b39ec22935948709fb8ada43bf5663b5a8ecbf1b69d6785a9bb8",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00122.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\123.dat",
+      "bytes": 8388608,
+      "sha256": "29c78928783b5bb723d9d1d8805102b063049f63ad82ce6add0072aec1b46f2e",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00123.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\123.dat",
+      "bytes": 8388608,
+      "sha256": "2d69ea8950a84a69d337fb51fd53cb0eece958d903335a30b931d42206397712",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00123.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\124.dat",
+      "bytes": 8388608,
+      "sha256": "41768ccfad55c41dc0d20ac8d74dfd7a3afc64201c93483b6fee4ef09ad3906d",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00124.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\124.dat",
+      "bytes": 8388608,
+      "sha256": "9e23732af561c4bf566203b24f9c360624f72dbc2d60f6b30789afb3d1ef26ba",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00124.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\125.dat",
+      "bytes": 8388608,
+      "sha256": "a1f51af18417a6301fb5fcbda24d2b148e6993cca53d4c9ee81af5e447a03694",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00125.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\125.dat",
+      "bytes": 8388608,
+      "sha256": "2b86e767829bc6a9c90c6c2a32844aeb3538f83864c1bd0f41af48a97fad4c9d",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00125.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\126.dat",
+      "bytes": 8388608,
+      "sha256": "dbcabcc3dd3ef7104bebb8f342077af343db4bce6477a208d536d66faa3eddf7",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00126.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\126.dat",
+      "bytes": 8388608,
+      "sha256": "8dbc330bcd0fdd0c8e38c03116a9123f450c161c5c67d0a07117b532dfb84634",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00126.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\127.dat",
+      "bytes": 8388608,
+      "sha256": "46f5aeeb26f47200d188d2a3ca0435efc041738b63babe714cbc9e69c6de9b0d",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00127.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\127.dat",
+      "bytes": 8388608,
+      "sha256": "57893c17eeb21fc4eaea3865625a2339917bb83e19909743884eb631ed6e1f91",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00127.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\128.dat",
+      "bytes": 8388608,
+      "sha256": "264cb55946704bb24bee3298ee539067a7327b741ca00702e6041fbb698b864c",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00128.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\128.dat",
+      "bytes": 8388608,
+      "sha256": "5c4e8625f616436c852a169b121e501dd3c986ea6a20fe30422b4865dcbd4f6e",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00128.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\129.dat",
+      "bytes": 8388608,
+      "sha256": "7782eeb2f2764431d6e140a34a30b013da69f3ae248c681190b7b837393d8af3",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00129.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\129.dat",
+      "bytes": 8388608,
+      "sha256": "85b6767780a37bfe3b5bd4e045135098ea1e88cec846e0f03e4b802bd02c5648",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00129.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\130.dat",
+      "bytes": 8388608,
+      "sha256": "1e9acad9c42e39bff559afa95a0491317b07a02bc892a21a9872b07b1d368120",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00130.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\130.dat",
+      "bytes": 8388608,
+      "sha256": "c493412084ecf9004b5264f57412996297f7cca0c3de1aa1ae29e1902e2986bc",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00130.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\131.dat",
+      "bytes": 8388608,
+      "sha256": "d3bfd135ecd8adb06f6c07f0b3c5c81cae52661c63498c82916bac93b5cce89d",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00131.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\131.dat",
+      "bytes": 8388608,
+      "sha256": "4b34ee998302262ff0f5a60790b1052dd981f473e2d0d6c794079bfa4112e1fa",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00131.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\132.dat",
+      "bytes": 8388608,
+      "sha256": "ad4a675035a35c10355f9edf6bb96308fd7bd507d69df84cfbde6735530add61",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00132.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\132.dat",
+      "bytes": 8388608,
+      "sha256": "3f6b7959f2391309daff1b27a3548ba11b4d7211befe3b12ff35d680be238fe5",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00132.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\133.dat",
+      "bytes": 8388608,
+      "sha256": "d930caf2187edd953096fc4003a5972a09f90ab144cfac6b14efdc6728491b06",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00133.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\133.dat",
+      "bytes": 8388608,
+      "sha256": "3a2b8265c50459d3e3d892c5de9cd4557436356dec7f88ac3248d978508dbdb9",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00133.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\134.dat",
+      "bytes": 8388608,
+      "sha256": "79470068f0a9e6784966e570cb7cdb506608ddf5e117394abc2d4752f31d3a3b",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00134.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\134.dat",
+      "bytes": 8388608,
+      "sha256": "f4db95be9c4f9203c1dcbe6a2f7300f21fce50764c88b990db24c2c62db14b45",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00134.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\135.dat",
+      "bytes": 8388608,
+      "sha256": "7b1970e9309734e3d70558fccf32c8870acfff12d8d235446c2f967de63a22f6",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00135.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\135.dat",
+      "bytes": 8388608,
+      "sha256": "555222ab9953e0c9161c342c5d410b0788da808d89d67af1e07ebb6fbc3c9fe6",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00135.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\136.dat",
+      "bytes": 8388608,
+      "sha256": "94fa9d94010101d865039c907a1e7a30166b4259bf19575899cf652cea2451cb",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=15vgY4q45beH7LTo8xGryJM3WScnbnY1r&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00136.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\136.dat",
+      "bytes": 8388608,
+      "sha256": "823e1608667aaa08ee9553cb0b32e21e587f5b4f76a3d6cc399c583fed3698b1",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00136.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\137.dat",
+      "bytes": 8388608,
+      "sha256": "6d0c7f7320a75e3af15b8062e9679e2b68d98cf3b713e4c3fdb6a7c6cd16d677",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1LDA02eWv1NP1fczUHcMmHk5X0thbN9QR&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00137.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\137.dat",
+      "bytes": 8388608,
+      "sha256": "c00aba3d8d72d664330f4f7a5f3d01db66dd2950dc222c35ca0522e29aa52ee0",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00137.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\138.dat",
+      "bytes": 8388608,
+      "sha256": "786cb3c6780ed8a6d99d4b46fb46736cfa8f0832fb18d63234b23011c147ec92",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=12XCI7F1UK4b66mb-pGxo3JvzZLr2dr7F&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00138.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\138.dat",
+      "bytes": 8388608,
+      "sha256": "34b63522f2a13d21b929e6d5ab761410f9e6d18313a1b9fb88612cd50d7a8c21",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00138.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\139.dat",
+      "bytes": 8388608,
+      "sha256": "9cc63c4e8c2a2549d05300d3e5f471d1cd81a8072ae883b8aff6387f1fee7bd7",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1VKEWt8MRIMY_dae46IfTblmNnyE9Rgyc&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00139.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\139.dat",
+      "bytes": 8388608,
+      "sha256": "fa460d2425b7f5024cd1cbb9d191d52ef0c53e19e654d2987c3305e9f39d2152",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00139.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\140.dat",
+      "bytes": 8388608,
+      "sha256": "e8ea0d12d48c3b6b8b9f45f59161ecf431033936466882397668df9165e40b05",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=18aluw03cjj2usKSvlAuSeXsojzC34nc9&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00140.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\140.dat",
+      "bytes": 8388608,
+      "sha256": "dbdef31967ad8773e55b2e9c41ed839b5abc079da04063651aeb6ce82892b4ce",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00140.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\141.dat",
+      "bytes": 8388608,
+      "sha256": "42f9f28f6468a462556cdf16d97bddf565d87f5d29d3f26d79ae7303471a0617",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1XuCZKP0qED5168PwtCJ20RM3QlSQeqgR&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00141.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\141.dat",
+      "bytes": 8388608,
+      "sha256": "3d4ccf08eb8b1df8e6af38d005c5c57b297a8dd1cbfe11cc86314af9bde7606d",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00141.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\142.dat",
+      "bytes": 8388608,
+      "sha256": "dfcf6443c2681b88684f83993bcb454148bb0d19ae55290ad8182e55c25043d7",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=14b592ubY80Yfjvpf1sXUAj49j0izYGpq&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00142.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\142.dat",
+      "bytes": 8388608,
+      "sha256": "bbe485f1d0ff26038d6731e028a167716311fd0cd425df5a10126f7247f113f7",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00142.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\143.dat",
+      "bytes": 8388608,
+      "sha256": "53a0e5ffec3d491ca17661076c24e97f20b254dc5e34226ea07d7cacbf1526ef",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1_4nol6VjsCrkHHJZiYLZFBFdzUjPz0me&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00143.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\143.dat",
+      "bytes": 8388608,
+      "sha256": "db79bf9f267d2e161c717fc8e17b666a9faaf8156f5dd7eddf7ca46ed45f8f27",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00143.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\144.dat",
+      "bytes": 8388608,
+      "sha256": "4e1a3840d35ed8257e7fe8f060c4f13c322df1309d147e1fa77e5150ab09691e",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1f5KlxIQMQEPIpNgW5_mJKD9IjQavW34q&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00144.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\144.dat",
+      "bytes": 8388608,
+      "sha256": "d6f3f8edbb8e93b656d98a4035e54f69538739b89cc1aea9bc30aabca7845329",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00144.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\145.dat",
+      "bytes": 8388608,
+      "sha256": "69255834b1b5264432db5c612642a474e2dcbb18fad25c5092989a9794b9ac99",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00145.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\145.dat",
+      "bytes": 8388608,
+      "sha256": "a7820f231e19fb17dcba06539899d768eaa18d321193422029aa8629fbfbe223",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00145.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\146.dat",
+      "bytes": 8388608,
+      "sha256": "939b204da17abd46e981a885924d33fd199867264ee48fc036726cd39919dbf6",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1WX8pCwDHG8MJYQfddhM4D2miRBIo7ORS&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00146.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\146.dat",
+      "bytes": 8388608,
+      "sha256": "7cebb53ab787614d1ac8c0260258e8b8d78283ad0054fe461e5a41208ac0025c",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00146.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\147.dat",
+      "bytes": 8388608,
+      "sha256": "36e7358c842baab4c913400d6463dd59bd61aba5463c82c7f06753ceed723824",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1gJD7fSMr35MFEFJzxoWPEVjCxNq5knXT&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00147.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\147.dat",
+      "bytes": 8388608,
+      "sha256": "20a8583a1b2216ebb8afd2fdeb2b2e41dba77afb97cdc88bb51efdadfc881072",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00147.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\148.dat",
+      "bytes": 8388608,
+      "sha256": "37e1ee0c0ea1852aa873af846a648a5068324f0af7c01fe2069de9bff4ca6f63",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1O3htFpGAlow2AzWlKDbNXy6Omyk6TLkD&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00148.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\148.dat",
+      "bytes": 8388608,
+      "sha256": "4da848ad0250a05dd9a364aae4855ebd6fae8ccfd0a6159de496a3c620c1f83d",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00148.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\149.dat",
+      "bytes": 8388608,
+      "sha256": "02bf6597a2428dce57093ceffe54328f9df0c06a6fa10187cd70a3b27301a00e",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=19Ji3lxyl_nZf5biDuMr4YEB9QTRy98Tf&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00149.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\149.dat",
+      "bytes": 8388608,
+      "sha256": "fe5fdfe7c1865d6a15d3d1d99cc467086a91cac5dbfd314c5325070d6266a051",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00149.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\150.dat",
+      "bytes": 8388608,
+      "sha256": "7013b331f6b948c3dd780383dd4d8f3ebc1fc28681a67cb9ccd06a1d60615d8e",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1YvKQszLrjtoNgmaC18KOkK4geT0EdLCP&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00150.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\150.dat",
+      "bytes": 8388608,
+      "sha256": "5796412c0bd73d4fe8b4e99e9a66df57dca941846f318dd848d6fff4a81573fc",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00150.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\151.dat",
+      "bytes": 8388608,
+      "sha256": "e80923febb9923682eee86c6cd16f1d6430eb0308d631a7a542abf4f234a307c",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1m8upDArmWPxqS0Vjh-uQBpMGBb_utipe&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00151.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\151.dat",
+      "bytes": 8388608,
+      "sha256": "c3cd7834165cf0db4172b3964487f7dd018e63650805ae4f0e6ae7e2361e30ad",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00151.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\152.dat",
+      "bytes": 8388608,
+      "sha256": "f187983e23f3d40293f6f5b78000bc5d00fcacc05e736584700928b92b577e1c",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=19g2qHuR87AZpJ6syzAHzBESZP0GHMj5V&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00152.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\152.dat",
+      "bytes": 8388608,
+      "sha256": "f5604905863358e643f478d4fa9f461d079e13cd0b6d337a6e26a9df6eac50af",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00152.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\153.dat",
+      "bytes": 8388608,
+      "sha256": "a8c30216ec6e4f81da2a3089dad2760b5fb68612931060d661aa7945f514e25c",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=15TDRNajbF8EG58WHQVs7WYC1_44LTTdV&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00153.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\153.dat",
+      "bytes": 8388608,
+      "sha256": "56469054d31f96c7f4f0a16d62f98dda725016210e2fe048b6cd7e76ea2de403",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00153.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\154.dat",
+      "bytes": 8388608,
+      "sha256": "bf566ce75e714d63ce104067095386dd77d640dfc84396d47133204a97559b73",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1erd_LT2E-S4Z9FfetBPVj1GfZrBiqfu_&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00154.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\154.dat",
+      "bytes": 8388608,
+      "sha256": "e5070df8b7e82aed691a3d273852d42786907136f8a31a30c0960820bada2fa4",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00154.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\155.dat",
+      "bytes": 8388608,
+      "sha256": "b0ee4e380ba3ebe4238127ca62f5800de1a030317cfa203107d90937b29ef1b7",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1AqQb640nBGWK3CIOYLj7YgyCGNSXx7xw&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00155.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\155.dat",
+      "bytes": 8388608,
+      "sha256": "2a938981af1d590635b770cc945190863c666498ae21f3e9e802f33df397a7e7",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00155.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\156.dat",
+      "bytes": 8388608,
+      "sha256": "3e63a22c861cea5ca785c48d5f0a665ba706d555e82c83537694427f50cbbf39",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1rdCWTnRcnAqwasZJm0SOr3hqpQ4RkZgh&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00156.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\156.dat",
+      "bytes": 8388608,
+      "sha256": "c95fd4d570b69a3a3b6af61d03d07302f24bb6cec076836255215d1908f920c5",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00156.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\157.dat",
+      "bytes": 8388608,
+      "sha256": "555c62c783b9920156d004a37359111430d58f92931e00becec2fce5871cbcc2",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1lcAHProPRuF9w3Mw-2cJ9cPhcU6bltu9&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00157.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\157.dat",
+      "bytes": 8388608,
+      "sha256": "88e59c4c37a68ace40ee7e5eccc9334ef0a37481543a658909ffd739d8a7e17f",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00157.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\158.dat",
+      "bytes": 8388608,
+      "sha256": "1e73b9c8f3b118a19b67c9eb326f0f39a0a76e2c86b282c3f083f1d922ddebe1",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=16dpPos04n8Hg_n4wvn7_Ax0M7luGseOI&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00158.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\158.dat",
+      "bytes": 8388608,
+      "sha256": "bcd69956a82a87d2379487cd3f4d347372aa4a2a9bb6c597e0f7e1fc85130d0e",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00158.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\159.dat",
+      "bytes": 8388608,
+      "sha256": "11f5c795ef5d7465353fbaca7e6d139d705c3945521c60009bf27694a8632a35",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1vFQSyL-bLG9hIGBjhXwhDJkg-sUzG04I&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00159.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\159.dat",
+      "bytes": 8388608,
+      "sha256": "6ac1cb12d16240e50353d47a3f54b6e0e13bc2715a926aa93878a15c492e2063",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00159.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\160.dat",
+      "bytes": 8388608,
+      "sha256": "2df8587d64ad7527e4f03aa7befee27b75e37afe21149f8f0307a0023a591cdd",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1ahNRXtuaiITPnP0YoO41Q4IVrSB8OsVJ&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00160.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\160.dat",
+      "bytes": 8388608,
+      "sha256": "f6853d07e2f45e227a4daa2871fd3a270dc53b00b4013d9d3110c019490b63a0",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00160.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\161.dat",
+      "bytes": 8388608,
+      "sha256": "650cf6154f7e46fb93c1505653317e2ab611dcb152e4f04e421f45d70cd55e9d",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1PrwljezyRhRZb2X-GYs5KaTVxOy-GvUV&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00161.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\161.dat",
+      "bytes": 8388608,
+      "sha256": "df1363300ff7fd120a4f7fd7d0a6439398c204d55a190b78f41337db64464ebf",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00161.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\162.dat",
+      "bytes": 8388608,
+      "sha256": "877bb083e57c3057419f7d2e991c11ef1702558b1a1af4592f3666aa73a3230f",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1-RVH98bCSOsvTr4nMf7N6mVvybNsp-Dc&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00162.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\162.dat",
+      "bytes": 8388608,
+      "sha256": "3557fbc44e067e56f5269338e3efac3ed8d6b0d43fa177009f65c8b07a008d66",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00162.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\163.dat",
+      "bytes": 8388608,
+      "sha256": "145f8a0b9cd7f09467f16947e424d6c659694ed966e95fb67d04bc4432e93aaf",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1Pz3VWe9fss2q6OsWnbEzEIbwrWgnnnVB&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00163.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\163.dat",
+      "bytes": 8388608,
+      "sha256": "40cccb888a7ae972df7b9920765abd9baabe16b9b452eeb9ad3fe11e0bb0d4f0",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00163.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\164.dat",
+      "bytes": 8388608,
+      "sha256": "056180cb94378d83c1c69082d3ef7c2388536400a4167da0560e84f83aaf3c60",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1sVT8I5HHtln74M5nAYT_aQNL5FZ5feLX&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00164.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\164.dat",
+      "bytes": 8388608,
+      "sha256": "8f3dfc35556251a1209d4a9d4cf785729abe2f5441236b95e32e0718dd76fdfe",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00164.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\165.dat",
+      "bytes": 8388608,
+      "sha256": "a995a7552b5fdd694f1031ca8c2e27d6e0b2f9d93bf00322d3bd2d495b8e425c",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1FUVq4TvieAydE0SlCgn8W3wNtYGSR5Jp&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00165.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\165.dat",
+      "bytes": 8388608,
+      "sha256": "59a23b051c3354f465c6c15327636cfdcd43a46f32b92c1f5352d69e9ad9738b",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00165.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\166.dat",
+      "bytes": 8388608,
+      "sha256": "21df1a46eeb6d33a18c14dfa474d9068331729e58d5360382a75b59d14623314",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1YXLXC4PMGVErsXyD76lqXAPPN7H1MWHm&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00166.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\166.dat",
+      "bytes": 8388608,
+      "sha256": "7be78597aeb2278a0128052efd1893ca29bf679e210e85ba58ce99079a7087f1",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00166.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\167.dat",
+      "bytes": 8388608,
+      "sha256": "6aa115ae6c7c94bc9978ef29199ee13ae0551dceac68c1be7e6867f767e2a2c3",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1Fvgcx2pLRnj5QBxMq2Vne8yckOvrthRi&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00167.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\167.dat",
+      "bytes": 8388608,
+      "sha256": "d84f558098b397e8d9016b5d116ed66f95aff9fca27d5b3c81414c33184b0c5a",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00167.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\168.dat",
+      "bytes": 8388608,
+      "sha256": "df8e37a50ecebbdf0d513aded97299da5ec6689297b81ccc4464d1c4740c3e5b",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=14VPuoP2Y6HxfDuOjThrsjrJircjL4TkT&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00168.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\168.dat",
+      "bytes": 8388608,
+      "sha256": "d48c8c27d498682155dbaa4f3eeea6b3116f0029297deef721d7b767b434dedc",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00168.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\169.dat",
+      "bytes": 8388608,
+      "sha256": "150f1daa30fa504c2c778356680cb06a4b1ee20627df350d02d90f6309be0a25",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1qP1-2OUs2F_9n0FDGrKlq2oT2m1MMoSD&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00169.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\169.dat",
+      "bytes": 8388608,
+      "sha256": "9f307621d7bd24d6116453f51230f2ce896b8ed8a39c29fa7104492ee909e9fe",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00169.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\170.dat",
+      "bytes": 8388608,
+      "sha256": "4800e09af2f2123648e32101d7430f0bd18af6d436259d2e5790bb51a3683966",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1Oo2SRL4UO--XJkMtrMbHImR2BvdmsTJF&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00170.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\170.dat",
+      "bytes": 8388608,
+      "sha256": "ab332934bc075d5ac4496c45003b6184d02089bf9be3fbe34ff30eb7070f4698",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00170.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\171.dat",
+      "bytes": 8388608,
+      "sha256": "43a4114beb4f02337a8b4feaa874204fadc68a1fb441398abc5d8303ecfa164f",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1wb_I751b5-WR5T7hwn9CTJ69-ZXGBH6Y&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00171.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\171.dat",
+      "bytes": 8388608,
+      "sha256": "65085c52b0a6d99541e6c4d7dcdbb6c2501470ce4121bccaf749637d84f27ad0",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00171.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\172.dat",
+      "bytes": 8388608,
+      "sha256": "7c5c2e328351ab14e4fce9f8b2b4a5ef82f326ba3ef14954d72bf723f870969b",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1sOa7p1ZXsd9c7_L9jxqWc-b3ath_CPuQ&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00172.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\172.dat",
+      "bytes": 8388608,
+      "sha256": "ac42c29e88b1305d70a519665014b17292cc7fe578805b37b0a44d05d04477e4",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00172.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\173.dat",
+      "bytes": 8388608,
+      "sha256": "d22cccb9813ae23b4b2d55a81453846fb1ac2ccdcfdc0a4a5fff76801dd85c52",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1OX7B94DCAAUQbgY9Idmb1bfRUihP7XBu&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00173.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\173.dat",
+      "bytes": 8388608,
+      "sha256": "0203faa8d23e16f1cecc86f67bc63006460c94b2a2ce2491617f95eb57c292d5",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00173.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\174.dat",
+      "bytes": 8388608,
+      "sha256": "6cd34d3238e705954b24ec9bcfbb08e42a62b759a5d54a4933194e901b86384c",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1HZEDzHb4UwZfgigePunARmnnCpSNUaDu&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00174.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\174.dat",
+      "bytes": 8388608,
+      "sha256": "645c46b740e3632d8a408156324e5ac7a8d16834ca2137034ece3da578b1f955",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00174.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\175.dat",
+      "bytes": 8388608,
+      "sha256": "bb9894ae35659f0b0177faef554f10e5affc89a6a7b893a2efd50d2da708f806",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=17piPzm4NY11ja-vpZfK0i9FJCD4Q2J4r&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00175.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\175.dat",
+      "bytes": 8388608,
+      "sha256": "5d0882ab190b8bed247865ecf15630b57a6dedd3f277c5b9cfaa8d93b48121c1",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00175.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\176.dat",
+      "bytes": 8388608,
+      "sha256": "99e44244d090461b3c5a5ee7fd7d22eeab0872fe8746cae687c1a43026a2606f",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1wdhf6uUywbDNkVQRsnbpMVh7wTaVobgs&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00176.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\176.dat",
+      "bytes": 8388608,
+      "sha256": "c09c55c54108da756cfd944c622249fcf6eb805d09dc35e530177114559ea28d",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00176.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\177.dat",
+      "bytes": 8388608,
+      "sha256": "bc16efda28952cbc11ae5014b007396d50b3db53e43f50cc8c828ec183b24e21",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1wzYbIsPbhMMEy1gw6yiDziMMvCEUXZXd&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00177.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\177.dat",
+      "bytes": 8388608,
+      "sha256": "fe37cd64b5950e1c8c817a14df523533f0ed0cb7a5fe24a6e86fd282328f8fd6",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00177.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\178.dat",
+      "bytes": 8388608,
+      "sha256": "217fedda94cc26051fb4274f74179b77c357cd0a503e9c06386532f7fe3600e4",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1HwgYHbq7C_6Y2ESrOWuzYw052CC0Wmko&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00178.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\178.dat",
+      "bytes": 8388608,
+      "sha256": "4928e8f32394c1ad02978506747a9938e6921dbcfb69d139f23a65a7e40a508d",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00178.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\179.dat",
+      "bytes": 8388608,
+      "sha256": "239aaa31fcfc5fd0ecd0d6385e2741b2fd70de95495ab83980126dc240035d4e",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1doSRkPkTROyzFzR8RGWeL3352qJy9znj&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00179.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\179.dat",
+      "bytes": 8388608,
+      "sha256": "a2af0f98cd08af9a4821c1e6f405c6a6594166b52192a2f6927819089663d12a",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00179.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\180.dat",
+      "bytes": 8388608,
+      "sha256": "7b813da488c9b43f48497a53dc64b36c7c951be24814fd3495ab1514702b970f",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1obfZNLMe_vmEy-28oy6KKIWy7_LgYMcs&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00180.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\180.dat",
+      "bytes": 8388608,
+      "sha256": "cc2f75c02a606a53084a973bbd38ea684e8498ab32a248e5109319814dbf0927",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00180.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\181.dat",
+      "bytes": 8388608,
+      "sha256": "b4b4363abe8d324a6b748056be0530e17337c44c9052c1ae53cc7f6624b8a251",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1qxT2S-o1SNS4OGMwHfkFRo5sdySsZDYm&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00181.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\181.dat",
+      "bytes": 8388608,
+      "sha256": "d21b3882fb1290acd8d401e59b0a32d1f685192537929fadd8a29f280b64c75c",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00181.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\182.dat",
+      "bytes": 8388608,
+      "sha256": "9f2d5ec5791270bbbba2e652fdfa964019e57c3fb94a354fd49cbc2b5ffd4fe2",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1w-zzLLH8xGyi2fYZRSK-4Bywdl3k0K3e&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00182.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\182.dat",
+      "bytes": 8388608,
+      "sha256": "dec2035d2c4f72c259e5e7c5cf84b5f6b11f75032813dfa890ae56d9b162d5f5",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00182.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\183.dat",
+      "bytes": 8388608,
+      "sha256": "5dadb34e004828f3a360825f51d032eddc0806c308a86a0717cab43340597a2b",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00183.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\183.dat",
+      "bytes": 8388608,
+      "sha256": "da4190c989521471e2356707d9ba3409564d5ba73f59f1c36068edbb231a310e",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00183.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\184.dat",
+      "bytes": 8388608,
+      "sha256": "4de2a553171d395010b6fa805c0eb94c1bf2a06ddf42b91de55aa9d5cb222cef",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=17_ZPfOclF6n8r1wyzSRHvGZilsAvopsl&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00184.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\184.dat",
+      "bytes": 8388608,
+      "sha256": "b8486c59e87f682504eeb517369bc8989b774d5a274405d18ee26173f01f364e",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00184.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\185.dat",
+      "bytes": 8388608,
+      "sha256": "e2431cb4c2536df534b28dc34e7c12598725d0e4647e6b83698d9c88749ab584",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1cO9-3gFp0MBAxqGTOfgYkn5z97IGu3l6&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00185.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\185.dat",
+      "bytes": 8388608,
+      "sha256": "10e8368812c403d2dbfca92285838dcbdd43f8e6c85f70aa80e874a287e233f8",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00185.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\186.dat",
+      "bytes": 8388608,
+      "sha256": "5aa629c1d556de7e814594ccb61d105f11916c92fa776aa05ca4c0fa8bae7282",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1iLK3IYjp3AkkjfkDFEaul5mTRyBsxBDv&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00186.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\186.dat",
+      "bytes": 8388608,
+      "sha256": "58296d6529ec0d4155767a48d10bd41a639eaa8cf95115b67cabe13f7bba4da6",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00186.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\187.dat",
+      "bytes": 8388608,
+      "sha256": "b754aaab5df3c84a454a0460bfbb0b483747f42492bbe7348c24b55992ca8a53",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1WI-9YZW50YGIS7p2PRPRZ7DOP1FWtEPm&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00187.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\187.dat",
+      "bytes": 8388608,
+      "sha256": "a8ae5e374200b386ea0e0bb195caa899126f1a321f659cbf13f864d16df44bac",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00187.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\188.dat",
+      "bytes": 8388608,
+      "sha256": "761057ddfd28df2d6b8de379357e1a6a54e547e53ddecc1b05363e997999bc94",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00188.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\188.dat",
+      "bytes": 8388608,
+      "sha256": "9b3f052814759b18adb7380436c136a59f0f355307bc0088b43bdfef7b223a65",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00188.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\189.dat",
+      "bytes": 8388608,
+      "sha256": "01f20ccd48a383b684e43302ff4c76c9519812981d4e19a60abcec60424dfdc8",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1PlAaSx62Ocs_4YeKC0Mzlxuer7rHtiw-&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00189.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\189.dat",
+      "bytes": 8388608,
+      "sha256": "d4c09b03210d6fe64d15f079338415a5a424bee93220f2608b479553680173ca",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00189.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\190.dat",
+      "bytes": 8388608,
+      "sha256": "e9c7545dfce90da284c62aa3c140a109e9f4e6c20abed3c3e10adfd3ad852485",
+      "acquisition": "original_download",
+      "source_url": "https://modelscope.cn/datasets/douyimin/CIG-Bench-Dataset",
+      "mirror_member": "FaultSegV1/train/00190.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\190.dat",
+      "bytes": 8388608,
+      "sha256": "d81e4e6e8404e6aec097bc8d19f4426fddb85c677dfe82b0d487f30bff59bf20",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00190.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\191.dat",
+      "bytes": 8388608,
+      "sha256": "1886512c1365b88e34ab3eb1c83ebc48cade4b0097e638d4119ffcdc7782c3ee",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1ecZewC1k8ObY8wG3HtAhm7GXtLvd8UpT&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00191.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\191.dat",
+      "bytes": 8388608,
+      "sha256": "a2e7201036487f82d0741a277f2c8a4a31fb34d2a366369ec9dee1ab4dc4381c",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00191.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\192.dat",
+      "bytes": 8388608,
+      "sha256": "5f7b1c1b7af3fbf3f999663f97561cc01ab25f8d5d7384cab997ba0dbd0f26de",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1NJPX6UFfER6e3tSZk6cexFsYffpM9Tah&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00192.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\192.dat",
+      "bytes": 8388608,
+      "sha256": "125dc8fcaccfd47018b0bb37a9450f194bf831b4c20e9e1040a1508e8de10a13",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00192.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\193.dat",
+      "bytes": 8388608,
+      "sha256": "7320ca58106b72cb4f0ae54552269c719a6e0664aa8dd2d3de6de71a63013e1a",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1sesa26rtx2Tqn5zG9ySpiWqWshyicrkw&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00193.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\193.dat",
+      "bytes": 8388608,
+      "sha256": "88f12a4e908ad1bc8e85a42f3a8d5d0dc4327a52b697b77c16bb72f0bd52a6c2",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00193.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\194.dat",
+      "bytes": 8388608,
+      "sha256": "a3795424a3ae820cb4e46035ab91e842dd1f14776a33e217d69e75528bb67e49",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1lvCazbcF9O1rW_OWvCMD8By8tbvfJsoH&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00194.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\194.dat",
+      "bytes": 8388608,
+      "sha256": "e23a18a5955668ba9a47c479ee04cb40dd99f73b4309b9413b21b35367ab8b1e",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00194.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\195.dat",
+      "bytes": 8388608,
+      "sha256": "68bb350c9ba9628c7073b608c51e7756e1f55fbfa65dad131610a1c3e87c8a0e",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1gNFuclVXrxXp0RevkHeyQNJTfquPxrXz&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00195.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\195.dat",
+      "bytes": 8388608,
+      "sha256": "a93e6ef671c83969e5f873d5283b88f1771000e271054725e4b1fcf73c831454",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00195.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\196.dat",
+      "bytes": 8388608,
+      "sha256": "09a57a827be7f2747919092918515eeee154149af809978810a27a8176880a7d",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1S56Hm1FczyjpEk7Gno-BcSnUxf5zsAQ0&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00196.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\196.dat",
+      "bytes": 8388608,
+      "sha256": "95925d8b3c0082d9931e17a95438fb1c5a4b7fe83d17004b8da6baee151c37c2",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00196.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\197.dat",
+      "bytes": 8388608,
+      "sha256": "750057c94cc7f0e9576f7845c00b005dddb7b83e59d1212c38bb1837f8e90921",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1qogmfvA9DiJmPUqapg4g2xaxuN1zO9qa&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00197.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\197.dat",
+      "bytes": 8388608,
+      "sha256": "4e38c49d687584408e9267a187551e3cb3ad69cb84aa80229ef8da9ddb0651af",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00197.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\198.dat",
+      "bytes": 8388608,
+      "sha256": "e1d0697d5cc6166872664ff5a5c7c844afc2a25e17e20e8a84b3e53778279a9e",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1Q3lkemS381-yaEqR5MSZ_aJJF5VKMQV9&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00198.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\198.dat",
+      "bytes": 8388608,
+      "sha256": "2acf03a53f78b9879d76b0fb2dca8be691d03dd0ed849455ff640711c46f735c",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00198.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\seis\\199.dat",
+      "bytes": 8388608,
+      "sha256": "84c36932debb31019d1afd1643d839fbe6194ffa3dbb15faaefc35a8bc09b837",
+      "acquisition": "original_google_drive_public_download",
+      "source_url": "https://drive.usercontent.google.com/download?id=1kAsT636JtBWxkIz7jvZQIU7E9UWIZxzh&export=download&authuser=0&confirm=t",
+      "mirror_member": "FaultSegV1/train/00199.npz",
+      "mirror_key": "seis"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\train\\fault\\199.dat",
+      "bytes": 8388608,
+      "sha256": "33a7c2313a0b64361d48e193d9d6d1cd9c15c33cd17f43d104a00a55fb455f37",
+      "acquisition": "original_google_drive_archive",
+      "source_url": "https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8",
+      "mirror_member": "FaultSegV1/train/00199.npz",
+      "mirror_key": "fault"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\0.dat",
+      "bytes": 8388608,
+      "sha256": "b0a190f83dca77a14261902b7170a7d105667c2871bf0f631c7c9c9637a7f290",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\1.dat",
+      "bytes": 8388608,
+      "sha256": "6b60ceb4ad45eb023987eabbcbd5f78084f732a33500a2189b188f9987555d36",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\10.dat",
+      "bytes": 8388608,
+      "sha256": "96d4a78a4351c02ae738d3aa2217805123a5409da49db37eb0411f838cc09032",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\11.dat",
+      "bytes": 8388608,
+      "sha256": "b26fb24c2d6172e3bf51e319a8f4edaf3b59972cd07bb657da3bf9697be9d743",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\12.dat",
+      "bytes": 8388608,
+      "sha256": "bdb50dedffdedb9fa02780a774f2a4c75dfd735635411a2dc852d72d81ffc48b",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\13.dat",
+      "bytes": 8388608,
+      "sha256": "10bebac68b28c82f68a63e8df6b2665510aa5a77385427b824dbfe81741e9d04",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\14.dat",
+      "bytes": 8388608,
+      "sha256": "06137f8d6472f604c232d66a1327fa9a327a7596a9204b4f08691a32deaa3b7e",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\15.dat",
+      "bytes": 8388608,
+      "sha256": "1114f144ad11b6f2b2ac1a7adc41f02cd72bffb310627afb0d5f487a53dcbddf",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\16.dat",
+      "bytes": 8388608,
+      "sha256": "ba312309c52fcafc333897a9a1fa5e05e61b6d05643b4f65ebedf7bfe12844f6",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\17.dat",
+      "bytes": 8388608,
+      "sha256": "8af844230a5b3e5b3deddd44b99a72e7f5925b22a37ae2fbb811d325c5cf3c88",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\18.dat",
+      "bytes": 8388608,
+      "sha256": "fbaec99f9c586de4fdfaedbe3f1792ba72dd6bc482554f4202e596951fdd8658",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\19.dat",
+      "bytes": 8388608,
+      "sha256": "bcfe5adf68d7d31bfbd0b600fe807de616bf188f43b4472d9e7c8431b414d20f",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\2.dat",
+      "bytes": 8388608,
+      "sha256": "bb66792859ad6a47e07b375cf362a43c3a1e99a2dc881e39ec17cb5f879b36f7",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\3.dat",
+      "bytes": 8388608,
+      "sha256": "7284b2db36121065bb7258273b7dc13c0357e00e59b32a1cf211507739238fe9",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\4.dat",
+      "bytes": 8388608,
+      "sha256": "5bd6a69cc0505266d0d1bad97d637d24bb2244c7c8051f4d0325feb4279823a2",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\5.dat",
+      "bytes": 8388608,
+      "sha256": "206d82eb2b992062977594da2c8e779babbadbe2bd3eb21e3a4b420b43b27920",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\6.dat",
+      "bytes": 8388608,
+      "sha256": "a894935bb88e5beed7c733331069e4d8125d3ef58b4c65b237c7462f43195669",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\7.dat",
+      "bytes": 8388608,
+      "sha256": "59b0bdcdbca13fdd932c4d6a898415261f422cb46b360b4e74cd8494da41fe28",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\8.dat",
+      "bytes": 8388608,
+      "sha256": "56966f988807f8bd7405296f782fe9ee66b6b0c2ba544ee744901ee0fa55bca0",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\9.dat",
+      "bytes": 8388608,
+      "sha256": "30d4d9bb6180ace4bfa5de1204e4bdf38b77b9581eb27aba6ccc3f5826813b92",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\0.dat",
+      "bytes": 8388608,
+      "sha256": "5cabbf8953a831b3db260d8a78a04f510cc570e5c5af4f27426d3edd83a24942",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\1.dat",
+      "bytes": 8388608,
+      "sha256": "5c3bb414d7b694ecd313cbbedbc9e3f213fcb9d995bfeb0bd6bf53c2afa781a3",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\10.dat",
+      "bytes": 8388608,
+      "sha256": "3e43f91c77fdd073a708d65552d0c5ab703817d785e29abc92ed79cde798f93a",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\11.dat",
+      "bytes": 8388608,
+      "sha256": "09f8116c9c865d9dac6aa1a7750795b98dda6b944a70189b9a858a7b65a731e3",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\12.dat",
+      "bytes": 8388608,
+      "sha256": "f32806fb53ab86c01cfb5de899b12a4b40bb47446d1992c5b2a86a12635a69e4",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\13.dat",
+      "bytes": 8388608,
+      "sha256": "fea709710be4d897cd16600110a87293162e811e5cfe96a7a1d2342da3fde58e",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\14.dat",
+      "bytes": 8388608,
+      "sha256": "0bb34bbae599d8d5b03680223bbfc677da0b4ef58e713aa3baaa03b8118ec6fd",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\15.dat",
+      "bytes": 8388608,
+      "sha256": "6f13666f68762d660e3168d4f387be8eecd90a9d46e53c1856577957745ea444",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\16.dat",
+      "bytes": 8388608,
+      "sha256": "4580c44f207c2345ef3558057ef0227ed6fb99b435d50abcb2d8b6c4228b79f1",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\17.dat",
+      "bytes": 8388608,
+      "sha256": "ed137c1c28104cd9a2f936f778dbed88efc95c8d9f0531d2f149ba5651bef0de",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\18.dat",
+      "bytes": 8388608,
+      "sha256": "190bfbc35e2eb8109d289ee55459b97b66d1b94b33b7c157e5e9b30661569966",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\19.dat",
+      "bytes": 8388608,
+      "sha256": "99205a7907f20a47212c690af625fc23906ad276c83f93c40c1c35f16a617899",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\2.dat",
+      "bytes": 8388608,
+      "sha256": "4b368e347a53b0c36255b1e0279c12c6b0d4d257c180436740eb06d70bb97b6b",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\3.dat",
+      "bytes": 8388608,
+      "sha256": "31672674502dd0252f6fea69e32970c75e85b36c93f13fc5fc76f595408ec04e",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\4.dat",
+      "bytes": 8388608,
+      "sha256": "8aa6f8a69493e661b9da01d424eb14043204dbb9fa8243422acc05cbe021f431",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\5.dat",
+      "bytes": 8388608,
+      "sha256": "aabdf8c8b89edebee1fd84a95b6c6ef034936e2885bfe91eb35fa12963434d20",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\6.dat",
+      "bytes": 8388608,
+      "sha256": "25a520148a2c3a8bb349f89dff25548e11fb634b1c99cbbd30705e44d947ea7a",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\7.dat",
+      "bytes": 8388608,
+      "sha256": "44552092c9cd726ca6ac8a951328369c0bde7c8be48106114709ca62ab6ba324",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\8.dat",
+      "bytes": 8388608,
+      "sha256": "67adff3a5f38519e3f50907051d5376cc4d2bf7cde04b95526d74581a8d6bc36",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    },
+    {
+      "relative_path": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\9.dat",
+      "bytes": 8388608,
+      "sha256": "74b15391e64543a726a594e5797cc992f054de2c075c2181fb38efc241b1f229",
+      "acquisition": "original_author_repository",
+      "source_url": "https://github.com/xinwucwp/faultSeg"
+    }
+  ],
+  "original_repository_validation_files_byte_compared": 40,
+  "validation_source": "Original author repository, original numbering preserved",
+  "mirror_validation_numbering_mapping": [
+    {
+      "original": "validation/fault/0.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\0.dat"
+    },
+    {
+      "original": "validation/fault/1.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\1.dat"
+    },
+    {
+      "original": "validation/fault/10.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\2.dat"
+    },
+    {
+      "original": "validation/fault/11.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\3.dat"
+    },
+    {
+      "original": "validation/fault/12.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\4.dat"
+    },
+    {
+      "original": "validation/fault/13.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\5.dat"
+    },
+    {
+      "original": "validation/fault/14.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\6.dat"
+    },
+    {
+      "original": "validation/fault/15.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\7.dat"
+    },
+    {
+      "original": "validation/fault/16.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\8.dat"
+    },
+    {
+      "original": "validation/fault/17.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\9.dat"
+    },
+    {
+      "original": "validation/fault/18.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\10.dat"
+    },
+    {
+      "original": "validation/fault/19.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\11.dat"
+    },
+    {
+      "original": "validation/fault/2.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\12.dat"
+    },
+    {
+      "original": "validation/fault/3.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\13.dat"
+    },
+    {
+      "original": "validation/fault/4.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\14.dat"
+    },
+    {
+      "original": "validation/fault/5.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\15.dat"
+    },
+    {
+      "original": "validation/fault/6.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\16.dat"
+    },
+    {
+      "original": "validation/fault/7.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\17.dat"
+    },
+    {
+      "original": "validation/fault/8.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\18.dat"
+    },
+    {
+      "original": "validation/fault/9.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\fault\\19.dat"
+    },
+    {
+      "original": "validation/seis/0.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\0.dat"
+    },
+    {
+      "original": "validation/seis/1.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\1.dat"
+    },
+    {
+      "original": "validation/seis/10.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\2.dat"
+    },
+    {
+      "original": "validation/seis/11.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\3.dat"
+    },
+    {
+      "original": "validation/seis/12.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\4.dat"
+    },
+    {
+      "original": "validation/seis/13.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\5.dat"
+    },
+    {
+      "original": "validation/seis/14.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\6.dat"
+    },
+    {
+      "original": "validation/seis/15.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\7.dat"
+    },
+    {
+      "original": "validation/seis/16.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\8.dat"
+    },
+    {
+      "original": "validation/seis/17.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\9.dat"
+    },
+    {
+      "original": "validation/seis/18.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\10.dat"
+    },
+    {
+      "original": "validation/seis/19.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\11.dat"
+    },
+    {
+      "original": "validation/seis/2.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\12.dat"
+    },
+    {
+      "original": "validation/seis/3.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\13.dat"
+    },
+    {
+      "original": "validation/seis/4.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\14.dat"
+    },
+    {
+      "original": "validation/seis/5.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\15.dat"
+    },
+    {
+      "original": "validation/seis/6.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\16.dat"
+    },
+    {
+      "original": "validation/seis/7.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\17.dat"
+    },
+    {
+      "original": "validation/seis/8.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\18.dat"
+    },
+    {
+      "original": "validation/seis/9.dat",
+      "previous_mirror_numbering": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\19.dat"
+    }
+  ],
+  "original_training_seismic_files_byte_compared": 200,
+  "original_training_fault_files_byte_compared": 200,
+  "generated_label_archive_removed_after_original_retrieval": true,
+  "data_source_status": "All 400 training arrays checked byte-for-byte against original Google Drive data; 40 original validation arrays extracted from author repository."
+}

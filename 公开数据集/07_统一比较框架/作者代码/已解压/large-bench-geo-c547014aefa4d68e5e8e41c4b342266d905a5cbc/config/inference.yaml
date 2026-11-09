@@ -1,0 +1,12 @@
+# training parameters
+model_path: "model_checkpoints/deeplab_best.pth"
+
+data_path: "/media/jorge/8aaba466-2f59-48b1-91fb-c8ea4cefb0e7/gukyeong/CBM_Data_Results/expert_cv_model/"
+
+save_path: "/media/jorge/8aaba466-2f59-48b1-91fb-c8ea4cefb0e7/gukyeong/CBM_Data_Results/Results/CRACKS/deeplab_best_eval_expert/"
+
+patch_size: 94
+
+dataset: "cracks-expert"
+
+

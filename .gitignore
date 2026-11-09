@@ -1,0 +1,72 @@
+# Local Python environments, caches and editor files
+.venv/
+.venv-server/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Download tools and temporary transfers
+待清理临时文件/
+*.part
+*.partial
+*.tmp
+
+# Compiled artifacts and captured console output in author repositories
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.pyd
+*.out
+
+# Original archives, seismic arrays and model weights stay local
+*.zip
+*.zip[0-9][0-9]
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.7z
+*.rar
+*.dat
+*.npy
+*.npz
+*.sgy
+*.segy
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.ckpt.*
+*.model
+*.pkl
+*.pickle
+*.onnx
+*.safetensors
+*.tfrecord
+*.tfrecords
+
+# Dataset payloads (including image datasets and CSV seismic sections)
+/公开数据集/01_FaultSeg3D/训练与验证数据/
+/公开数据集/02_Thebe/data/
+/公开数据集/03_CRACKS_F3_v2/原始压缩包/
+/公开数据集/05_DeepRGT/原始分卷/
+/公开数据集/06_FaultSegV3_CIG_Bench/原始压缩包/
+/公开数据集/02_Thebe/作者代码/已解压/CNNforFaultInterpretation-*/SFD-CNN-TL/data/
+/公开数据集/02_Thebe/作者代码/已解压/CNNforFaultInterpretation-*/SFD-CNN-TL/dataset/
+/公开数据集/02_Thebe/作者代码/已解压/CNNforFaultInterpretation-*/SFD-CNN-TL/output/
+/公开数据集/02_Thebe/作者代码/已解压/CNNforFaultInterpretation-*/py-bsds500/build/

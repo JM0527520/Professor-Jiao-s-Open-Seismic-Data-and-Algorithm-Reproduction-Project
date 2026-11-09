@@ -1,0 +1,27 @@
+.venv/
+.venv-server/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+cache/
+# Keep reviewable reports and figures; ignore generated arrays and checkpoints.
+outputs/*
+!outputs/*.md
+!outputs/audit/
+!outputs/predictions/
+!outputs/preparation/
+outputs/audit/*
+outputs/predictions/*
+outputs/preparation/*
+!outputs/audit/*.md
+!outputs/audit/*.json
+!outputs/audit/*.csv
+!outputs/audit/*.png
+!outputs/predictions/*.md
+!outputs/predictions/*.json
+!outputs/predictions/*.png
+!outputs/preparation/*.md
+!outputs/preparation/*.json
+!outputs/preparation/*.csv
+!outputs/preparation/*.png
+*.pyc

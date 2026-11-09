@@ -1,0 +1,44 @@
+{
+  "HorizonTracker": {
+    "seismic_volume": {
+      "shape": [
+        155,
+        100,
+        400
+      ],
+      "dtype": "float32",
+      "path": "04_HorizonTracker\\作者示例与代码\\已解压\\HorizonTracker-bf550594bd55d7741a0fcbfdef0e4ede2567d48b\\seismic_volume.npy"
+    },
+    "instPhase_volume": {
+      "shape": [
+        155,
+        100,
+        400
+      ],
+      "dtype": "float32",
+      "path": "04_HorizonTracker\\作者示例与代码\\已解压\\HorizonTracker-bf550594bd55d7741a0fcbfdef0e4ede2567d48b\\instPhase_volume.npy"
+    }
+  },
+  "FaultSeg3D": {
+    "train_seis": {
+      "files": 200,
+      "bytes_per_file": 8388608
+    },
+    "train_fault": {
+      "files": 200,
+      "bytes_per_file": 8388608
+    },
+    "validation_seis": {
+      "files": 20,
+      "bytes_per_file": 8388608
+    },
+    "validation_fault": {
+      "files": 20,
+      "bytes_per_file": 8388608
+    }
+  },
+  "CRACKS": {
+    "expert_png_files": 40,
+    "archive_crc_verified": true
+  }
+}

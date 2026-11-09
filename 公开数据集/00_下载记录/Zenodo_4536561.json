@@ -1,0 +1,623 @@
+{
+  "created": "2021-02-14T09:05:40.985940+00:00",
+  "modified": "2021-03-22T17:35:44.463393+00:00",
+  "id": 4536561,
+  "conceptrecid": "4536560",
+  "doi": "10.5281/zenodo.4536561",
+  "conceptdoi": "10.5281/zenodo.4536560",
+  "doi_url": "https://doi.org/10.5281/zenodo.4536561",
+  "metadata": {
+    "title": "Deep learning for simultaneously interpreting 3D seismic horizons and faults by estimating a relative geologic time volume",
+    "doi": "10.5281/zenodo.4536561",
+    "publication_date": "2021-02-11",
+    "description": "<p>To train our deep convolutional neural network for Relative Geologic Time (RGT) estimation and fault detection tasks, we automatically generate 400 pairs of synthetic training datasets including 3D seismic images and the corresponding label images (including RGT and fault volumes)&nbsp;with the ground truth of the geologic structures simulated in the seismic images.</p>\n\n<p>1) The &quot;seis.zip&quot; contains 400 3D seismic images and each image is with the dimension of 128X256X256; &nbsp;</p>\n\n<p>2) The &quot;rgt.zip&quot; contains 400 RGT volumes and each volume is with the same dimension of 128X256X256.</p>\n\n<p>3) The &quot;fault.zip&quot; contains 400 label&nbsp;images of the faults and each label image&nbsp;is with the same dimension of 128X256X256.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Bi Zhengfa",
+        "affiliation": "School of Earth and Space Sciences, University of Science and Technology of China"
+      },
+      {
+        "name": "Wu Xinming",
+        "affiliation": "School of Earth and Space Sciences, University of Science and Technology of China"
+      },
+      {
+        "name": "Geng Zhicheng",
+        "affiliation": "Bureau of Economic Geology, University of Texas at Austin"
+      },
+      {
+        "name": "Li Haishan",
+        "affiliation": "Research Institute of Petroleum Exploration and Development-Northwest (NWGI), PetroChina"
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": false,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "4536560"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Deep learning for simultaneously interpreting 3D seismic horizons and faults by estimating a relative geologic time volume",
+  "links": {
+    "self": "https://zenodo.org/api/records/4536561",
+    "self_html": "https://zenodo.org/records/4536561",
+    "preview_html": "https://zenodo.org/records/4536561?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.4536561",
+    "self_doi": "https://doi.org/10.5281/zenodo.4536561",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4536561",
+    "reserve_doi": "https://zenodo.org/api/records/4536561/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/4536560",
+    "parent_html": "https://zenodo.org/records/4536560",
+    "parent_doi": "https://doi.org/10.5281/zenodo.4536560",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4536560",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:4536561/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:4536561/sequence/default",
+    "files": "https://zenodo.org/api/records/4536561/files",
+    "media_files": "https://zenodo.org/api/records/4536561/media-files",
+    "latest": "https://zenodo.org/api/records/4536561/versions/latest",
+    "latest_html": "https://zenodo.org/records/4536561/latest",
+    "versions": "https://zenodo.org/api/records/4536561/versions",
+    "draft": "https://zenodo.org/api/records/4536561/draft",
+    "access_links": "https://zenodo.org/api/records/4536561/access/links",
+    "access_grants": "https://zenodo.org/api/records/4536561/access/grants",
+    "access_users": "https://zenodo.org/api/records/4536561/access/users",
+    "access_request": "https://zenodo.org/api/records/4536561/access/request",
+    "access": "https://zenodo.org/api/records/4536561/access",
+    "communities": "https://zenodo.org/api/records/4536561/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/4536561/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/4536561/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/4536561/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/4536561/quota-increase",
+    "requests": "https://zenodo.org/api/records/4536561/requests"
+  },
+  "updated": "2021-03-22T17:35:44.463393+00:00",
+  "recid": "4536561",
+  "revision": 3,
+  "files": [
+    {
+      "id": "ed138f02-a1da-4819-aa39-aa9fa24d6135",
+      "key": "rgt.zip15",
+      "size": 536870912,
+      "checksum": "md5:bb18fa14213f5ea39ad6f9e04c052578",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip15/content"
+      }
+    },
+    {
+      "id": "70e842f8-46a1-498c-8d40-4339966aeac3",
+      "key": "seis.zip06",
+      "size": 536870912,
+      "checksum": "md5:e79f02db34db72654396c4628559e3ee",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip06/content"
+      }
+    },
+    {
+      "id": "d5377056-0e10-48e2-9e5d-e990a7fee3e8",
+      "key": "seis.zip08",
+      "size": 536870912,
+      "checksum": "md5:f59fd595e9190678695c2a52289e3ea0",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip08/content"
+      }
+    },
+    {
+      "id": "5a9bde48-ded8-4804-ad33-9ae01edc3f31",
+      "key": "rgt.zip05",
+      "size": 536870912,
+      "checksum": "md5:30d098dd6382c8b8a2e2eae0d696b755",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip05/content"
+      }
+    },
+    {
+      "id": "d53d5354-2b66-43dc-b500-47bb92e04051",
+      "key": "seis.zip09",
+      "size": 536870912,
+      "checksum": "md5:8e79dcc7682d179922de9bbb8b3aee1e",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip09/content"
+      }
+    },
+    {
+      "id": "d50fcd90-a98e-4eba-a4b3-a4113deaf69a",
+      "key": "rgt.zip04",
+      "size": 536870912,
+      "checksum": "md5:c1f7b2bab16bbd7eac565fb4748bcf60",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip04/content"
+      }
+    },
+    {
+      "id": "9d733f5b-dfae-40ba-ac89-3faae2136b91",
+      "key": "rgt.zip07",
+      "size": 536870912,
+      "checksum": "md5:a58e3b78172259fa392878889964c5cf",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip07/content"
+      }
+    },
+    {
+      "id": "337e31ee-4964-40d9-9714-76087869eadf",
+      "key": "seis.zip10",
+      "size": 536870912,
+      "checksum": "md5:2cb7ce194374afd20be4ad4c72efaf30",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip10/content"
+      }
+    },
+    {
+      "id": "d49edfae-862c-4bd2-bcd0-5a39b43218f5",
+      "key": "seis.zip11",
+      "size": 536870912,
+      "checksum": "md5:09b86d765ee8f4dd219d533a48007225",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip11/content"
+      }
+    },
+    {
+      "id": "daf81c0b-b681-47bf-9db2-9174314ab403",
+      "key": "seis.zip05",
+      "size": 536870912,
+      "checksum": "md5:f0c55a995b87b14fd446208895b83d18",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip05/content"
+      }
+    },
+    {
+      "id": "41c5fdd9-4bd8-4e41-9d04-ac4de627b57d",
+      "key": "rgt.zip08",
+      "size": 536870912,
+      "checksum": "md5:ccec1c8310adb98ede65240ee973749f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip08/content"
+      }
+    },
+    {
+      "id": "87d8a4fd-67e7-4884-bb91-384a1cbd1399",
+      "key": "rgt.zip09",
+      "size": 536870912,
+      "checksum": "md5:bcc3e32f65886c78c15018d63a80d49f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip09/content"
+      }
+    },
+    {
+      "id": "ac9e78c9-69a0-4370-93ae-4b06f7a9a599",
+      "key": "seis.zip28",
+      "size": 497263797,
+      "checksum": "md5:d09dc3330b60503de3aadb3b4a33ee45",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip28/content"
+      }
+    },
+    {
+      "id": "b98c4dac-ec97-4c18-a320-cd29ba518145",
+      "key": "seis.zip04",
+      "size": 536870912,
+      "checksum": "md5:4357d98a5f37710d0117ecf881a18710",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip04/content"
+      }
+    },
+    {
+      "id": "fa27b59c-bf9f-4b43-93b8-068f90ba650b",
+      "key": "rgt.zip10",
+      "size": 536870912,
+      "checksum": "md5:1383c505c0c4923bb319bd5e121da5aa",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip10/content"
+      }
+    },
+    {
+      "id": "867d5cc0-82dd-4000-9d0b-d8f68cd6f562",
+      "key": "seis.zip27",
+      "size": 536870912,
+      "checksum": "md5:3ea4dadbe0462a7aed1076deae8b9e72",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip27/content"
+      }
+    },
+    {
+      "id": "f79d9373-4b5c-4dae-a972-ef6538600115",
+      "key": "seis.zip26",
+      "size": 536870912,
+      "checksum": "md5:ede1c76d8a4c93e051ec4ff42e3e6fa2",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip26/content"
+      }
+    },
+    {
+      "id": "1af7796b-2092-45e7-8cfa-09009e86be34",
+      "key": "seis.zip25",
+      "size": 536870912,
+      "checksum": "md5:477ef11435af92f748ac3a6f8864ebcb",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip25/content"
+      }
+    },
+    {
+      "id": "96021047-e50e-44fe-b30d-1495b9755514",
+      "key": "seis.zip03",
+      "size": 536870912,
+      "checksum": "md5:00b7f327c72102fefb4f070f9b5ac9d0",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip03/content"
+      }
+    },
+    {
+      "id": "33efb5cd-f53f-44b1-89fa-73c1af637c28",
+      "key": "rgt.zip03",
+      "size": 536870912,
+      "checksum": "md5:db3ec789030764da3062345f7a073114",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip03/content"
+      }
+    },
+    {
+      "id": "e37f85fc-b578-4824-a748-b7e9ed460ded",
+      "key": "seis.zip07",
+      "size": 536870912,
+      "checksum": "md5:66fdbfbe6ecbf14c2ee4b5a8aad4d4b3",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip07/content"
+      }
+    },
+    {
+      "id": "f59eda64-521c-406f-9528-3ac8a7b6da6d",
+      "key": "seis.zip02",
+      "size": 536870912,
+      "checksum": "md5:317da75551078402e999a9213aaf636e",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip02/content"
+      }
+    },
+    {
+      "id": "0e90288d-47ba-4174-adc9-2ef6b810473a",
+      "key": "seis.zip01",
+      "size": 536870912,
+      "checksum": "md5:257411804e3363444ef19c104f45d764",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip01/content"
+      }
+    },
+    {
+      "id": "68f5f841-6734-4532-a442-985d9bee42bf",
+      "key": "rgt.zip11",
+      "size": 536870912,
+      "checksum": "md5:f32ea73bf2d38dd9cf2fc8c25eb42b96",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip11/content"
+      }
+    },
+    {
+      "id": "1504ada6-5f68-4232-87bd-dd5125dd8f15",
+      "key": "seis.zip00",
+      "size": 536870912,
+      "checksum": "md5:bcddf6822f8738939cb70b7fd6c21d2b",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip00/content"
+      }
+    },
+    {
+      "id": "6c1b5f38-bf30-40bb-88fc-93adbf609b9f",
+      "key": "rgt.zip26",
+      "size": 15986383,
+      "checksum": "md5:b54ed50f45aaf3537539deb13149e7b8",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip26/content"
+      }
+    },
+    {
+      "id": "04f43c15-0890-4d19-a470-1b45f1958cbc",
+      "key": "rgt.zip25",
+      "size": 536870912,
+      "checksum": "md5:0332b3391189bb6b07312740fe92ba98",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip25/content"
+      }
+    },
+    {
+      "id": "6920ed90-c4d4-4821-b20e-9ff92906447a",
+      "key": "rgt.zip24",
+      "size": 536870912,
+      "checksum": "md5:a3638482156c14d42f4197bd8d57fc72",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip24/content"
+      }
+    },
+    {
+      "id": "3160bdd3-0b22-4490-bbc9-91cb3a1c5703",
+      "key": "rgt.zip06",
+      "size": 536870912,
+      "checksum": "md5:19ddbcda1622028b781ac810c951aa1c",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip06/content"
+      }
+    },
+    {
+      "id": "1df74a35-74ec-4da9-8563-61b560151af2",
+      "key": "seis.zip12",
+      "size": 536870912,
+      "checksum": "md5:2201967a1a1d4e7fe4a5a35f1b659c98",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip12/content"
+      }
+    },
+    {
+      "id": "3ba91640-b25a-475e-8d44-16d7175e7b47",
+      "key": "rgt.zip12",
+      "size": 536870912,
+      "checksum": "md5:bf3b540fc64ecffda2fe5a5453742794",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip12/content"
+      }
+    },
+    {
+      "id": "e24b3ef8-1291-4f04-b48d-8ce0315b1ff8",
+      "key": "rgt.zip13",
+      "size": 536870912,
+      "checksum": "md5:128e1413b997f916919b5250afe8f101",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip13/content"
+      }
+    },
+    {
+      "id": "9ea8bfb0-7166-40ca-aca3-4e9163da74ac",
+      "key": "seis.zip24",
+      "size": 536870912,
+      "checksum": "md5:55fd1e950e6eae5712b8aa1ed6fa1129",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip24/content"
+      }
+    },
+    {
+      "id": "3828d58b-d6a8-478a-9abc-f85a94d19921",
+      "key": "seis.zip23",
+      "size": 536870912,
+      "checksum": "md5:001366c9b5fcba821233c8e93bc30dac",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip23/content"
+      }
+    },
+    {
+      "id": "f77df199-5e08-436e-8951-400d07f4fbb7",
+      "key": "rgt.zip02",
+      "size": 536870912,
+      "checksum": "md5:949998b30a42eb2987b07ef16835caf1",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip02/content"
+      }
+    },
+    {
+      "id": "295f69ca-0932-4425-ae1a-906e7d999a41",
+      "key": "rgt.zip01",
+      "size": 536870912,
+      "checksum": "md5:236d38f8f475171f49fc2672b39afbd2",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip01/content"
+      }
+    },
+    {
+      "id": "98d6b52c-5cd0-41a2-a59e-a8f93ae47c48",
+      "key": "rgt.zip00",
+      "size": 536870912,
+      "checksum": "md5:9e3d9416de13e4e2f9c4b7e9876e2abd",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip00/content"
+      }
+    },
+    {
+      "id": "af38ad23-3c9e-49e6-9c91-fe5fc8ab4506",
+      "key": "fault.zip",
+      "size": 50718101,
+      "checksum": "md5:d53f3512ddd2b55baa8b26dc774c6084",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/fault.zip/content"
+      }
+    },
+    {
+      "id": "f73139a1-a0ce-43cd-8e51-12f13259bf07",
+      "key": "seis.zip13",
+      "size": 536870912,
+      "checksum": "md5:9b1398c81f364d61e8b61905b5a436a4",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip13/content"
+      }
+    },
+    {
+      "id": "5fc54cd9-51f3-4fa9-ae99-6662b019ea03",
+      "key": "seis.zip14",
+      "size": 536870912,
+      "checksum": "md5:cbb05928b1d1cb7507fc462a8ee04d21",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip14/content"
+      }
+    },
+    {
+      "id": "853c6b4b-6340-443f-9777-01ff36be3332",
+      "key": "seis.zip15",
+      "size": 536870912,
+      "checksum": "md5:eee2c174a188e676a4e861be0cb42cee",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip15/content"
+      }
+    },
+    {
+      "id": "e4957ad8-390b-4466-afee-9f9e2051a371",
+      "key": "seis.zip16",
+      "size": 536870912,
+      "checksum": "md5:0b8374d0735fab9a753944a561cad36e",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip16/content"
+      }
+    },
+    {
+      "id": "7c76384a-289a-40b3-9f15-7a4ea1761697",
+      "key": "rgt.zip23",
+      "size": 536870912,
+      "checksum": "md5:5ec40d57c2c65a7490af29fa7b4eec6c",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip23/content"
+      }
+    },
+    {
+      "id": "fde27092-8927-4e29-aa59-0f3aa47780c3",
+      "key": "rgt.zip22",
+      "size": 536870912,
+      "checksum": "md5:5770208a7846e13bb06ff27422a86b76",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip22/content"
+      }
+    },
+    {
+      "id": "41977406-9068-4e72-9e40-9843199e7880",
+      "key": "seis.zip22",
+      "size": 536870912,
+      "checksum": "md5:6972eccfe77ba732b003cfb1aada7c0e",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip22/content"
+      }
+    },
+    {
+      "id": "f436e4a2-bf71-4da2-9497-f1ff6a8e3f1f",
+      "key": "seis.zip21",
+      "size": 536870912,
+      "checksum": "md5:42ccd897fd7d20130054698e8ab51781",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip21/content"
+      }
+    },
+    {
+      "id": "bf0917a6-46fd-4a69-b63b-3f7afdc1a882",
+      "key": "seis.zip20",
+      "size": 536870912,
+      "checksum": "md5:f99226552854fc0ea69978ae4e1f7e9d",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip20/content"
+      }
+    },
+    {
+      "id": "41918b81-154f-41cf-8a43-b1943fc325e7",
+      "key": "rgt.zip21",
+      "size": 536870912,
+      "checksum": "md5:54a886cebf9a12e312990877e0cab89d",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip21/content"
+      }
+    },
+    {
+      "id": "fa3933df-0cad-4f24-862a-0a16ab588eeb",
+      "key": "seis.zip19",
+      "size": 536870912,
+      "checksum": "md5:9285b3645eb5464592d4396d287373da",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip19/content"
+      }
+    },
+    {
+      "id": "1f07fa5d-5985-428d-94a5-20c44d9754da",
+      "key": "seis.zip18",
+      "size": 536870912,
+      "checksum": "md5:9e50a559b55f610801dc714aba7b44d4",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip18/content"
+      }
+    },
+    {
+      "id": "0de00eb1-5e36-47f6-860b-c08f7462f473",
+      "key": "rgt.zip20",
+      "size": 536870912,
+      "checksum": "md5:74c33ba37fb5a197ec38f67f42f19353",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip20/content"
+      }
+    },
+    {
+      "id": "1c98cf5c-0c6e-40f4-b96d-061ae2acb8b9",
+      "key": "rgt.zip19",
+      "size": 536870912,
+      "checksum": "md5:1e8d633909d4699ab2029c5fc3f5893c",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip19/content"
+      }
+    },
+    {
+      "id": "de5e473f-a5e1-4f26-858d-b7b173621d2f",
+      "key": "rgt.zip18",
+      "size": 536870912,
+      "checksum": "md5:cc940bad223cf941ad72dbf352774397",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip18/content"
+      }
+    },
+    {
+      "id": "033edf74-7d45-489a-8447-c7b96ac1e49e",
+      "key": "seis.zip17",
+      "size": 536870912,
+      "checksum": "md5:3f7a246a729750d1775f65dffd0b91cb",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/seis.zip17/content"
+      }
+    },
+    {
+      "id": "d7132914-2c8b-438b-a82b-f15f68d6a941",
+      "key": "rgt.zip14",
+      "size": 536870912,
+      "checksum": "md5:a9ea8e866bb8e6ce7a650a4091b998d4",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip14/content"
+      }
+    },
+    {
+      "id": "06c8fce0-f9c9-4933-934e-2d6b2bb8d1df",
+      "key": "rgt.zip17",
+      "size": 536870912,
+      "checksum": "md5:707a2336715def0ea686cf40a257435f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip17/content"
+      }
+    },
+    {
+      "id": "abe0b84d-867f-4b00-8ced-97814a6d5387",
+      "key": "rgt.zip16",
+      "size": 536870912,
+      "checksum": "md5:283baaeff58110193789eebac8c9e11b",
+      "links": {
+        "self": "https://zenodo.org/api/records/4536561/files/rgt.zip16/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "196287"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 38730,
+    "unique_downloads": 27162,
+    "views": 3577,
+    "unique_views": 3077,
+    "version_downloads": 20753,
+    "version_unique_downloads": 14851,
+    "version_unique_views": 1825,
+    "version_views": 2111
+  },
+  "state": "done",
+  "submitted": true
+}

@@ -1,0 +1,101 @@
+{
+  "sha": "0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe",
+  "node_id": "C_kwDOCcoQR9oAKDBhYjhiYTFjMTBjYjllNTc0OGIwMTI5YmZlMWEyZmUzMDMxYjgwZmU",
+  "commit": {
+    "author": {
+      "name": "Xinming Wu",
+      "email": "xinwucwp@gmail.com",
+      "date": "2021-11-29T03:48:24Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2021-11-29T03:48:24Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "3ddf1ae053fbe1fa3ea8abad24b97dde424b3cdc",
+      "url": "https://api.github.com/repos/xinwucwp/faultSeg/git/trees/3ddf1ae053fbe1fa3ea8abad24b97dde424b3cdc"
+    },
+    "url": "https://api.github.com/repos/xinwucwp/faultSeg/git/commits/0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhpE2ICRBK7hj4Ov3rIwAADvAIAC3ac8/ku4YKfVBpPtJ+gSkB\nRgQvo7xYgZTHNrr8smPzPP/h+L2SLYJL8lS8uH7nrEd8TOosZkoaJlVq9f4pqIEy\nbUHn/i8H0yvj7wbttBf3aZJMGJN0WzrP9YdkbPkl2/ZxjUO7eypUfJ9Cva5neEyX\nvGTceQyi1eweunU3vc2JzJ5lGnaKwo2vVcjohqsDJw0R3cCkJWvjR0Q1LskLTxnG\naZjZESYunbtX9NZb5NTHWFAeqB3pKL+GkLSSrV189gXGzwVpol9B0cwyvF3j6FE8\nRYF309JPth9pZ1VPTwEsCJ5usgBzkvbHcuyLOLXsMPgMNNzH/DPJ05J4YTZsQoE=\n=DoeW\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 3ddf1ae053fbe1fa3ea8abad24b97dde424b3cdc\nparent 0882dcd81648b209b0db5837f67b3fd83caf7ca8\nauthor Xinming Wu <xinwucwp@gmail.com> 1638157704 +0800\ncommitter GitHub <noreply@github.com> 1638157704 +0800\n\nUpdate README.md",
+      "verified_at": "2024-01-16T19:59:59Z"
+    }
+  },
+  "url": "https://api.github.com/repos/xinwucwp/faultSeg/commits/0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe",
+  "html_url": "https://github.com/xinwucwp/faultSeg/commit/0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe",
+  "comments_url": "https://api.github.com/repos/xinwucwp/faultSeg/commits/0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe/comments",
+  "author": {
+    "login": "xinwucwp",
+    "id": 6910523,
+    "node_id": "MDQ6VXNlcjY5MTA1MjM=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6910523?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xinwucwp",
+    "html_url": "https://github.com/xinwucwp",
+    "followers_url": "https://api.github.com/users/xinwucwp/followers",
+    "following_url": "https://api.github.com/users/xinwucwp/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xinwucwp/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xinwucwp/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xinwucwp/subscriptions",
+    "organizations_url": "https://api.github.com/users/xinwucwp/orgs",
+    "repos_url": "https://api.github.com/users/xinwucwp/repos",
+    "events_url": "https://api.github.com/users/xinwucwp/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xinwucwp/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "0882dcd81648b209b0db5837f67b3fd83caf7ca8",
+      "url": "https://api.github.com/repos/xinwucwp/faultSeg/commits/0882dcd81648b209b0db5837f67b3fd83caf7ca8",
+      "html_url": "https://github.com/xinwucwp/faultSeg/commit/0882dcd81648b209b0db5837f67b3fd83caf7ca8"
+    }
+  ],
+  "stats": {
+    "total": 3,
+    "additions": 1,
+    "deletions": 2
+  },
+  "files": [
+    {
+      "sha": "b96191efbb6078bd32c50f4973a2d24861d5b0d2",
+      "filename": "data/prediction/f3d/README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "changes": 3,
+      "blob_url": "https://github.com/xinwucwp/faultSeg/blob/0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe/data%2Fprediction%2Ff3d%2FREADME.md",
+      "raw_url": "https://github.com/xinwucwp/faultSeg/raw/0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe/data%2Fprediction%2Ff3d%2FREADME.md",
+      "contents_url": "https://api.github.com/repos/xinwucwp/faultSeg/contents/data%2Fprediction%2Ff3d%2FREADME.md?ref=0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe",
+      "patch": "@@ -1,7 +1,6 @@\n-please download the seismic volume \"gxl.dat\" (subset of F3 block) from \n+please download the seismic volume \"gxl.dat\" (subset of F3 block) and the corresponding fault prediction \"fpx.dat\" from \n https://drive.google.com/drive/folders/1aw_f29yXloAeLclOvIshfuBukaOVQAJ1\n \n-a fault result \"fpx.dat\" predicted from \"gxl.dat\" by using our trained network is provided for reference.\n Below is the image of the prediction result by using our latest CNN model\n \n ![f3d](https://user-images.githubusercontent.com/6910523/143805483-039f19fe-e60c-4581-b8f5-6216eb1f270c.png)"
+    }
+  ]
+}

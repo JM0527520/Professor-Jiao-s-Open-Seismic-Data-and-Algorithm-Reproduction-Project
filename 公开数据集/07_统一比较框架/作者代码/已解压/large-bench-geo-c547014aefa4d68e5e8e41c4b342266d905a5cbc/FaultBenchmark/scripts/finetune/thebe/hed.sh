@@ -1,0 +1,1 @@
+python3 finetuning.py --modelName hed  --isPretrain  faultSegft --targetData  thebe  --data_folder /data/chen/datasets/Thebe/train/ 

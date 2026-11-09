@@ -1,0 +1,44 @@
+{
+  "dataset": "FaultSeg3D",
+  "split": "validation",
+  "id": 1,
+  "normalization": {
+    "mean": -0.002393092028796673,
+    "std": 1.044754147529602,
+    "constant": false
+  },
+  "elapsed_seconds": 1.535,
+  "tiles": 1,
+  "source": "01_FaultSeg3D\\训练与验证数据\\validation\\seis\\1.dat",
+  "shape_model": [
+    128,
+    128,
+    128
+  ],
+  "shape_raw": [
+    128,
+    128,
+    128
+  ],
+  "probability_min": 6.664327835241568e-14,
+  "probability_max": 0.9999080300331116,
+  "raw_to_model": "transpose(2,1,0)",
+  "offsets_model": [
+    0,
+    0,
+    0
+  ],
+  "probability_sha256": "4806655e0f42d262f12cddbefef409b0ae408f060730f083a508844fceba4e1f",
+  "reference_overlap": {
+    "threshold": 0.5,
+    "tp": 122510,
+    "fp_vs_supplied_reference": 67107,
+    "fn": 2974,
+    "tn_vs_supplied_reference": 1904561,
+    "dice_vs_supplied_reference": 0.7775919467091504,
+    "precision_vs_supplied_reference": 0.6460918588523181,
+    "recall_vs_supplied_reference": 0.9762997673010105,
+    "support_voxels": 2097152,
+    "usage": "pipeline verification only; no threshold search or checkpoint selection"
+  }
+}

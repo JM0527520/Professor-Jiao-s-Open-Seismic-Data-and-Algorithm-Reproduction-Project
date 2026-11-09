@@ -1,0 +1,1 @@
+python3 finetuning.py --modelName deeplab  --isPretrain  thebeft --targetData faultSeg  --data_folder   /mnt/HD_18T_pt1/chen/Datasets/FaultSeg3D --freeze_module backbone

@@ -1,0 +1,28 @@
+{
+  "version": "2026-11-09-v1",
+  "thresholds": [0.0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1.0],
+  "display_threshold": 0.5,
+  "test_locked": true,
+  "synthetic": {
+    "train_ids": [0, 200],
+    "validation_ids": [0, 20],
+    "annotation": "complete_binary_reference",
+    "evaluation_support": "all_voxels"
+  },
+  "thebe": {
+    "train_sections": [0, 900],
+    "validation_sections": [900, 1100],
+    "test_sections": [1100, 1803],
+    "amplitude_support": "first_to_last_nonzero_sample_per_raw_trace_including_interior_zeros",
+    "positive": "supplied_positive_label_inside_amplitude_support",
+    "negative": "only_inside_separately_confirmed_complete_annotation_mask",
+    "unknown": "zero_reference_without_confirmed_complete_annotation",
+    "invalid": "outside_amplitude_support_including_any_supplied_positive",
+    "anomaly_action": "preserve_source_label_exclude_from_supervision_and_evaluation_record_coordinates",
+    "supervised_training_enabled": false,
+    "complete_annotation_mask": null,
+    "primary_outputs": ["supplied_positive_coverage", "response_fraction_in_amplitude_support", "invalid_positive_count"],
+    "closed_world_scores_are_field_accuracy": false,
+    "label_density_roi_allowed_for_baseline": false
+  }
+}

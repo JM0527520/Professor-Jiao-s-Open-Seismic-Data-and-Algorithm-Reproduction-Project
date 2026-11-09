@@ -1,0 +1,1110 @@
+训练与验证数据: 243 files discovered
+OK 训练与验证数据/1.dat 8388608
+OK 训练与验证数据/0.dat 8388608
+OK 训练与验证数据/100.dat 8388608
+OK 训练与验证数据/10.dat 8388608
+OK 训练与验证数据/101.dat 8388608
+OK 训练与验证数据/102.dat 8388608
+OK 训练与验证数据/103.dat 8388608
+OK 训练与验证数据/104.dat 8388608
+OK 训练与验证数据/fpx.dat 100663296
+OK 训练与验证数据/gxl.dat 100663296
+OK 训练与验证数据/106.dat 8388608
+OK 训练与验证数据/105.dat 8388608
+OK 训练与验证数据/107.dat 8388608
+OK 训练与验证数据/108.dat 8388608
+OK 训练与验证数据/11.dat 8388608
+OK 训练与验证数据/109.dat 8388608
+OK 训练与验证数据/110.dat 8388608
+OK 训练与验证数据/111.dat 8388608
+OK 训练与验证数据/112.dat 8388608
+OK 训练与验证数据/113.dat 8388608
+OK 训练与验证数据/114.dat 8388608
+OK 训练与验证数据/115.dat 8388608
+OK 训练与验证数据/117.dat 8388608
+OK 训练与验证数据/116.dat 8388608
+OK 训练与验证数据/118.dat 8388608
+OK 训练与验证数据/119.dat 8388608
+OK 训练与验证数据/12.dat 8388608
+OK 训练与验证数据/120.dat 8388608
+OK 训练与验证数据/121.dat 8388608
+OK 训练与验证数据/122.dat 8388608
+OK 训练与验证数据/123.dat 8388608
+OK 训练与验证数据/124.dat 8388608
+OK 训练与验证数据/125.dat 8388608
+OK 训练与验证数据/126.dat 8388608
+OK 训练与验证数据/127.dat 8388608
+OK 训练与验证数据/128.dat 8388608
+OK 训练与验证数据/129.dat 8388608
+OK 训练与验证数据/13.dat 8388608
+OK 训练与验证数据/130.dat 8388608
+OK 训练与验证数据/131.dat 8388608
+OK 训练与验证数据/132.dat 8388608
+OK 训练与验证数据/133.dat 8388608
+OK 训练与验证数据/134.dat 8388608
+OK 训练与验证数据/135.dat 8388608
+FAILED 136.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=15vgY4q45beH7LTo8xGryJM3WScnbnY1r
+
+but Gdown can't. Please check connections and permissions.
+FAILED 138.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=12XCI7F1UK4b66mb-pGxo3JvzZLr2dr7F
+
+but Gdown can't. Please check connections and permissions.
+FAILED 137.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1LDA02eWv1NP1fczUHcMmHk5X0thbN9QR
+
+but Gdown can't. Please check connections and permissions.
+FAILED 139.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1VKEWt8MRIMY_dae46IfTblmNnyE9Rgyc
+
+but Gdown can't. Please check connections and permissions.
+FAILED 140.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=18aluw03cjj2usKSvlAuSeXsojzC34nc9
+
+but Gdown can't. Please check connections and permissions.
+FAILED 14.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=17zwlid0I6KjAgc8L8tXrnNgiIiy3RJok
+
+but Gdown can't. Please check connections and permissions.
+FAILED 141.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1XuCZKP0qED5168PwtCJ20RM3QlSQeqgR
+
+but Gdown can't. Please check connections and permissions.
+OK 训练与验证数据/145.dat 8388608
+FAILED 143.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1_4nol6VjsCrkHHJZiYLZFBFdzUjPz0me
+
+but Gdown can't. Please check connections and permissions.
+FAILED 142.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=14b592ubY80Yfjvpf1sXUAj49j0izYGpq
+
+but Gdown can't. Please check connections and permissions.
+FAILED 144.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1f5KlxIQMQEPIpNgW5_mJKD9IjQavW34q
+
+but Gdown can't. Please check connections and permissions.
+FAILED 146.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1WX8pCwDHG8MJYQfddhM4D2miRBIo7ORS
+
+but Gdown can't. Please check connections and permissions.
+FAILED 148.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1O3htFpGAlow2AzWlKDbNXy6Omyk6TLkD
+
+but Gdown can't. Please check connections and permissions.
+FAILED 147.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1gJD7fSMr35MFEFJzxoWPEVjCxNq5knXT
+
+but Gdown can't. Please check connections and permissions.
+FAILED 149.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=19Ji3lxyl_nZf5biDuMr4YEB9QTRy98Tf
+
+but Gdown can't. Please check connections and permissions.
+FAILED 15.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1edmkeXmHrQ23nyp8Jty6MH2xT0qF0qM6
+
+but Gdown can't. Please check connections and permissions.
+FAILED 151.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1m8upDArmWPxqS0Vjh-uQBpMGBb_utipe
+
+but Gdown can't. Please check connections and permissions.
+FAILED 150.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1YvKQszLrjtoNgmaC18KOkK4geT0EdLCP
+
+but Gdown can't. Please check connections and permissions.
+FAILED 152.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=19g2qHuR87AZpJ6syzAHzBESZP0GHMj5V
+
+but Gdown can't. Please check connections and permissions.
+FAILED 153.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=15TDRNajbF8EG58WHQVs7WYC1_44LTTdV
+
+but Gdown can't. Please check connections and permissions.
+FAILED 155.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1AqQb640nBGWK3CIOYLj7YgyCGNSXx7xw
+
+but Gdown can't. Please check connections and permissions.
+FAILED 154.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1erd_LT2E-S4Z9FfetBPVj1GfZrBiqfu_
+
+but Gdown can't. Please check connections and permissions.
+FAILED 156.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1rdCWTnRcnAqwasZJm0SOr3hqpQ4RkZgh
+
+but Gdown can't. Please check connections and permissions.
+FAILED 157.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1lcAHProPRuF9w3Mw-2cJ9cPhcU6bltu9
+
+but Gdown can't. Please check connections and permissions.
+FAILED 158.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=16dpPos04n8Hg_n4wvn7_Ax0M7luGseOI
+
+but Gdown can't. Please check connections and permissions.
+FAILED 159.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1vFQSyL-bLG9hIGBjhXwhDJkg-sUzG04I
+
+but Gdown can't. Please check connections and permissions.
+FAILED 160.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1ahNRXtuaiITPnP0YoO41Q4IVrSB8OsVJ
+
+but Gdown can't. Please check connections and permissions.
+FAILED 16.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1Vo0HFmCDVnDQ1eawEdabJNM1QL9_PNeq
+
+but Gdown can't. Please check connections and permissions.
+FAILED 161.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1PrwljezyRhRZb2X-GYs5KaTVxOy-GvUV
+
+but Gdown can't. Please check connections and permissions.
+FAILED 162.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1-RVH98bCSOsvTr4nMf7N6mVvybNsp-Dc
+
+but Gdown can't. Please check connections and permissions.
+FAILED 163.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1Pz3VWe9fss2q6OsWnbEzEIbwrWgnnnVB
+
+but Gdown can't. Please check connections and permissions.
+FAILED 164.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1sVT8I5HHtln74M5nAYT_aQNL5FZ5feLX
+
+but Gdown can't. Please check connections and permissions.
+FAILED 165.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1FUVq4TvieAydE0SlCgn8W3wNtYGSR5Jp
+
+but Gdown can't. Please check connections and permissions.
+FAILED 166.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1YXLXC4PMGVErsXyD76lqXAPPN7H1MWHm
+
+but Gdown can't. Please check connections and permissions.
+FAILED 167.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1Fvgcx2pLRnj5QBxMq2Vne8yckOvrthRi
+
+but Gdown can't. Please check connections and permissions.
+FAILED 168.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=14VPuoP2Y6HxfDuOjThrsjrJircjL4TkT
+
+but Gdown can't. Please check connections and permissions.
+FAILED 169.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1qP1-2OUs2F_9n0FDGrKlq2oT2m1MMoSD
+
+but Gdown can't. Please check connections and permissions.
+FAILED 17.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1wVUW2zwucQjAPh43ZT3CCMl96ByUolzC
+
+but Gdown can't. Please check connections and permissions.
+FAILED 170.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1Oo2SRL4UO--XJkMtrMbHImR2BvdmsTJF
+
+but Gdown can't. Please check connections and permissions.
+FAILED 171.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1wb_I751b5-WR5T7hwn9CTJ69-ZXGBH6Y
+
+but Gdown can't. Please check connections and permissions.
+FAILED 172.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1sOa7p1ZXsd9c7_L9jxqWc-b3ath_CPuQ
+
+but Gdown can't. Please check connections and permissions.
+FAILED 175.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=17piPzm4NY11ja-vpZfK0i9FJCD4Q2J4r
+
+but Gdown can't. Please check connections and permissions.
+FAILED 174.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1HZEDzHb4UwZfgigePunARmnnCpSNUaDu
+
+but Gdown can't. Please check connections and permissions.
+FAILED 173.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1OX7B94DCAAUQbgY9Idmb1bfRUihP7XBu
+
+but Gdown can't. Please check connections and permissions.
+FAILED 176.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1wdhf6uUywbDNkVQRsnbpMVh7wTaVobgs
+
+but Gdown can't. Please check connections and permissions.
+FAILED 178.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1HwgYHbq7C_6Y2ESrOWuzYw052CC0Wmko
+
+but Gdown can't. Please check connections and permissions.
+FAILED 177.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1wzYbIsPbhMMEy1gw6yiDziMMvCEUXZXd
+
+but Gdown can't. Please check connections and permissions.
+FAILED 179.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1doSRkPkTROyzFzR8RGWeL3352qJy9znj
+
+but Gdown can't. Please check connections and permissions.
+FAILED 18.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1ZW5y3l8chmKmmli8BzmQqlqD3w9pvjKg
+
+but Gdown can't. Please check connections and permissions.
+FAILED 180.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1obfZNLMe_vmEy-28oy6KKIWy7_LgYMcs
+
+but Gdown can't. Please check connections and permissions.
+OK 训练与验证数据/183.dat 8388608
+FAILED 182.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1w-zzLLH8xGyi2fYZRSK-4Bywdl3k0K3e
+
+but Gdown can't. Please check connections and permissions.
+FAILED 181.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1qxT2S-o1SNS4OGMwHfkFRo5sdySsZDYm
+
+but Gdown can't. Please check connections and permissions.
+FAILED 184.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=17_ZPfOclF6n8r1wyzSRHvGZilsAvopsl
+
+but Gdown can't. Please check connections and permissions.
+FAILED 185.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1cO9-3gFp0MBAxqGTOfgYkn5z97IGu3l6
+
+but Gdown can't. Please check connections and permissions.
+OK 训练与验证数据/188.dat 8388608
+FAILED 187.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1WI-9YZW50YGIS7p2PRPRZ7DOP1FWtEPm
+
+but Gdown can't. Please check connections and permissions.
+FAILED 186.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1iLK3IYjp3AkkjfkDFEaul5mTRyBsxBDv
+
+but Gdown can't. Please check connections and permissions.
+OK 训练与验证数据/190.dat 8388608
+FAILED 19.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1NmzYF6BkJ5OQ57kz3pLQHsmZofKvZeSw
+
+but Gdown can't. Please check connections and permissions.
+FAILED 189.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1PlAaSx62Ocs_4YeKC0Mzlxuer7rHtiw-
+
+but Gdown can't. Please check connections and permissions.
+FAILED 192.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1NJPX6UFfER6e3tSZk6cexFsYffpM9Tah
+
+but Gdown can't. Please check connections and permissions.
+FAILED 194.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1lvCazbcF9O1rW_OWvCMD8By8tbvfJsoH
+
+but Gdown can't. Please check connections and permissions.
+FAILED 191.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1ecZewC1k8ObY8wG3HtAhm7GXtLvd8UpT
+
+but Gdown can't. Please check connections and permissions.
+FAILED 193.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1sesa26rtx2Tqn5zG9ySpiWqWshyicrkw
+
+but Gdown can't. Please check connections and permissions.
+FAILED 195.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1gNFuclVXrxXp0RevkHeyQNJTfquPxrXz
+
+but Gdown can't. Please check connections and permissions.
+FAILED 196.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1S56Hm1FczyjpEk7Gno-BcSnUxf5zsAQ0
+
+but Gdown can't. Please check connections and permissions.
+FAILED 197.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1qogmfvA9DiJmPUqapg4g2xaxuN1zO9qa
+
+but Gdown can't. Please check connections and permissions.
+FAILED 198.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1Q3lkemS381-yaEqR5MSZ_aJJF5VKMQV9
+
+but Gdown can't. Please check connections and permissions.
+OK 训练与验证数据/2.dat 8388608
+FAILED 20.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1nna_KcuCAAHUuGyaTWGtscM7cxM9zQXa
+
+but Gdown can't. Please check connections and permissions.
+FAILED 199.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1kAsT636JtBWxkIz7jvZQIU7E9UWIZxzh
+
+but Gdown can't. Please check connections and permissions.
+FAILED 21.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1HvGFkxi65WIbPp_i1VaBixDiVPBdOt32
+
+but Gdown can't. Please check connections and permissions.
+OK 训练与验证数据/24.dat 8388608
+FAILED 22.dat: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1F5XdnDC9vJpe5qdi6wlEMwBcscGXmUD0
+
+but Gdown can't. Please check connections and permissions.
+训练与验证数据: 243 files discovered
+OK 训练与验证数据/0.dat 8388608
+OK 训练与验证数据/1.dat 8388608
+OK 训练与验证数据/10.dat 8388608
+OK 训练与验证数据/100.dat 8388608
+OK 训练与验证数据/101.dat 8388608
+OK 训练与验证数据/102.dat 8388608
+OK 训练与验证数据/103.dat 8388608
+OK 训练与验证数据/104.dat 8388608
+OK 训练与验证数据/105.dat 8388608
+OK 训练与验证数据/106.dat 8388608
+OK 训练与验证数据/fpx.dat 100663296
+OK 训练与验证数据/gxl.dat 100663296
+OK 训练与验证数据/107.dat 8388608
+OK 训练与验证数据/108.dat 8388608
+OK 训练与验证数据/109.dat 8388608
+OK 训练与验证数据/11.dat 8388608
+OK 训练与验证数据/110.dat 8388608
+OK 训练与验证数据/111.dat 8388608
+OK 训练与验证数据/112.dat 8388608
+OK 训练与验证数据/113.dat 8388608
+OK 训练与验证数据/114.dat 8388608
+OK 训练与验证数据/115.dat 8388608
+OK 训练与验证数据/117.dat 8388608
+OK 训练与验证数据/116.dat 8388608
+OK 训练与验证数据/118.dat 8388608
+OK 训练与验证数据/119.dat 8388608
+OK 训练与验证数据/12.dat 8388608
+OK 训练与验证数据/120.dat 8388608
+OK 训练与验证数据/121.dat 8388608
+OK 训练与验证数据/122.dat 8388608
+OK 训练与验证数据/124.dat 8388608
+OK 训练与验证数据/123.dat 8388608
+OK 训练与验证数据/126.dat 8388608
+OK 训练与验证数据/125.dat 8388608
+OK 训练与验证数据/127.dat 8388608
+OK 训练与验证数据/128.dat 8388608
+OK 训练与验证数据/129.dat 8388608
+OK 训练与验证数据/13.dat 8388608
+OK 训练与验证数据/130.dat 8388608
+OK 训练与验证数据/131.dat 8388608
+OK 训练与验证数据/132.dat 8388608
+OK 训练与验证数据/133.dat 8388608
+OK 训练与验证数据/134.dat 8388608
+OK 训练与验证数据/135.dat 8388608
+OK 训练与验证数据/136.dat 8388608
+OK 训练与验证数据/137.dat 8388608
+OK 训练与验证数据/138.dat 8388608
+OK 训练与验证数据/139.dat 8388608
+OK 训练与验证数据/14.dat 8388608
+OK 训练与验证数据/140.dat 8388608
+OK 训练与验证数据/141.dat 8388608
+OK 训练与验证数据/142.dat 8388608
+OK 训练与验证数据/143.dat 8388608
+OK 训练与验证数据/145.dat 8388608
+OK 训练与验证数据/144.dat 8388608
+OK 训练与验证数据/146.dat 8388608
+OK 训练与验证数据/147.dat 8388608
+OK 训练与验证数据/148.dat 8388608
+OK 训练与验证数据/149.dat 8388608
+OK 训练与验证数据/15.dat 8388608
+OK 训练与验证数据/150.dat 8388608
+OK 训练与验证数据/151.dat 8388608
+OK 训练与验证数据/152.dat 8388608
+OK 训练与验证数据/153.dat 8388608
+OK 训练与验证数据/154.dat 8388608
+OK 训练与验证数据/155.dat 8388608
+OK 训练与验证数据/156.dat 8388608
+OK 训练与验证数据/157.dat 8388608
+OK 训练与验证数据/158.dat 8388608
+OK 训练与验证数据/159.dat 8388608
+OK 训练与验证数据/16.dat 8388608
+OK 训练与验证数据/160.dat 8388608
+OK 训练与验证数据/162.dat 8388608
+OK 训练与验证数据/163.dat 8388608
+OK 训练与验证数据/161.dat 8388608
+OK 训练与验证数据/164.dat 8388608
+OK 训练与验证数据/165.dat 8388608
+OK 训练与验证数据/166.dat 8388608
+OK 训练与验证数据/167.dat 8388608
+OK 训练与验证数据/168.dat 8388608
+OK 训练与验证数据/169.dat 8388608
+OK 训练与验证数据/17.dat 8388608
+OK 训练与验证数据/170.dat 8388608
+OK 训练与验证数据/171.dat 8388608
+OK 训练与验证数据/172.dat 8388608
+OK 训练与验证数据/173.dat 8388608
+OK 训练与验证数据/174.dat 8388608
+OK 训练与验证数据/175.dat 8388608
+OK 训练与验证数据/176.dat 8388608
+OK 训练与验证数据/177.dat 8388608
+OK 训练与验证数据/178.dat 8388608
+OK 训练与验证数据/179.dat 8388608
+OK 训练与验证数据/18.dat 8388608
+OK 训练与验证数据/180.dat 8388608
+OK 训练与验证数据/181.dat 8388608
+OK 训练与验证数据/182.dat 8388608
+OK 训练与验证数据/183.dat 8388608
+OK 训练与验证数据/184.dat 8388608
+OK 训练与验证数据/185.dat 8388608
+OK 训练与验证数据/186.dat 8388608
+OK 训练与验证数据/187.dat 8388608
+OK 训练与验证数据/188.dat 8388608
+OK 训练与验证数据/189.dat 8388608
+OK 训练与验证数据/190.dat 8388608
+OK 训练与验证数据/19.dat 8388608
+OK 训练与验证数据/191.dat 8388608
+OK 训练与验证数据/192.dat 8388608
+OK 训练与验证数据/193.dat 8388608
+OK 训练与验证数据/194.dat 8388608
+OK 训练与验证数据/195.dat 8388608
+OK 训练与验证数据/196.dat 8388608
+OK 训练与验证数据/197.dat 8388608
+OK 训练与验证数据/198.dat 8388608
+OK 训练与验证数据/2.dat 8388608
+OK 训练与验证数据/199.dat 8388608
+OK 训练与验证数据/20.dat 8388608
+OK 训练与验证数据/21.dat 8388608
+OK 训练与验证数据/23.dat 8388608
+OK 训练与验证数据/22.dat 8388608
+OK 训练与验证数据/24.dat 8388608
+OK 训练与验证数据/25.dat 8388608
+OK 训练与验证数据/27.dat 8388608
+OK 训练与验证数据/26.dat 8388608
+OK 训练与验证数据/28.dat 8388608
+OK 训练与验证数据/29.dat 8388608
+OK 训练与验证数据/3.dat 8388608
+OK 训练与验证数据/30.dat 8388608
+OK 训练与验证数据/31.dat 8388608
+OK 训练与验证数据/32.dat 8388608
+OK 训练与验证数据/33.dat 8388608
+OK 训练与验证数据/35.dat 8388608
+OK 训练与验证数据/34.dat 8388608
+OK 训练与验证数据/36.dat 8388608
+OK 训练与验证数据/37.dat 8388608
+OK 训练与验证数据/39.dat 8388608
+OK 训练与验证数据/38.dat 8388608
+OK 训练与验证数据/4.dat 8388608
+OK 训练与验证数据/40.dat 8388608
+OK 训练与验证数据/42.dat 8388608
+OK 训练与验证数据/41.dat 8388608
+OK 训练与验证数据/43.dat 8388608
+OK 训练与验证数据/44.dat 8388608
+OK 训练与验证数据/45.dat 8388608
+OK 训练与验证数据/46.dat 8388608
+OK 训练与验证数据/47.dat 8388608
+OK 训练与验证数据/48.dat 8388608
+OK 训练与验证数据/49.dat 8388608
+OK 训练与验证数据/5.dat 8388608
+OK 训练与验证数据/50.dat 8388608
+OK 训练与验证数据/51.dat 8388608
+OK 训练与验证数据/52.dat 8388608
+OK 训练与验证数据/53.dat 8388608
+OK 训练与验证数据/54.dat 8388608
+OK 训练与验证数据/55.dat 8388608
+OK 训练与验证数据/56.dat 8388608
+OK 训练与验证数据/57.dat 8388608
+OK 训练与验证数据/58.dat 8388608
+OK 训练与验证数据/59.dat 8388608
+OK 训练与验证数据/6.dat 8388608
+OK 训练与验证数据/60.dat 8388608
+OK 训练与验证数据/61.dat 8388608
+OK 训练与验证数据/62.dat 8388608
+OK 训练与验证数据/63.dat 8388608
+OK 训练与验证数据/64.dat 8388608
+OK 训练与验证数据/65.dat 8388608
+OK 训练与验证数据/66.dat 8388608
+OK 训练与验证数据/67.dat 8388608
+OK 训练与验证数据/68.dat 8388608
+OK 训练与验证数据/7.dat 8388608
+OK 训练与验证数据/69.dat 8388608
+OK 训练与验证数据/70.dat 8388608
+OK 训练与验证数据/71.dat 8388608
+OK 训练与验证数据/73.dat 8388608
+OK 训练与验证数据/72.dat 8388608
+OK 训练与验证数据/74.dat 8388608
+OK 训练与验证数据/75.dat 8388608
+OK 训练与验证数据/76.dat 8388608
+OK 训练与验证数据/78.dat 8388608
+OK 训练与验证数据/77.dat 8388608
+OK 训练与验证数据/79.dat 8388608
+OK 训练与验证数据/8.dat 8388608
+OK 训练与验证数据/81.dat 8388608
+OK 训练与验证数据/80.dat 8388608
+OK 训练与验证数据/82.dat 8388608
+OK 训练与验证数据/83.dat 8388608
+OK 训练与验证数据/84.dat 8388608
+OK 训练与验证数据/85.dat 8388608
+OK 训练与验证数据/86.dat 8388608
+OK 训练与验证数据/87.dat 8388608
+OK 训练与验证数据/88.dat 8388608
+OK 训练与验证数据/89.dat 8388608
+OK 训练与验证数据/9.dat 8388608
+OK 训练与验证数据/90.dat 8388608
+OK 训练与验证数据/91.dat 8388608
+OK 训练与验证数据/92.dat 8388608
+OK 训练与验证数据/93.dat 8388608
+OK 训练与验证数据/94.dat 8388608
+OK 训练与验证数据/95.dat 8388608
+OK 训练与验证数据/96.dat 8388608
+OK 训练与验证数据/97.dat 8388608
+OK 训练与验证数据/98.dat 8388608
+OK 训练与验证数据/99.dat 8388608
+OK 训练与验证数据/0.dat 8388608
+OK 训练与验证数据/fault_from_ModelScope.zip 12137544
+OK 训练与验证数据/1.dat 8388608
+OK 训练与验证数据/10.dat 8388608
+OK 训练与验证数据/11.dat 8388608
+OK 训练与验证数据/12.dat 8388608
+OK 训练与验证数据/13.dat 8388608
+OK 训练与验证数据/14.dat 8388608
+OK 训练与验证数据/15.dat 8388608
+OK 训练与验证数据/16.dat 8388608
+OK 训练与验证数据/18.dat 8388608
+OK 训练与验证数据/17.dat 8388608
+OK 训练与验证数据/19.dat 8388608
+OK 训练与验证数据/2.dat 8388608
+OK 训练与验证数据/3.dat 8388608
+OK 训练与验证数据/4.dat 8388608
+OK 训练与验证数据/5.dat 8388608
+OK 训练与验证数据/6.dat 8388608
+OK 训练与验证数据/7.dat 8388608
+OK 训练与验证数据/8.dat 8388608
+OK 训练与验证数据/9.dat 8388608
+OK 训练与验证数据/0.dat 8388608
+OK 训练与验证数据/1.dat 8388608
+OK 训练与验证数据/10.dat 8388608
+OK 训练与验证数据/11.dat 8388608
+OK 训练与验证数据/12.dat 8388608
+OK 训练与验证数据/14.dat 8388608
+OK 训练与验证数据/13.dat 8388608
+OK 训练与验证数据/15.dat 8388608
+OK 训练与验证数据/16.dat 8388608
+OK 训练与验证数据/18.dat 8388608
+OK 训练与验证数据/17.dat 8388608
+OK 训练与验证数据/2.dat 8388608
+OK 训练与验证数据/19.dat 8388608
+OK 训练与验证数据/3.dat 8388608
+OK 训练与验证数据/4.dat 8388608
+OK 训练与验证数据/6.dat 8388608
+OK 训练与验证数据/5.dat 8388608
+OK 训练与验证数据/7.dat 8388608
+OK 训练与验证数据/8.dat 8388608
+OK 训练与验证数据/9.dat 8388608
+预训练模型与预测示例: 5 files discovered
+FAILED fseg-70.hdf5: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=13FuqaZEyUAKpUiWOSzI-39mXkoQaApCB
+
+but Gdown can't. Please check connections and permissions.
+FAILED model3.json: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1mAYnIlvjBFtogeHyNF9Tc7PHwWGvrifd
+
+but Gdown can't. Please check connections and permissions.
+FAILED fseg-65.hdf5: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1hY8yQLSFKXmPxQAFDxsX3NgecoD-aXNH
+
+but Gdown can't. Please check connections and permissions.
+FAILED fseg-60.hdf5: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1IaWKd7lfImf4J6f-W6xUICppG-0_yTMB
+
+but Gdown can't. Please check connections and permissions.
+FAILED pretrained_model.hdf5: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1AL0uRqBa0umRc-xHTOuviCc4XWbxWj1j
+
+but Gdown can't. Please check connections and permissions.

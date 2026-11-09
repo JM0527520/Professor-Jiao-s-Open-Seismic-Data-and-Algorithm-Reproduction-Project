@@ -1,0 +1,1 @@
+python3 pretrain.py --modelName unet  --isPretrain  none --targetData f3 --label_source expert  --data_folder  /mnt/HD_18T_pt1/chen/Datasets/CRACKS

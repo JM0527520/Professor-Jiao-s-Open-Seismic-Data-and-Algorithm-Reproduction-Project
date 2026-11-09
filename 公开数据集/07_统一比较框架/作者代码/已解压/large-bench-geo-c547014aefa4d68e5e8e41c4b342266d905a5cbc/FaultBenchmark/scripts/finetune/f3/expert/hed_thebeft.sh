@@ -1,0 +1,1 @@
+python3 finetuning.py --modelName hed  --isPretrain  thebeft --targetData  f3 --label_source expert --data_folder   /mnt/HD_18T_pt1/chen/Datasets/CRACKS 

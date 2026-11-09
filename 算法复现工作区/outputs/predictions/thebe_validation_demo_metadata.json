@@ -1,0 +1,110 @@
+{
+  "dataset": "Thebe",
+  "split": "val",
+  "demo": {
+    "split": "val",
+    "section_start": 36,
+    "section_stop": 164,
+    "lateral_start": 852,
+    "lateral_stop": 1044,
+    "sample_start": 926,
+    "sample_stop": 1054,
+    "shape_raw": [
+      128,
+      192,
+      128
+    ],
+    "shape_model": [
+      128,
+      192,
+      128
+    ],
+    "global_section_start": 936,
+    "selection": "Fixed 128 validation sections; choose 192x128 rectangle with largest reference-label count. No predictions used.",
+    "purpose": "Label-rich pipeline smoke test, NOT an unbiased benchmark or evidence of generalization.",
+    "coordinate_units": "zero-based array indices; physical survey mapping not established"
+  },
+  "tiling": {
+    "patch_size": 128,
+    "stride": 64,
+    "tiles": 2,
+    "tail_padding": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "minimum_accumulated_weight": 0.00042990208021365106,
+    "mask": "author getMask assignment order, retained unchanged",
+    "grid": "end-anchored final tile, full coverage, no unnecessary all-zero trailing tiles",
+    "normalization": [
+      {
+        "start_model": [
+          0,
+          0,
+          0
+        ],
+        "mean": 0.00016392373072449118,
+        "std": 0.22844138741493225,
+        "constant": false
+      },
+      {
+        "start_model": [
+          0,
+          64,
+          0
+        ],
+        "mean": 0.0007228584727272391,
+        "std": 0.23439936339855194,
+        "constant": false
+      }
+    ],
+    "restored_shape": [
+      128,
+      192,
+      128
+    ]
+  },
+  "elapsed_seconds": 3.294,
+  "support_mask_warning": "Local amplitude trace envelope only; not a complete annotation mask. Zeros are retained in saved probabilities.",
+  "evaluation_warning": "Reference-label-rich validation ROI selected for workflow inspection; not the full Thebe benchmark.",
+  "shape_model": [
+    128,
+    192,
+    128
+  ],
+  "shape_raw": [
+    128,
+    192,
+    128
+  ],
+  "probability_min": 2.3833066678279167e-21,
+  "probability_max": 0.9998862147331238,
+  "raw_to_model": "transpose(2,1,0)",
+  "offsets_model": [
+    926,
+    852,
+    36
+  ],
+  "probability_sha256": "cfe0f24959e2bac07b856dccbc59cad8217c6720038aa71822b04837830703f0",
+  "reference_overlap": {
+    "threshold": 0.5,
+    "tp": 131226,
+    "fp_vs_supplied_reference": 171713,
+    "fn": 396980,
+    "tn_vs_supplied_reference": 2445809,
+    "dice_vs_supplied_reference": 0.31577161626431005,
+    "precision_vs_supplied_reference": 0.433176316024018,
+    "recall_vs_supplied_reference": 0.24843716277361483,
+    "support_voxels": 3145728,
+    "usage": "pipeline verification only; no threshold search or checkpoint selection"
+  }
+}

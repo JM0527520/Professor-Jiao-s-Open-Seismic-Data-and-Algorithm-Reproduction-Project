@@ -1,0 +1,1 @@
+python3 finetuning.py --modelName deeplab  --isPretrain  faultSegft --targetData  f3 --label_source expert --data_folder   /data/CRACKS 
