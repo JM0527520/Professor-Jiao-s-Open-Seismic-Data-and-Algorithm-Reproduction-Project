@@ -1,0 +1,9 @@
+{
+  "status": "passed_source_inspection_only",
+  "author_unet_sha256": "8313c74a14c3aee63aaa3bcb90b2452d7f227c7f5fee98eb9f6687437f6fa020",
+  "author_Conv3D_count": 15,
+  "author_explicit_kernel_initializer": false,
+  "current_graph_initialization": "Conv3D default GlorotUniform and zero biases, same initializer family as pinned author defaults; historical RNG stream is not bitwise recovered",
+  "known_recipe_difference": "Pinned train.py BCE versus checkpoint cross_entropy_balanced; selected checkpoint-based recipe is separate and already documented",
+  "current_source_training_unchanged": true
+}

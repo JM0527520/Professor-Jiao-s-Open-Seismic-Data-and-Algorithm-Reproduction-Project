@@ -1,0 +1,37 @@
+{
+  "bootstrap_sha256": "68cd05b238943fba9c796a904865222115bf2daa8a06693e5e84cf45a23b35e2",
+  "payload_files": 477,
+  "payload_bytes": 25855675453,
+  "destination": "yunxi-server-zjm:/home/zjm/faultseg_project",
+  "new_data_sources": false,
+  "author_sources": [
+    {
+      "path": "01_FaultSeg3D/作者代码/已解压/faultSeg-0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe/train.py",
+      "sha256": "77a1e638d85dd2a9586d0af4e13666aada3173fc30877d059b7f6a043cb6007d"
+    },
+    {
+      "path": "01_FaultSeg3D/作者代码/已解压/faultSeg-0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe/unet3.py",
+      "sha256": "8313c74a14c3aee63aaa3bcb90b2452d7f227c7f5fee98eb9f6687437f6fa020"
+    },
+    {
+      "path": "01_FaultSeg3D/作者代码/已解压/faultSeg-0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe/utils.py",
+      "sha256": "043990b7aa82a104c7ffbb2588c12b6e9286110657f678f00f73c9acecdc5c36"
+    },
+    {
+      "path": "02_Thebe/作者代码/已解压/CNNforFaultInterpretation-58eae5db2312feca003b9eb179fd9172beeeab5d/faultSeg/train.py",
+      "sha256": "86a4d6f79605e1a65a5a2a6b15d46de80d3edf2aa45f3ed916436113e3f6e380"
+    },
+    {
+      "path": "02_Thebe/作者代码/已解压/CNNforFaultInterpretation-58eae5db2312feca003b9eb179fd9172beeeab5d/faultSeg/unet3.py",
+      "sha256": "5120a5c1fc2dcdc1da64e628e095189231a0ae9bc51ac27787000814c242f076"
+    },
+    {
+      "path": "02_Thebe/作者代码/已解压/CNNforFaultInterpretation-58eae5db2312feca003b9eb179fd9172beeeab5d/faultSeg/utils.py",
+      "sha256": "857aca209d483a2255076fe2c01284fbc58760ff89fef40e13292b7f695a9ea9"
+    }
+  ],
+  "updated": "2026-11-14T15:03:13+08:00",
+  "source_only_acceptance": "passed independently on server",
+  "thebe_transfer_complete": true,
+  "transfer_method": "Python PAX tar stream over authenticated SSH; 477 files, 25855675453 bytes"
+}

@@ -9,7 +9,8 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager
 import numpy as np
 
-for font in ("Microsoft YaHei", "SimHei", "Noto Sans CJK SC"):
+for font in ("Microsoft YaHei", "SimHei", "Noto Sans CJK SC", "Noto Serif CJK SC",
+             "Noto Sans CJK JP", "Noto Serif CJK JP"):
     if any(f.name == font for f in font_manager.fontManager.ttflist):
         plt.rcParams["font.sans-serif"] = [font]
         break

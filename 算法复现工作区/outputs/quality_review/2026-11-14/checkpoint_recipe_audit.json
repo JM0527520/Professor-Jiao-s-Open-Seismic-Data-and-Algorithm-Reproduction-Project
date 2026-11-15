@@ -1,0 +1,88 @@
+{
+  "checkpoints": [
+    {
+      "filename": "fseg-60.hdf5",
+      "sha256": "5174031cb013e6c8a311c1c74689f473157105baf4a089e8463abf01a96349da",
+      "keras_version": "2.2.4",
+      "training_config": {
+        "optimizer_config": {
+          "class_name": "Adam",
+          "config": {
+            "lr": 9.999999747378752e-05,
+            "beta_1": 0.8999999761581421,
+            "beta_2": 0.9990000128746033,
+            "decay": 0.0,
+            "epsilon": 1e-07,
+            "amsgrad": false
+          }
+        },
+        "loss": "cross_entropy_balanced",
+        "metrics": [
+          "accuracy"
+        ],
+        "sample_weight_mode": null,
+        "loss_weights": null
+      }
+    },
+    {
+      "filename": "fseg-65.hdf5",
+      "sha256": "ca072661cece66e18f032522b9105ed5a1acc5b3b6f5ef0ff1da93954dd85ffe",
+      "keras_version": "2.2.4",
+      "training_config": {
+        "optimizer_config": {
+          "class_name": "Adam",
+          "config": {
+            "lr": 9.999999747378752e-05,
+            "beta_1": 0.8999999761581421,
+            "beta_2": 0.9990000128746033,
+            "decay": 0.0,
+            "epsilon": 1e-07,
+            "amsgrad": false
+          }
+        },
+        "loss": "cross_entropy_balanced",
+        "metrics": [
+          "accuracy"
+        ],
+        "sample_weight_mode": null,
+        "loss_weights": null
+      }
+    },
+    {
+      "filename": "fseg-70.hdf5",
+      "sha256": "d8f91e555ee07022eed50b82f8546e21e1670a4325c50eb9d1935df42a85068d",
+      "keras_version": "2.2.4",
+      "training_config": {
+        "optimizer_config": {
+          "class_name": "Adam",
+          "config": {
+            "lr": 9.999999747378752e-05,
+            "beta_1": 0.8999999761581421,
+            "beta_2": 0.9990000128746033,
+            "decay": 0.0,
+            "epsilon": 1e-07,
+            "amsgrad": false
+          }
+        },
+        "loss": "cross_entropy_balanced",
+        "metrics": [
+          "accuracy"
+        ],
+        "sample_weight_mode": null,
+        "loss_weights": null
+      }
+    }
+  ],
+  "train_script": {
+    "path": "01_FaultSeg3D\\作者代码\\已解压\\faultSeg-0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe\\train.py",
+    "sha256": "77a1e638d85dd2a9586d0af4e13666aada3173fc30877d059b7f6a043cb6007d",
+    "loss_lines": [
+      {
+        "line": 39,
+        "text": "  model.compile(optimizer=Adam(lr=1e-4), loss='binary_crossentropy', "
+      }
+    ]
+  },
+  "conclusion": "checkpoint balanced-loss metadata contradicts pinned training-script BCE; no full training until resolved",
+  "training_performed": false
+}

@@ -1,0 +1,14 @@
+{
+  "version": "2026-11-14-horizontal-ensemble-followup-v1",
+  "purpose": "bounded local inference refinement following context diagnosis; same three DEVELOPMENT regions",
+  "based_on": "configs/quality_review.json",
+  "base_variant": "halo_separable",
+  "candidate": "halo_separable_horizontal4",
+  "model_axis_reflections": [[], [1], [2], [1, 2]],
+  "aggregation": "inverse-transform each probability volume, arithmetic mean before overlap fusion",
+  "checkpoint": "fseg-60.hdf5",
+  "threshold": 0.5,
+  "training": false,
+  "test_used": false,
+  "limitations": "adaptive local development; no independent validation claim or automatic model promotion"
+}

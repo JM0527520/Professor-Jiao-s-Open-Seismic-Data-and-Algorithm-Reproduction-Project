@@ -1,0 +1,14 @@
+{
+  "status": "passed_engineering_check_only",
+  "finished": "2026-11-14T16:18:18+08:00",
+  "checkpoint": "epoch-027.keras",
+  "checkpoint_sha256": "f371d812e7ae85a5a809f7d84ce6083c37cf96b28e8cb26eca8f2526c5295c0f",
+  "completed_epoch": 27,
+  "optimizer_iterations": 5400,
+  "optimizer_variables_finite": true,
+  "loss": "cross_entropy_balanced",
+  "parameter_count": 1459585,
+  "probe": "32-cubed constant generated input on CPU; no training update, no quality score",
+  "model_or_training_modified": false,
+  "test_used": false
+}

@@ -1,0 +1,23 @@
+{
+  "recorded": "2026-11-14T15:19:20+08:00",
+  "scope": "Post-launch inference and review verification; no source training math changes",
+  "local_tests": {
+    "command": "python -m pytest -q",
+    "passed": 59
+  },
+  "remote_tests": {
+    "command": "CUDA_VISIBLE_DEVICES=-1 python -m pytest -q",
+    "passed": 59
+  },
+  "static_check": "ruff check fault_workflow tests passed",
+  "sha256": {
+    "fault_workflow/training.py": "d3a7e2c66d7d94efcab0590011c658c08d56d8bc605a52d1a7d12424c03b2b5b",
+    "fault_workflow/losses.py": "d0b243b23329cc028f1c6d6d0da6e9a99016ea586b8eb3d8b850306ad1e0d55f",
+    "fault_workflow/evaluation.py": "ab75f0949be1fac2d657eeaf632901b1d216816e7b4387e6c0792abeab3bbb5a",
+    "fault_workflow/run_review.py": "b747835f833ed18e07510a6b6f37582023420e53d2c9eb51fc52f70c9980cb9f",
+    "fault_workflow/diagnostics.py": "f392b66034c2589d70586b9b95fc0e28f8f62bbfd5b4f9bbd02c7daa672bfa6f",
+    "configs/baseline_balanced.json": "7d854849e20cf344991d76cd74838328fb784386cbcc0880f83b3dc736694d94",
+    "configs/acceptance_v2.json": "046b3c110b7169ca5518db3d8450c2c39eadf854b859313dbda864df76635d5b"
+  },
+  "recognition_quality_accepted": false
+}

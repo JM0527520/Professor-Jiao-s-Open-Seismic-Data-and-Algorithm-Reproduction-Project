@@ -1,0 +1,36 @@
+{
+  "version": "2026-11-14-server-development-gate-v1",
+  "status": "provisional_engineering_gate_before_server_model_results",
+  "threshold": 0.5,
+  "checkpoint_rule": "baseline epoch 60 after the declared 100-epoch source training; no Thebe-based checkpoint selection",
+  "source_validation": {
+    "volumes": 20,
+    "aggregate_dice_delta_vs_author_minimum": -0.02,
+    "individual_volume_dice_delta_vs_author_minimum": -0.10,
+    "probabilities_finite_and_aligned": true
+  },
+  "thebe_validation": {
+    "sections": 200,
+    "fixed_review_sections": [0, 50, 100, 150, 199],
+    "aggregate_reference_positive_coverage_delta_vs_author_target": 0.05,
+    "unknown_response_fraction_increase_vs_author_maximum": 0.02,
+    "historical_development_regions": ["historical_demo", "fixed_region_a", "fixed_region_b"],
+    "development_region_coverage_delta_minimum": -0.02,
+    "field_precision_and_dice_claims_enabled": false,
+    "full_annotation_mask_required_before_thebe_supervised_fine_tuning": true
+  },
+  "visual_review": {
+    "required": true,
+    "checks": ["major reference faults missed", "spatial displacement", "broken continuity", "excessive response area", "tile seams"],
+    "human_final_review_pending": true,
+    "numeric_gate_alone_means_field_ready": false
+  },
+  "boundaries": {
+    "test_used_for_training_or_tuning": false,
+    "validation_is_independent_test": false,
+    "threshold_lowering_or_prediction_dilation_for_score_inflation": false,
+    "retrain_identical_configuration_after_failed_gate": false,
+    "on_failure": "diagnose a specific cause, change one justified factor, preserve both results, then repeat validation"
+  },
+  "interpretation": "Project-specific working thresholds, not published geological accuracy standards; final acceptance requires the user's visual review. If label evidence is insufficient, report the unmet requirement rather than invent negatives or promise convergence."
+}

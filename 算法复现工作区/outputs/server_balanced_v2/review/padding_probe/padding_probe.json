@@ -1,0 +1,293 @@
+{
+  "status": "passed_diagnostic_execution_only",
+  "finished": "2026-11-14T16:44:33+08:00",
+  "model": {
+    "kind": "author",
+    "checkpoint": "/home/zjm/faultseg_project/公开数据集/01_FaultSeg3D/预训练模型与预测示例/fseg-60.hdf5",
+    "sha256": "5174031cb013e6c8a311c1c74689f473157105baf4a089e8463abf01a96349da",
+    "execution": "tf.function fixed 128^3 inference graph; no weight or precision changes",
+    "gpu_memory_limit_mb": 1152
+  },
+  "protocol": {
+    "regions": [
+      {
+        "name": "shallow_left",
+        "start_raw": [
+          36,
+          128,
+          256
+        ]
+      },
+      {
+        "name": "shallow_middle",
+        "start_raw": [
+          36,
+          1024,
+          384
+        ]
+      },
+      {
+        "name": "shallow_right",
+        "start_raw": [
+          36,
+          2304,
+          512
+        ]
+      }
+    ],
+    "shape_raw": [
+      128,
+      128,
+      128
+    ],
+    "selection": "fixed shallow coordinates after observing author full-volume padding artifacts; no label-based selection",
+    "support": "original full-trace state cache; never recompute from a cropped window",
+    "factor": "normalization only: support-only mean/std and neutral zero padding in normalized space",
+    "inference": "single 128-cubed window, no overlap; does not measure full-volume seams",
+    "threshold": 0.5,
+    "source_training_changed": false,
+    "test_used": false
+  },
+  "cases": [
+    {
+      "region": {
+        "name": "shallow_left",
+        "start_raw": [
+          36,
+          128,
+          256
+        ]
+      },
+      "support_fraction": 0.40514469146728516,
+      "outputs": {
+        "author": {
+          "normalization": {
+            "mean": -4.2154500988544896e-05,
+            "std": 0.0035712632816284895,
+            "constant": false
+          },
+          "score": {
+            "support_voxels": 849650,
+            "reference_positive_voxels": 0,
+            "confirmed_negative_voxels": 0,
+            "unknown_voxels": 849650,
+            "invalid_reference_positive_voxels": 0,
+            "complete_binary_reference_in_support": false,
+            "strict_metrics_enabled": false,
+            "threshold_sweep": [
+              {
+                "threshold": 0.5,
+                "covered_reference_positive": 0,
+                "missed_reference_positive": 0,
+                "reference_positive_coverage": null,
+                "response_fraction_in_amplitude_support": 0.12373212499264404,
+                "precision": null,
+                "recall": null,
+                "dice": null
+              }
+            ],
+            "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive."
+          },
+          "probability_sha256": "182667881e2b6c3d4e8f101831fc9cc716840bc5a8f7db30d1ac2e3fae495f8c"
+        },
+        "support": {
+          "normalization": {
+            "mean": -0.00010404801287222654,
+            "std": 0.005610121414065361,
+            "constant": false,
+            "support_voxels": 849650,
+            "padding_filled_with_normalized_mean": true
+          },
+          "score": {
+            "support_voxels": 849650,
+            "reference_positive_voxels": 0,
+            "confirmed_negative_voxels": 0,
+            "unknown_voxels": 849650,
+            "invalid_reference_positive_voxels": 0,
+            "complete_binary_reference_in_support": false,
+            "strict_metrics_enabled": false,
+            "threshold_sweep": [
+              {
+                "threshold": 0.5,
+                "covered_reference_positive": 0,
+                "missed_reference_positive": 0,
+                "reference_positive_coverage": null,
+                "response_fraction_in_amplitude_support": 0.09508621196963456,
+                "precision": null,
+                "recall": null,
+                "dice": null
+              }
+            ],
+            "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive."
+          },
+          "probability_sha256": "3f5cbff1f4f2743876491f55026e24204bcdce0cf062b16d0d61ea12b74cd5f1"
+        }
+      }
+    },
+    {
+      "region": {
+        "name": "shallow_middle",
+        "start_raw": [
+          36,
+          1024,
+          384
+        ]
+      },
+      "support_fraction": 1.0,
+      "outputs": {
+        "author": {
+          "normalization": {
+            "mean": -0.0006941930623725057,
+            "std": 0.12352237850427628,
+            "constant": false
+          },
+          "score": {
+            "support_voxels": 2097152,
+            "reference_positive_voxels": 0,
+            "confirmed_negative_voxels": 0,
+            "unknown_voxels": 2097152,
+            "invalid_reference_positive_voxels": 0,
+            "complete_binary_reference_in_support": false,
+            "strict_metrics_enabled": false,
+            "threshold_sweep": [
+              {
+                "threshold": 0.5,
+                "covered_reference_positive": 0,
+                "missed_reference_positive": 0,
+                "reference_positive_coverage": null,
+                "response_fraction_in_amplitude_support": 0.006394386291503906,
+                "precision": null,
+                "recall": null,
+                "dice": null
+              }
+            ],
+            "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive."
+          },
+          "probability_sha256": "9e1e5ed0ad26757c5ace6ae33f79b58d82ca04435b300a1e988277be45710ba0"
+        },
+        "support": {
+          "normalization": {
+            "mean": -0.0006941930623725057,
+            "std": 0.12352237850427628,
+            "constant": false,
+            "support_voxels": 2097152,
+            "padding_filled_with_normalized_mean": true
+          },
+          "score": {
+            "support_voxels": 2097152,
+            "reference_positive_voxels": 0,
+            "confirmed_negative_voxels": 0,
+            "unknown_voxels": 2097152,
+            "invalid_reference_positive_voxels": 0,
+            "complete_binary_reference_in_support": false,
+            "strict_metrics_enabled": false,
+            "threshold_sweep": [
+              {
+                "threshold": 0.5,
+                "covered_reference_positive": 0,
+                "missed_reference_positive": 0,
+                "reference_positive_coverage": null,
+                "response_fraction_in_amplitude_support": 0.006394386291503906,
+                "precision": null,
+                "recall": null,
+                "dice": null
+              }
+            ],
+            "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive."
+          },
+          "probability_sha256": "9e1e5ed0ad26757c5ace6ae33f79b58d82ca04435b300a1e988277be45710ba0"
+        }
+      }
+    },
+    {
+      "region": {
+        "name": "shallow_right",
+        "start_raw": [
+          36,
+          2304,
+          512
+        ]
+      },
+      "support_fraction": 1.0,
+      "outputs": {
+        "author": {
+          "normalization": {
+            "mean": 0.0007000438054092228,
+            "std": 0.14270110428333282,
+            "constant": false
+          },
+          "score": {
+            "support_voxels": 2097152,
+            "reference_positive_voxels": 0,
+            "confirmed_negative_voxels": 0,
+            "unknown_voxels": 2097152,
+            "invalid_reference_positive_voxels": 0,
+            "complete_binary_reference_in_support": false,
+            "strict_metrics_enabled": false,
+            "threshold_sweep": [
+              {
+                "threshold": 0.5,
+                "covered_reference_positive": 0,
+                "missed_reference_positive": 0,
+                "reference_positive_coverage": null,
+                "response_fraction_in_amplitude_support": 0.02321147918701172,
+                "precision": null,
+                "recall": null,
+                "dice": null
+              }
+            ],
+            "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive."
+          },
+          "probability_sha256": "e02938a6a84c168f150195be057c4399f2c547667a595430bc37798fcdaf9db3"
+        },
+        "support": {
+          "normalization": {
+            "mean": 0.0007000438054092228,
+            "std": 0.14270110428333282,
+            "constant": false,
+            "support_voxels": 2097152,
+            "padding_filled_with_normalized_mean": true
+          },
+          "score": {
+            "support_voxels": 2097152,
+            "reference_positive_voxels": 0,
+            "confirmed_negative_voxels": 0,
+            "unknown_voxels": 2097152,
+            "invalid_reference_positive_voxels": 0,
+            "complete_binary_reference_in_support": false,
+            "strict_metrics_enabled": false,
+            "threshold_sweep": [
+              {
+                "threshold": 0.5,
+                "covered_reference_positive": 0,
+                "missed_reference_positive": 0,
+                "reference_positive_coverage": null,
+                "response_fraction_in_amplitude_support": 0.02321147918701172,
+                "precision": null,
+                "recall": null,
+                "dice": null
+              }
+            ],
+            "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive."
+          },
+          "probability_sha256": "e02938a6a84c168f150195be057c4399f2c547667a595430bc37798fcdaf9db3"
+        }
+      }
+    }
+  ],
+  "promoted": false,
+  "recognition_quality_accepted": false,
+  "code_sha256": {
+    "fault_workflow/padding_diagnosis.py": "0a5d05d8276662c5639831f7c26ca2fbac3acc7bb7eac108461efd87c0ed12a6",
+    "outputs/deployment/padding_probe_execution.py": "f912098cce22b0cd9596fbfc5f57627845d05061b6f1795b63f3b838f8d26bcc"
+  },
+  "decision": {
+    "promoted": false,
+    "reason": "Only one sampled window contains padding; none has supplied positives. Support response falls from 0.123732 to 0.095086 there, but boundary-adjacent response remains visible. This cannot establish improved fault detection or confirmed false-positive suppression. Two fully supported controls have identical prediction hashes.",
+    "action": "Preserve as diagnostic only. Leave current training, reference inference, threshold and acceptance gate unchanged.",
+    "visual_inspection": [
+      "shallow_left_author.png",
+      "shallow_left_support.png"
+    ]
+  }
+}

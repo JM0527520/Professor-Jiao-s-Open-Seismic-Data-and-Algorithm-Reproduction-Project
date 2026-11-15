@@ -1,0 +1,13 @@
+{
+  "created": "2026-11-16T01:01:51+08:00",
+  "experiment": "Complete 2x2 model-by-fusion comparison after reproduced transfer failed",
+  "factor": "author checkpoint unchanged; switch only overlap fusion from author to separable",
+  "controls": "same full 200 validation sections, full-trace support, normalization, tile grid, float32 graph, threshold .5",
+  "acceptance": "retain original acceptance_v2 thresholds and three core guards; numerical and visual results both required",
+  "source_checkpoint": "fseg-60.hdf5",
+  "source_checkpoint_sha256": "5174031cb013e6c8a311c1c74689f473157105baf4a089e8463abf01a96349da",
+  "test_used": false,
+  "training": false,
+  "planned_output": "baseline/faultseg_balanced_v2/author_separable/thebe",
+  "reason": "Existing comparisons confound transfer-training changes with fusion when comparing author against trained_separable."
+}

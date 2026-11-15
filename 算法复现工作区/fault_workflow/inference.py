@@ -54,6 +54,22 @@ def author_overlap_mask(size: int, overlap: int) -> np.ndarray:
     return mask
 
 
+def separable_overlap_mask(size: int, overlap: int) -> np.ndarray:
+    """Preserve each axis taper by multiplying weights; a separate inference variant.
+
+    The legacy author mask overwrites the earlier axes. Keep that implementation
+    available as the unchanged reference instead of silently replacing it.
+    """
+    if not 0 <= overlap <= size // 2:
+        raise ValueError("Expected 0 <= overlap <= half the patch size")
+    axis = np.ones(size, dtype=np.float32)
+    if overlap:
+        k = np.arange(overlap, dtype=np.float64)
+        taper = np.exp(-((k - overlap + 1)**2) * 0.5 / (overlap / 4.0)**2).astype(np.float32)
+        axis[:overlap], axis[-overlap:] = taper, taper[::-1]
+    return axis[:, None, None] * axis[None, :, None] * axis[None, None, :]
+
+
 def validate_probability(probability: np.ndarray, expected_shape: tuple[int, ...]) -> None:
     if probability.shape != expected_shape or not np.isfinite(probability).all():
         raise ValueError("Prediction shape mismatch or non-finite values")
@@ -61,7 +77,51 @@ def validate_probability(probability: np.ndarray, expected_shape: tuple[int, ...
         raise ValueError("Checkpoint output must be sigmoid probabilities in [0,1]")
 
 
-def sliding_predict(seismic: np.ndarray, predictor, patch: int = 128, stride: int = 64) -> tuple[np.ndarray, dict]:
+def predict_context_core(context_raw: np.ndarray, predictor, core_start_raw, core_shape_raw,
+                         patch: int = 128, stride: int = 64, *, fusion: str = "separable"):
+    """Predict with actual surrounding seismic, then retain only the requested core.
+
+    Axes and bounds are explicit. Halo must be loaded from the same source split,
+    never manufactured by repeating the core or by borrowing TEST samples.
+    """
+    start, shape = tuple(core_start_raw), tuple(core_shape_raw)
+    if (context_raw.ndim != 3 or len(start) != 3 or len(shape) != 3
+            or any(not isinstance(v, (int, np.integer)) for v in (*start, *shape))
+            or any(s < 0 or n <= 0 or s + n > a for s, n, a in zip(start, shape, context_raw.shape, strict=True))):
+        raise ValueError("Core bounds must be positive and contained in the raw-order context")
+    probability, info = sliding_predict(raw_to_model(context_raw), predictor, patch, stride, fusion=fusion)
+    core = tuple(slice(s, s + n) for s, n in zip(start, shape, strict=True))
+    result = np.ascontiguousarray(model_to_raw(probability)[core])
+    validate_probability(result, shape)
+    info.update(core_start_raw=list(start), core_shape_raw=list(shape),
+                context_shape_raw=list(context_raw.shape),
+                halo_before_raw=list(start), halo_after_raw=[a - s - n for a, s, n in zip(context_raw.shape, start, shape, strict=True)],
+                output_order="raw (section,lateral,sample)")
+    return result, info
+
+
+def horizontal_ensemble(predictor):
+    """Four horizontal reflections, inverse transformed before probability averaging.
+
+    Model axis0 is vertical and is never reflected by this inference variant.
+    No threshold, dilation or label information participates in this operation.
+    """
+    def predict(array):
+        if array.ndim != 3:
+            raise ValueError("Horizontal ensemble requires model-order 3D samples")
+        total = np.zeros(array.shape, dtype=np.float32)
+        for axes in ((), (1,), (2,), (1, 2)):
+            transformed = np.ascontiguousarray(np.flip(array, axis=axes)) if axes else array
+            probability = np.asarray(predictor(transformed), dtype=np.float32)
+            validate_probability(probability, array.shape)
+            total += np.flip(probability, axis=axes) if axes else probability
+        return total / np.float32(4)
+
+    return predict
+
+
+def sliding_predict(seismic: np.ndarray, predictor, patch: int = 128, stride: int = 64,
+                    *, fusion: str = "author") -> tuple[np.ndarray, dict]:
     """Covered model-order tiles, per-tile z-score, author weights and size restoration."""
     if seismic.ndim != 3 or not np.isfinite(seismic).all():
         raise ValueError("Expected finite 3D seismic")
@@ -76,7 +136,9 @@ def sliding_predict(seismic: np.ndarray, predictor, patch: int = 128, stride: in
     values = np.zeros(padded.shape, dtype=np.float32)
     weights = np.zeros(padded.shape, dtype=np.float32)
     starts = [tile_starts(n, patch, stride) for n in padded.shape]
-    mask = author_overlap_mask(patch, overlap)
+    if fusion not in ("author", "separable"):
+        raise ValueError("Choose author or separable overlap fusion")
+    mask = (author_overlap_mask if fusion == "author" else separable_overlap_mask)(patch, overlap)
     normalization = []
     count = 0
     for i in starts[0]:
@@ -101,7 +163,8 @@ def sliding_predict(seismic: np.ndarray, predictor, patch: int = 128, stride: in
     validate_probability(restored, original_shape)
     return restored, {"patch_size": patch, "stride": stride, "tiles": count,
                       "tail_padding": padding, "minimum_accumulated_weight": float(weights.min()),
-                      "mask": "author getMask assignment order, retained unchanged",
+                      "mask": ("author getMask assignment order, retained unchanged" if fusion == "author"
+                               else "product of three independent axis tapers; inference variant"),
                       "grid": "end-anchored final tile, full coverage, no unnecessary all-zero trailing tiles",
                       "normalization": normalization, "restored_shape": list(restored.shape)}
 
@@ -226,9 +289,13 @@ def run_predictions(config: dict) -> dict:
         for index in config["synthetic_prediction_ids"]:
             if not 0 <= index < 20:
                 raise ValueError("Prediction IDs must be original synthetic validation IDs 0..19")
-            seismic = raw_to_model(read_synthetic(config["data_root"], "validation", "seis", index))
+            raw_seismic = read_synthetic(config["data_root"], "validation", "seis", index)
+            # Author computes float32 reductions BEFORE transpose. Reordering the
+            # reduction changes rounding slightly even though axes are equivalent.
+            normalized_raw, stats = standardize(raw_seismic)
+            seismic = raw_to_model(raw_seismic)
             labels = raw_to_model(read_synthetic(config["data_root"], "validation", "fault", index)).astype(bool)
-            normalized, stats = standardize(seismic)
+            normalized = raw_to_model(normalized_raw)
             start = time.perf_counter()
             probability = predictor(normalized)
             elapsed = time.perf_counter() - start

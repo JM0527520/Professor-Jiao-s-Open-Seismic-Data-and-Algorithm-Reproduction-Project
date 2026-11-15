@@ -1,0 +1,12 @@
+{
+  "version": "2026-11-14-wide-context-followup-v1",
+  "scope": "last bounded local context-size check; no training, TEST or threshold search",
+  "halo_raw": [64, 64, 64],
+  "clip_context_to_validation": true,
+  "fusion": "separable",
+  "checkpoint": "fseg-60.hdf5",
+  "threshold": 0.5,
+  "source_region_protocol": "configs/quality_review.json",
+  "selection": "reuse the same three development regions; clip only parent context to validation boundary, keep core unchanged",
+  "limitations": "local development results only; larger context is not automatically better"
+}

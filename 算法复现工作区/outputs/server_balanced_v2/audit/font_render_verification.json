@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "finished": "2026-11-14T15:07:48+08:00",
+  "font_family": "Noto Sans CJK JP",
+  "fixed_views_regenerated": [
+    "faultseg_train_000_three_views.png",
+    "faultseg_validation_000_three_views.png",
+    "faultseg_validation_001_three_views.png",
+    "thebe_validation_demo_three_views.png",
+    "thebe_train_section_050_full.png",
+    "thebe_val_section_100_full.png"
+  ],
+  "source_coordinates_changed": false,
+  "predictions_changed": false
+}

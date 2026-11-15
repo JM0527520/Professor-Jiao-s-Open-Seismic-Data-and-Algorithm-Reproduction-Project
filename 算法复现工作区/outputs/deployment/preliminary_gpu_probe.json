@@ -1,0 +1,102 @@
+{
+  "started": "2026-11-14T14:33:21+08:00",
+  "purpose": "allocation/timing probe only using generated engineering fixtures, not an experiment dataset or baseline",
+  "shape": [
+    2,
+    128,
+    128,
+    128,
+    1
+  ],
+  "training_recipe": {
+    "recipe": "checkpoint_balanced_v2",
+    "run_name": "faultseg_balanced_v2",
+    "epochs": 100,
+    "fixed_baseline_epoch": 60,
+    "learning_rate": 0.0001,
+    "adam_beta_1": 0.9,
+    "adam_beta_2": 0.999,
+    "adam_epsilon": 1e-07,
+    "numpy_seed": 12345,
+    "tensorflow_seed": 1234,
+    "source_volumes_per_step": 1,
+    "effective_batch_size": 2,
+    "augmentation": "identity_and_model_axis0_flip",
+    "loss": "cross_entropy_balanced",
+    "initialization": "random",
+    "precision": "float32",
+    "shuffle_training": true,
+    "shuffle_validation": true,
+    "save_each_epoch": true,
+    "learning_rate_schedule": null,
+    "early_stopping": false
+  },
+  "runtime": {
+    "python": "3.12.3",
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+    "tensorflow": "2.18.1",
+    "keras": "3.15.1",
+    "numpy": "2.0.2",
+    "requested_device": "gpu",
+    "gpus": [
+      "/physical_device:GPU:0"
+    ],
+    "gpu_details": [
+      {
+        "compute_capability": [
+          8,
+          6
+        ],
+        "device_name": "NVIDIA GeForce RTX 3060"
+      }
+    ],
+    "precision": "float32",
+    "build": {
+      "cpu_compiler": "/usr/lib/llvm-18/bin/clang",
+      "cuda_compute_capabilities": [
+        "sm_60",
+        "sm_70",
+        "sm_80",
+        "sm_89",
+        "compute_90"
+      ],
+      "cuda_version": "12.5.1",
+      "cudnn_version": "9",
+      "is_cuda_build": true,
+      "is_rocm_build": false,
+      "is_tensorrt_build": false
+    },
+    "time": "2026-11-14T14:33:21+08:00"
+  },
+  "test_used": false,
+  "baseline_training_performed": false,
+  "updates": [
+    {
+      "seconds": 5.312293187715113,
+      "metrics": {
+        "binary_accuracy": 0.4714975357055664,
+        "loss": 0.0420176163315773
+      }
+    },
+    {
+      "seconds": 0.9287458565086126,
+      "metrics": {
+        "binary_accuracy": 0.40625762939453125,
+        "loss": 0.04199644923210144
+      }
+    },
+    {
+      "seconds": 0.9227729244157672,
+      "metrics": {
+        "binary_accuracy": 0.10494279861450195,
+        "loss": 0.04198123887181282
+      }
+    }
+  ],
+  "status": "passed",
+  "gpu_memory_bytes": {
+    "current": 36071680,
+    "peak": 5466743808
+  },
+  "finished": "2026-11-14T14:33:28+08:00"
+}

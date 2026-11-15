@@ -7,15 +7,25 @@ from .common import load_config
 
 def main():
     parser = argparse.ArgumentParser(description="本机准备与服务器基线入口；TEST保持锁定")
-    parser.add_argument("stage", choices=("prepare", "smoke", "preflight", "gpu-smoke", "train", "evaluate-synthetic", "evaluate-thebe"))
+    parser.add_argument("stage", choices=("prepare", "prepare-source", "smoke", "preflight", "gpu-smoke", "train", "evaluate-synthetic", "evaluate-thebe"))
     parser.add_argument("--config", type=Path, default=Path(__file__).resolve().parents[1] / "configs/baseline.json")
     parser.add_argument("--device", choices=("cpu", "gpu"), default="cpu", help="preflight设备；smoke固定CPU，完整训练与评价固定GPU")
     parser.add_argument("--model", choices=("author", "trained"), default="author")
+    parser.add_argument("--fusion", choices=("author", "separable"), default="author")
+    parser.add_argument("--gpu-memory-limit-mb", type=int, help="可选的评价进程显存上限；不改变训练配方")
     parser.add_argument("--resume", type=Path)
     parser.add_argument("--server-work", action="store_true", help="在已准备的GPU服务器上显式执行暂存的大任务")
     args = parser.parse_args()
     config = load_config(args.config)
-    if args.stage == "prepare":
+    config["evaluation_fusion"] = args.fusion
+    if args.gpu_memory_limit_mb is not None:
+        if not args.stage.startswith("evaluate-") or args.gpu_memory_limit_mb <= 0:
+            parser.error("GPU memory limit is only supported for evaluation with a positive MiB value")
+        config["tensorflow_gpu_memory_limit_mb"] = args.gpu_memory_limit_mb
+    if args.stage == "prepare-source":
+        from .source_stage import prepare_source_training
+        prepare_source_training(config)
+    elif args.stage == "prepare":
         from .preparation import run_preparation
         run_preparation(config)
     elif args.stage == "smoke":

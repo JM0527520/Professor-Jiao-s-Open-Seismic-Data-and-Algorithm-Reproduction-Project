@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "started": "2026-11-14T14:39:16+08:00",
+  "completed_epoch": 100,
+  "test_used": false,
+  "thebe_supervised_training": false,
+  "primary_checkpoint_rule": "fixed epoch 60, declared before training; save all 100 epochs",
+  "latest_checkpoint": "epoch-100.keras",
+  "fixed_baseline_checkpoint": "epoch-060.keras",
+  "finished": "2026-11-14T20:11:13+08:00"
+}

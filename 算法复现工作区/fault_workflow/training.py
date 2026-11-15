@@ -9,7 +9,8 @@ import time
 import numpy as np
 
 from .baseline import (AUTHOR_DIR, author_graph, compile_author_model, configure_tensorflow,
-                       get_policy, graph_signature, require_audit, require_gpu_smoke, require_preparation, runtime_info,
+                       get_policy, graph_signature, load_training_model, require_audit, require_checkpoint_recipe_match,
+                       require_gpu_smoke, require_preparation, runtime_info,
                        training_settings, verified_checkpoint, writable_path)
 from .common import raw_to_model, sha256, standardize, timestamp, write_json
 from .data import read_synthetic
@@ -91,7 +92,7 @@ def run_smoke(config):
         prediction = model([x], training=False).numpy()
         path = out / "smoke_only.keras"
         atomic_model_save(model, path)
-        restored = tf.keras.models.load_model(path)
+        restored = load_training_model(tf, path)
         np.testing.assert_array_equal(prediction, restored([x], training=False).numpy())
         assert int(restored.optimizer.iterations.numpy()) == 3
         model.reset_metrics()
@@ -129,6 +130,7 @@ def run_training(config, resume=None, server_work=False):
     audit = require_audit(config)
     settings = training_settings(config)
     policy = get_policy(config)
+    require_checkpoint_recipe_match(config, settings)
     require_preparation(config)
     tf = configure_tensorflow(config, "gpu")
     require_gpu_smoke(config, tf)
@@ -157,7 +159,7 @@ def run_training(config, resume=None, server_work=False):
         state = json.loads(resume.with_suffix(".json").read_text(encoding="utf-8"))
         if state["checkpoint_sha256"] != sha256(resume):
             raise ValueError("Resume checkpoint checksum mismatch")
-        model = tf.keras.models.load_model(resume)
+        model = load_training_model(tf, resume)
         completed = state["completed_epoch"]
         if int(model.optimizer.iterations.numpy()) != completed * 200:
             raise ValueError("Resume optimizer step does not match completed epochs")

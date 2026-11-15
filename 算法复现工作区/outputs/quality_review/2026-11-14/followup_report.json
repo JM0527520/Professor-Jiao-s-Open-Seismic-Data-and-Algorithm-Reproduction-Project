@@ -1,0 +1,863 @@
+{
+  "status": "passed",
+  "started": "2026-11-14T13:43:57+08:00",
+  "protocol": {
+    "version": "2026-11-14-horizontal-ensemble-followup-v1",
+    "purpose": "bounded local inference refinement following context diagnosis; same three DEVELOPMENT regions",
+    "based_on": "configs/quality_review.json",
+    "base_variant": "halo_separable",
+    "candidate": "halo_separable_horizontal4",
+    "model_axis_reflections": [
+      [],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "aggregation": "inverse-transform each probability volume, arithmetic mean before overlap fusion",
+    "checkpoint": "fseg-60.hdf5",
+    "threshold": 0.5,
+    "training": false,
+    "test_used": false,
+    "limitations": "adaptive local development; no independent validation claim or automatic model promotion"
+  },
+  "base_report_sha256": "046360a124217bdb333d57af69b5502f31b1c768d675a00a0e9a45b5131b1068",
+  "cases": [
+    {
+      "support_voxels": 3145728,
+      "reference_positive_voxels": 528206,
+      "confirmed_negative_voxels": 0,
+      "unknown_voxels": 2617522,
+      "invalid_reference_positive_voxels": 0,
+      "complete_binary_reference_in_support": false,
+      "strict_metrics_enabled": false,
+      "threshold_sweep": [
+        {
+          "threshold": 0.1,
+          "covered_reference_positive": 245970,
+          "missed_reference_positive": 282236,
+          "reference_positive_coverage": 0.4656705906407727,
+          "response_fraction_in_amplitude_support": 0.22865072886149088,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.3,
+          "covered_reference_positive": 164918,
+          "missed_reference_positive": 363288,
+          "reference_positive_coverage": 0.3122228827389314,
+          "response_fraction_in_amplitude_support": 0.11811288197835286,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.5,
+          "covered_reference_positive": 114660,
+          "missed_reference_positive": 413546,
+          "reference_positive_coverage": 0.21707439900341913,
+          "response_fraction_in_amplitude_support": 0.07037893931070964,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.7,
+          "covered_reference_positive": 77614,
+          "missed_reference_positive": 450592,
+          "reference_positive_coverage": 0.1469388836931046,
+          "response_fraction_in_amplitude_support": 0.04226271311442057,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.9,
+          "covered_reference_positive": 45002,
+          "missed_reference_positive": 483204,
+          "reference_positive_coverage": 0.08519782054728647,
+          "response_fraction_in_amplitude_support": 0.02128124237060547,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        }
+      ],
+      "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive.",
+      "at_fixed_threshold": {
+        "threshold": 0.5,
+        "covered_reference_positive": 114660,
+        "missed_reference_positive": 413546,
+        "reference_positive_coverage": 0.21707439900341913,
+        "response_fraction_in_amplitude_support": 0.07037893931070964,
+        "precision": null,
+        "recall": null,
+        "dice": null
+      },
+      "edge_and_interior": {
+        "edge_band": {
+          "reference_positive": 238955,
+          "positive_coverage": 0.22973781674373836,
+          "unknown_response": 0.03975456164690587
+        },
+        "interior": {
+          "reference_positive": 289251,
+          "positive_coverage": 0.2066129417011523,
+          "unknown_response": 0.0420109861647891
+        }
+      },
+      "response_outside_supplied_reference": 106733,
+      "reference_positive_fraction_in_support": 0.16791216532389322,
+      "region": {
+        "name": "historical_demo",
+        "start_raw": [
+          36,
+          852,
+          926
+        ],
+        "shape_raw": [
+          128,
+          192,
+          128
+        ],
+        "selection": "previous label-density-selected demo; development case only"
+      },
+      "tiling": {
+        "patch_size": 128,
+        "stride": 64,
+        "tiles": 12,
+        "tail_padding": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "minimum_accumulated_weight": 7.9452701362559e-11,
+        "mask": "product of three independent axis tapers; inference variant",
+        "grid": "end-anchored final tile, full coverage, no unnecessary all-zero trailing tiles",
+        "normalization": [
+          {
+            "start_model": [
+              0,
+              0,
+              0
+            ],
+            "mean": -0.0021036467514932156,
+            "std": 0.2848258912563324,
+            "constant": false
+          },
+          {
+            "start_model": [
+              0,
+              0,
+              64
+            ],
+            "mean": -0.001421527354978025,
+            "std": 0.2755447328090668,
+            "constant": false
+          },
+          {
+            "start_model": [
+              0,
+              64,
+              0
+            ],
+            "mean": -0.00036157271824777126,
+            "std": 0.2769198715686798,
+            "constant": false
+          },
+          {
+            "start_model": [
+              0,
+              64,
+              64
+            ],
+            "mean": -0.00013122230302542448,
+            "std": 0.27894458174705505,
+            "constant": false
+          },
+          {
+            "start_model": [
+              0,
+              128,
+              0
+            ],
+            "mean": -2.2956864995649084e-05,
+            "std": 0.25343063473701477,
+            "constant": false
+          },
+          {
+            "start_model": [
+              0,
+              128,
+              64
+            ],
+            "mean": 0.0008720645564608276,
+            "std": 0.2699548900127411,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              0,
+              0
+            ],
+            "mean": 0.00023781563504599035,
+            "std": 0.22902952134609222,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              0,
+              64
+            ],
+            "mean": -0.0006986079970374703,
+            "std": 0.2209375947713852,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              64,
+              0
+            ],
+            "mean": -0.0008212490938603878,
+            "std": 0.19674189388751984,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              64,
+              64
+            ],
+            "mean": -0.0013521135551854968,
+            "std": 0.21170055866241455,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              128,
+              0
+            ],
+            "mean": -0.0005812631570734084,
+            "std": 0.15084148943424225,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              128,
+              64
+            ],
+            "mean": -0.0005708801909349859,
+            "std": 0.17875030636787415,
+            "constant": false
+          }
+        ],
+        "restored_shape": [
+          192,
+          256,
+          192
+        ],
+        "core_start_raw": [
+          32,
+          32,
+          32
+        ],
+        "core_shape_raw": [
+          128,
+          192,
+          128
+        ],
+        "context_shape_raw": [
+          192,
+          256,
+          192
+        ],
+        "halo_before_raw": [
+          32,
+          32,
+          32
+        ],
+        "halo_after_raw": [
+          32,
+          32,
+          32
+        ],
+        "output_order": "raw (section,lateral,sample)"
+      },
+      "probability_sha256": "5b413e5077f9db9eb28e030dd8c44d127f7b1569ecb7b1052d2095185d0254c3",
+      "original": {
+        "threshold": 0.5,
+        "covered_reference_positive": 131226,
+        "missed_reference_positive": 396980,
+        "reference_positive_coverage": 0.24843716277361483,
+        "response_fraction_in_amplitude_support": 0.09630171457926433,
+        "precision": null,
+        "recall": null,
+        "dice": null
+      }
+    },
+    {
+      "support_voxels": 2097152,
+      "reference_positive_voxels": 286841,
+      "confirmed_negative_voxels": 0,
+      "unknown_voxels": 1810311,
+      "invalid_reference_positive_voxels": 0,
+      "complete_binary_reference_in_support": false,
+      "strict_metrics_enabled": false,
+      "threshold_sweep": [
+        {
+          "threshold": 0.1,
+          "covered_reference_positive": 164976,
+          "missed_reference_positive": 121865,
+          "reference_positive_coverage": 0.575147904239631,
+          "response_fraction_in_amplitude_support": 0.3165922164916992,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.3,
+          "covered_reference_positive": 114144,
+          "missed_reference_positive": 172697,
+          "reference_positive_coverage": 0.39793474433571213,
+          "response_fraction_in_amplitude_support": 0.18070220947265625,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.5,
+          "covered_reference_positive": 82723,
+          "missed_reference_positive": 204118,
+          "reference_positive_coverage": 0.28839322133167855,
+          "response_fraction_in_amplitude_support": 0.11347293853759766,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.7,
+          "covered_reference_positive": 56586,
+          "missed_reference_positive": 230255,
+          "reference_positive_coverage": 0.19727305371268403,
+          "response_fraction_in_amplitude_support": 0.07057476043701172,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.9,
+          "covered_reference_positive": 30465,
+          "missed_reference_positive": 256376,
+          "reference_positive_coverage": 0.10620866612513553,
+          "response_fraction_in_amplitude_support": 0.0352020263671875,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        }
+      ],
+      "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive.",
+      "at_fixed_threshold": {
+        "threshold": 0.5,
+        "covered_reference_positive": 82723,
+        "missed_reference_positive": 204118,
+        "reference_positive_coverage": 0.28839322133167855,
+        "response_fraction_in_amplitude_support": 0.11347293853759766,
+        "precision": null,
+        "recall": null,
+        "dice": null
+      },
+      "edge_and_interior": {
+        "edge_band": {
+          "reference_positive": 142516,
+          "positive_coverage": 0.3434210895618737,
+          "unknown_response": 0.08351808580241143
+        },
+        "interior": {
+          "reference_positive": 144325,
+          "positive_coverage": 0.23405508401177896,
+          "unknown_response": 0.08899246499579287
+        }
+      },
+      "response_outside_supplied_reference": 155247,
+      "reference_positive_fraction_in_support": 0.13677644729614258,
+      "region": {
+        "name": "fixed_region_a",
+        "start_raw": [
+          36,
+          600,
+          900
+        ],
+        "shape_raw": [
+          128,
+          128,
+          128
+        ],
+        "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+      },
+      "tiling": {
+        "patch_size": 128,
+        "stride": 64,
+        "tiles": 8,
+        "tail_padding": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "minimum_accumulated_weight": 7.9452701362559e-11,
+        "mask": "product of three independent axis tapers; inference variant",
+        "grid": "end-anchored final tile, full coverage, no unnecessary all-zero trailing tiles",
+        "normalization": [
+          {
+            "start_model": [
+              0,
+              0,
+              0
+            ],
+            "mean": -0.00010603910777717829,
+            "std": 0.18744371831417084,
+            "constant": false
+          },
+          {
+            "start_model": [
+              0,
+              0,
+              64
+            ],
+            "mean": 0.00013801366731058806,
+            "std": 0.16800525784492493,
+            "constant": false
+          },
+          {
+            "start_model": [
+              0,
+              64,
+              0
+            ],
+            "mean": -0.0011648288927972317,
+            "std": 0.21567083895206451,
+            "constant": false
+          },
+          {
+            "start_model": [
+              0,
+              64,
+              64
+            ],
+            "mean": -0.0010411052498966455,
+            "std": 0.16874271631240845,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              0,
+              0
+            ],
+            "mean": -0.0005168489878997207,
+            "std": 0.13267882168293,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              0,
+              64
+            ],
+            "mean": -0.0003698579384945333,
+            "std": 0.12587806582450867,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              64,
+              0
+            ],
+            "mean": -0.00024002627469599247,
+            "std": 0.17205408215522766,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              64,
+              64
+            ],
+            "mean": 5.112243889016099e-05,
+            "std": 0.13199524581432343,
+            "constant": false
+          }
+        ],
+        "restored_shape": [
+          192,
+          192,
+          192
+        ],
+        "core_start_raw": [
+          32,
+          32,
+          32
+        ],
+        "core_shape_raw": [
+          128,
+          128,
+          128
+        ],
+        "context_shape_raw": [
+          192,
+          192,
+          192
+        ],
+        "halo_before_raw": [
+          32,
+          32,
+          32
+        ],
+        "halo_after_raw": [
+          32,
+          32,
+          32
+        ],
+        "output_order": "raw (section,lateral,sample)"
+      },
+      "probability_sha256": "b8ba21e71e200104f1ada23909ab0c14c31a20f3177585ce8bde1375c04270b7",
+      "original": {
+        "threshold": 0.5,
+        "covered_reference_positive": 82204,
+        "missed_reference_positive": 204637,
+        "reference_positive_coverage": 0.28658385656164914,
+        "response_fraction_in_amplitude_support": 0.1370387077331543,
+        "precision": null,
+        "recall": null,
+        "dice": null
+      }
+    },
+    {
+      "support_voxels": 2097152,
+      "reference_positive_voxels": 82099,
+      "confirmed_negative_voxels": 0,
+      "unknown_voxels": 2015053,
+      "invalid_reference_positive_voxels": 0,
+      "complete_binary_reference_in_support": false,
+      "strict_metrics_enabled": false,
+      "threshold_sweep": [
+        {
+          "threshold": 0.1,
+          "covered_reference_positive": 72621,
+          "missed_reference_positive": 9478,
+          "reference_positive_coverage": 0.8845540140562005,
+          "response_fraction_in_amplitude_support": 0.19347572326660156,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.3,
+          "covered_reference_positive": 64992,
+          "missed_reference_positive": 17107,
+          "reference_positive_coverage": 0.7916296179003398,
+          "response_fraction_in_amplitude_support": 0.0973210334777832,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.5,
+          "covered_reference_positive": 58175,
+          "missed_reference_positive": 23924,
+          "reference_positive_coverage": 0.7085957198017028,
+          "response_fraction_in_amplitude_support": 0.062024593353271484,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.7,
+          "covered_reference_positive": 50496,
+          "missed_reference_positive": 31603,
+          "reference_positive_coverage": 0.6150623028295107,
+          "response_fraction_in_amplitude_support": 0.04108762741088867,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        },
+        {
+          "threshold": 0.9,
+          "covered_reference_positive": 38212,
+          "missed_reference_positive": 43887,
+          "reference_positive_coverage": 0.46543806867318727,
+          "response_fraction_in_amplitude_support": 0.024669170379638672,
+          "precision": null,
+          "recall": null,
+          "dice": null
+        }
+      ],
+      "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive.",
+      "at_fixed_threshold": {
+        "threshold": 0.5,
+        "covered_reference_positive": 58175,
+        "missed_reference_positive": 23924,
+        "reference_positive_coverage": 0.7085957198017028,
+        "response_fraction_in_amplitude_support": 0.062024593353271484,
+        "precision": null,
+        "recall": null,
+        "dice": null
+      },
+      "edge_and_interior": {
+        "edge_band": {
+          "reference_positive": 36191,
+          "positive_coverage": 0.7250145063689868,
+          "unknown_response": 0.033599863971604076
+        },
+        "interior": {
+          "reference_positive": 45908,
+          "positive_coverage": 0.6956521739130435,
+          "unknown_response": 0.038600285159770535
+        }
+      },
+      "response_outside_supplied_reference": 71900,
+      "reference_positive_fraction_in_support": 0.03914785385131836,
+      "region": {
+        "name": "fixed_region_b",
+        "start_raw": [
+          36,
+          1200,
+          1000
+        ],
+        "shape_raw": [
+          128,
+          128,
+          128
+        ],
+        "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+      },
+      "tiling": {
+        "patch_size": 128,
+        "stride": 64,
+        "tiles": 8,
+        "tail_padding": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "minimum_accumulated_weight": 7.9452701362559e-11,
+        "mask": "product of three independent axis tapers; inference variant",
+        "grid": "end-anchored final tile, full coverage, no unnecessary all-zero trailing tiles",
+        "normalization": [
+          {
+            "start_model": [
+              0,
+              0,
+              0
+            ],
+            "mean": 1.9252180209150538e-05,
+            "std": 0.14485245943069458,
+            "constant": false
+          },
+          {
+            "start_model": [
+              0,
+              0,
+              64
+            ],
+            "mean": 0.0002784848620649427,
+            "std": 0.15008988976478577,
+            "constant": false
+          },
+          {
+            "start_model": [
+              0,
+              64,
+              0
+            ],
+            "mean": -0.00030084868194535375,
+            "std": 0.13742497563362122,
+            "constant": false
+          },
+          {
+            "start_model": [
+              0,
+              64,
+              64
+            ],
+            "mean": -0.00014576302783098072,
+            "std": 0.1411484330892563,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              0,
+              0
+            ],
+            "mean": -0.00026704941410571337,
+            "std": 0.11050483584403992,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              0,
+              64
+            ],
+            "mean": -0.00038230622885748744,
+            "std": 0.11830394715070724,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              64,
+              0
+            ],
+            "mean": 7.120658119674772e-05,
+            "std": 0.1067529246211052,
+            "constant": false
+          },
+          {
+            "start_model": [
+              64,
+              64,
+              64
+            ],
+            "mean": 0.0003103865310549736,
+            "std": 0.10678888857364655,
+            "constant": false
+          }
+        ],
+        "restored_shape": [
+          192,
+          192,
+          192
+        ],
+        "core_start_raw": [
+          32,
+          32,
+          32
+        ],
+        "core_shape_raw": [
+          128,
+          128,
+          128
+        ],
+        "context_shape_raw": [
+          192,
+          192,
+          192
+        ],
+        "halo_before_raw": [
+          32,
+          32,
+          32
+        ],
+        "halo_after_raw": [
+          32,
+          32,
+          32
+        ],
+        "output_order": "raw (section,lateral,sample)"
+      },
+      "probability_sha256": "ffe9c79fccf94f450b444782081a031f8d457e591beb9ad7fde46ccef8581036",
+      "original": {
+        "threshold": 0.5,
+        "covered_reference_positive": 57100,
+        "missed_reference_positive": 24999,
+        "reference_positive_coverage": 0.6955017722505755,
+        "response_fraction_in_amplitude_support": 0.08101654052734375,
+        "precision": null,
+        "recall": null,
+        "dice": null
+      }
+    }
+  ],
+  "training_performed": false,
+  "test_used": false,
+  "full_baseline_run": false,
+  "runtime": {
+    "framework": "TensorFlow / tf.keras",
+    "tensorflow": "2.18.1",
+    "keras": "3.15.1",
+    "device": "CPU",
+    "cpu_threads": 4,
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "checkpoint": "01_FaultSeg3D/预训练模型与预测示例/fseg-60.hdf5",
+    "sha256": "5174031cb013e6c8a311c1c74689f473157105baf4a089e8463abf01a96349da",
+    "author_entrypoint": "xinwucwp/faultSeg predNew.ipynb, md=60",
+    "checkpoint_load": "unchanged original HDF5; load_model(compile=False); no model/weight conversion",
+    "parameter_count": 1459585,
+    "conv3d_filters": [
+      16,
+      16,
+      32,
+      32,
+      64,
+      64,
+      128,
+      128,
+      64,
+      64,
+      32,
+      32,
+      16,
+      16,
+      1
+    ],
+    "weight_arrays_exactly_compared_to_hdf5": 30,
+    "repeat_probe_max_absolute_difference": 0.0,
+    "normalization": "float32 per-cube z-score from predNew.ipynb; not the older model3.json minmax*255 path",
+    "compatibility": "Skip old training optimizer/loss; prediction graph and all 30 weight arrays preserved. No claim of bitwise parity with the unavailable historical runtime."
+  },
+  "synthetic_anchor_0": {
+    "threshold": 0.5,
+    "tp": 148790,
+    "fp_vs_supplied_reference": 82526,
+    "fn": 8007,
+    "tn_vs_supplied_reference": 1857829,
+    "dice_vs_supplied_reference": 0.7667354610641746,
+    "precision_vs_supplied_reference": 0.6432326341454979,
+    "recall_vs_supplied_reference": 0.9489339719509939,
+    "support_voxels": 2097152,
+    "usage": "pipeline verification only; no threshold search or checkpoint selection"
+  },
+  "candidate_promoted": false,
+  "finished": "2026-11-14T13:46:20+08:00"
+}

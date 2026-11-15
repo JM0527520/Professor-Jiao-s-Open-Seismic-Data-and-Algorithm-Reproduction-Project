@@ -1,0 +1,34 @@
+{
+  "status": "not_evaluated_no_historical_demo_prediction",
+  "source_coordinates": {
+    "split": "val",
+    "section_start": 36,
+    "section_stop": 164,
+    "lateral_start": 852,
+    "lateral_stop": 1044,
+    "sample_start": 926,
+    "sample_stop": 1054,
+    "shape_raw": [
+      128,
+      192,
+      128
+    ],
+    "shape_model": [
+      128,
+      192,
+      128
+    ],
+    "global_section_start": 936,
+    "selection": "Fixed 128 validation sections; choose 192x128 rectangle with largest reference-label count. No predictions used.",
+    "purpose": "Label-rich pipeline smoke test, NOT an unbiased benchmark or evidence of generalization.",
+    "coordinate_units": "zero-based array indices; physical survey mapping not established"
+  },
+  "state_encoding": {
+    "0": "invalid",
+    "1": "unknown",
+    "2": "confirmed_negative",
+    "3": "reference_positive"
+  },
+  "full_trace_support_before_crop": true,
+  "interpretation": "Masks and full-source policy checks completed; no demo metrics fabricated. Full validation runs separately."
+}

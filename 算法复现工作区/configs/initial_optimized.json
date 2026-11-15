@@ -1,0 +1,12 @@
+{
+  "version": "2026-11-14-initial-local-optimized-v1",
+  "review_protocol": "configs/quality_review.json",
+  "variant": "halo_separable",
+  "checkpoint": "fseg-60.hdf5",
+  "threshold": 0.5,
+  "halo_raw": [32, 32, 32],
+  "fusion": "separable",
+  "horizontal_ensemble": false,
+  "scope": "same three local DEVELOPMENT cores only",
+  "acceptance": "local engineering candidate; recognition quality not yet accepted"
+}

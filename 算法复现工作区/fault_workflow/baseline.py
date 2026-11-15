@@ -6,6 +6,7 @@ import os
 from pathlib import Path
 import platform
 
+import h5py
 import numpy as np
 
 from .common import WORKSPACE, relative_path, sha256, timestamp, write_json
@@ -46,11 +47,15 @@ def require_audit(config) -> dict:
 
 def training_settings(config) -> dict:
     settings = config["training"]
+    recipe = settings.get("recipe", "pinned_script_bce_v1")
+    losses = {"pinned_script_bce_v1": "binary_crossentropy", "checkpoint_balanced_v2": "cross_entropy_balanced"}
+    if recipe not in losses:
+        raise ValueError("Unknown training recipe; declare and review its source evidence")
     expected = {"epochs": 100, "fixed_baseline_epoch": 60, "learning_rate": 1e-4,
                 "adam_beta_1": 0.9, "adam_beta_2": 0.999, "adam_epsilon": 1e-7,
                 "numpy_seed": 12345, "tensorflow_seed": 1234,
                 "source_volumes_per_step": 1, "effective_batch_size": 2,
-                "augmentation": "identity_and_model_axis0_flip", "loss": "binary_crossentropy",
+                "augmentation": "identity_and_model_axis0_flip", "loss": losses[recipe],
                 "initialization": "random", "precision": "float32", "shuffle_training": True,
                 "shuffle_validation": True, "save_each_epoch": True,
                 "learning_rate_schedule": None, "early_stopping": False}
@@ -73,6 +78,17 @@ def require_preparation(config):
     return manifest
 
 
+def require_checkpoint_recipe_match(config, settings):
+    """Do not label script-BCE training as reproduction of a balanced-loss model."""
+    with h5py.File(verified_checkpoint(config), "r") as archive:
+        saved = json.loads(archive.attrs["training_config"])
+    if saved.get("loss") != settings["loss"]:
+        raise ValueError(
+            f"Training recipe unresolved: checkpoint loss={saved.get('loss')!r}, "
+            f"configured loss={settings['loss']!r}. Resolve and document this mismatch "
+            "before full training; the current server recipe has a separate checkpoint-balanced configuration.")
+
+
 def configure_tensorflow(config, device="cpu"):
     if device not in ("cpu", "gpu"):
         raise ValueError("Device must be cpu or gpu")
@@ -88,8 +104,14 @@ def configure_tensorflow(config, device="cpu"):
     if device == "gpu" and not gpus:
         raise RuntimeError("No TensorFlow GPU is available; full server work has not started")
     if device == "gpu":
+        memory_limit = config.get("tensorflow_gpu_memory_limit_mb")
+        if memory_limit is not None and (not isinstance(memory_limit, int) or memory_limit <= 0):
+            raise ValueError("GPU memory limit must be a positive integer in MiB")
         for gpu in gpus:
-            tf.config.experimental.set_memory_growth(gpu, True)
+            if memory_limit:
+                tf.config.set_logical_device_configuration(gpu, [tf.config.LogicalDeviceConfiguration(memory_limit=memory_limit)])
+            else:
+                tf.config.experimental.set_memory_growth(gpu, True)
     tf.keras.mixed_precision.set_global_policy("float32")
     # Preserve the two explicit seeds in author train.py; historical kernels differ.
     tf.keras.utils.set_random_seed(config["training"]["tensorflow_seed"])
@@ -118,10 +140,23 @@ def author_graph(tf):
 
 
 def compile_author_model(tf, model, settings):
+    if settings["loss"] == "cross_entropy_balanced":
+        from .losses import cross_entropy_balanced
+        loss = cross_entropy_balanced
+    elif settings["loss"] == "binary_crossentropy":
+        loss = "binary_crossentropy"
+    else:
+        raise ValueError("Undeclared training loss")
     model.compile(optimizer=tf.keras.optimizers.Adam(
         learning_rate=settings["learning_rate"], beta_1=settings["adam_beta_1"],
         beta_2=settings["adam_beta_2"], epsilon=settings["adam_epsilon"]),
-        loss="binary_crossentropy", metrics=["binary_accuracy"], jit_compile=False)
+        loss=loss, metrics=["binary_accuracy"], jit_compile=False)
+
+
+def load_training_model(tf, path):
+    # Register before deserializing a saved balanced-loss model, also in a fresh process.
+    from .losses import cross_entropy_balanced
+    return tf.keras.models.load_model(path, custom_objects={"cross_entropy_balanced": cross_entropy_balanced})
 
 
 def graph_signature(model):

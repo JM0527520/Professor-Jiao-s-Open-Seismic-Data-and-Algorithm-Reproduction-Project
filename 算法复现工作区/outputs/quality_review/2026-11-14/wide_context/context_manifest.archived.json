@@ -1,0 +1,161 @@
+{
+  "signature": {
+    "protocol": {
+      "version": "2026-11-14-wide-context-followup-v1",
+      "scope": "local_initial_experiment_only_no_training_no_full_baseline_no_TEST",
+      "checkpoint": "fseg-60.hdf5",
+      "threshold": 0.5,
+      "diagnostic_thresholds": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "halo_raw": [
+        64,
+        64,
+        64
+      ],
+      "patch_size": 128,
+      "stride": 64,
+      "synthetic_validation_ids": [
+        0,
+        5,
+        10,
+        15,
+        19
+      ],
+      "variants": [
+        "legacy_core",
+        "halo_author",
+        "halo_separable"
+      ],
+      "thebe_regions": [
+        {
+          "name": "historical_demo",
+          "start_raw": [
+            36,
+            852,
+            926
+          ],
+          "shape_raw": [
+            128,
+            192,
+            128
+          ],
+          "selection": "previous label-density-selected demo; development case only"
+        },
+        {
+          "name": "fixed_region_a",
+          "start_raw": [
+            36,
+            600,
+            900
+          ],
+          "shape_raw": [
+            128,
+            128,
+            128
+          ],
+          "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+        },
+        {
+          "name": "fixed_region_b",
+          "start_raw": [
+            36,
+            1200,
+            1000
+          ],
+          "shape_raw": [
+            128,
+            128,
+            128
+          ],
+          "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+        }
+      ],
+      "promotion_rule": "Do not auto-promote from a single label-rich ROI. Compare coverage and unknown-area response per region at the unchanged threshold; reject variants with material coverage regressions. Human/domain acceptance still required.",
+      "boundary_band_samples": 16,
+      "known_limitations": [
+        "no confirmed negative labels for Thebe",
+        "local development regions, not independent test",
+        "sample distances are not physical metres",
+        "no threshold or checkpoint optimization in this review"
+      ],
+      "clip_context_to_validation": true
+    },
+    "sources": [
+      {
+        "relative_path": "02_Thebe\\data\\npzfiles\\seis\\seisval1.npz",
+        "bytes": 1314676313,
+        "mtime_ns": 1793685044007002300
+      },
+      {
+        "relative_path": "02_Thebe\\data\\npzfiles\\seis\\seisval2.npz",
+        "bytes": 1391502667,
+        "mtime_ns": 1793685943005052300
+      },
+      {
+        "relative_path": "02_Thebe\\data\\npzfiles\\fault\\faultval1.npz",
+        "bytes": 1088280,
+        "mtime_ns": 1793684196008666200
+      },
+      {
+        "relative_path": "02_Thebe\\data\\npzfiles\\fault\\faultval2.npz",
+        "bytes": 1216734,
+        "mtime_ns": 1793684207179463300
+      }
+    ],
+    "data_root": "D:\\My_Files\\Project\\Jiao_Teacher_Project\\仪陇南部层位智能追踪与断层智能识别\\公开地震数据与算法复现\\公开数据集"
+  },
+  "files": {
+    "historical_demo_seismic_raw.npy": "e2c8a1ba9ef4a0ac4b83999875f3622504bdf413e5611e25383779282246ef32",
+    "historical_demo_labels_raw.npy": "a6d97e487a48a2a812eac6009ce467afc0e5505b4d463f041406e5037d1b0a1f",
+    "historical_demo_states_raw.npy": "b8426e78f0f408ddda9ce3f3a7fa165e4a344f7455007e6dbb15562355ce8ca0",
+    "fixed_region_a_seismic_raw.npy": "8537715971f6aae50792dfb8bc1efbb61faece857af2311684fa3980ad6693c9",
+    "fixed_region_a_labels_raw.npy": "d9aced8463a8872e1451d1a7c3820a14dfea1adfe1c3f3981e39651e9272abf0",
+    "fixed_region_a_states_raw.npy": "6c5a64e51d7e8affcbf9464a9045ba47fbcd68078c72f492954371f791ff8e71",
+    "fixed_region_b_seismic_raw.npy": "251988042946e4a041d90d142ad819419ae032f093e337e1d6b1c843efa5a3ca",
+    "fixed_region_b_labels_raw.npy": "6cf8dce30c43aaa9db4f8eefb6535afcf2f72d3dc4156c96b68345084e290821",
+    "fixed_region_b_states_raw.npy": "5236c66dc4fb65dc3634746cc3a793d7454fc6c7efbb10c98315b3fe82e10b17"
+  },
+  "contexts": {
+    "historical_demo": {
+      "start_raw": [
+        0,
+        788,
+        862
+      ],
+      "stop_raw": [
+        200,
+        1108,
+        1118
+      ]
+    },
+    "fixed_region_a": {
+      "start_raw": [
+        0,
+        536,
+        836
+      ],
+      "stop_raw": [
+        200,
+        792,
+        1092
+      ]
+    },
+    "fixed_region_b": {
+      "start_raw": [
+        0,
+        1136,
+        936
+      ],
+      "stop_raw": [
+        200,
+        1392,
+        1192
+      ]
+    }
+  }
+}

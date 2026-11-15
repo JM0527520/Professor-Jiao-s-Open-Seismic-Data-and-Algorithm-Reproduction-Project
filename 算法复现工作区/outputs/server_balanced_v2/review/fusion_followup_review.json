@@ -1,0 +1,617 @@
+{
+  "status": "completed_review_only",
+  "finished": "2026-11-16T01:16:21+08:00",
+  "test_used": false,
+  "recognition_quality_accepted": false,
+  "user_visual_review_pending": true,
+  "project_paused_by_user": true,
+  "new_training_or_inference_started_by_review": false,
+  "report_sha256": {
+    "author_source": "97318b1ab66be3d56b910249c6f4e1c0de1d0d9c0ae952248993e7518b550dee",
+    "trained_source": "f2c265189e7f160aba1985d49bd6aa8e9cdba0e593d659ee975a329b9fdc9813",
+    "author_thebe": "2c65bbba494fe36f5f6d3ed47bb1567be62d7ab2c1ac9e91b8988dfef1f760d4",
+    "trained_thebe": "bee8c0f1fd31b3212789f6e04040a0e00075f288db28965e8c68d56f9f39c6c5",
+    "trained_separable": "13b07878d42a7750b8d8de01d91498b301d58b4a24ee6cad6e20bfb97904aea0",
+    "author_separable": "99f858744136ab746a11b48dfa4c2d8eef4767fdaee77ae52e96a056095886ba"
+  },
+  "previous_review_sha256": "3f3e22f1cf6500e900480e0c5e94a9da803bb746f48412f7763ac3856fab89bb",
+  "gate_sha256": "046b3c110b7169ca5518db3d8450c2c39eadf854b859313dbda864df76635d5b",
+  "thebe_2x2": {
+    "author_thebe": {
+      "coverage": 0.31532295655146836,
+      "unknown_response": 0.09880979813323763
+    },
+    "author_separable": {
+      "coverage": 0.33897617163818705,
+      "unknown_response": 0.1158043223321208
+    },
+    "trained_thebe": {
+      "coverage": 0.24000694515151827,
+      "unknown_response": 0.0751579607138166
+    },
+    "trained_separable": {
+      "coverage": 0.27440050778538877,
+      "unknown_response": 0.09583167534082487
+    }
+  },
+  "author_fusion_followup": {
+    "coverage_delta": 0.023653215086718693,
+    "unknown_response_delta": 0.01699452419888317,
+    "provisional_numeric_gate_passed": false
+  },
+  "development_cores": [
+    {
+      "region": {
+        "name": "historical_demo",
+        "start_raw": [
+          36,
+          852,
+          926
+        ],
+        "shape_raw": [
+          128,
+          192,
+          128
+        ],
+        "selection": "previous label-density-selected demo; development case only"
+      },
+      "scores": {
+        "author_thebe": {
+          "support_voxels": 3145728,
+          "reference_positive_voxels": 528206,
+          "confirmed_negative_voxels": 0,
+          "unknown_voxels": 2617522,
+          "invalid_reference_positive_voxels": 0,
+          "complete_binary_reference_in_support": false,
+          "strict_metrics_enabled": false,
+          "threshold_sweep": [
+            {
+              "threshold": 0.1,
+              "covered_reference_positive": 235893,
+              "missed_reference_positive": 292313,
+              "reference_positive_coverage": 0.4465928065943969,
+              "response_fraction_in_amplitude_support": 0.21183458964029947,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.3,
+              "covered_reference_positive": 179028,
+              "missed_reference_positive": 349178,
+              "reference_positive_coverage": 0.3389359454455269,
+              "response_fraction_in_amplitude_support": 0.14139525095621744,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.5,
+              "covered_reference_positive": 134810,
+              "missed_reference_positive": 393396,
+              "reference_positive_coverage": 0.25522239429313565,
+              "response_fraction_in_amplitude_support": 0.0932931900024414,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.7,
+              "covered_reference_positive": 102710,
+              "missed_reference_positive": 425496,
+              "reference_positive_coverage": 0.1944506499358205,
+              "response_fraction_in_amplitude_support": 0.0653371810913086,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.9,
+              "covered_reference_positive": 66456,
+              "missed_reference_positive": 461750,
+              "reference_positive_coverage": 0.12581454962647148,
+              "response_fraction_in_amplitude_support": 0.03806877136230469,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            }
+          ],
+          "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive.",
+          "at_fixed_threshold": {
+            "threshold": 0.5,
+            "covered_reference_positive": 134810,
+            "missed_reference_positive": 393396,
+            "reference_positive_coverage": 0.25522239429313565,
+            "response_fraction_in_amplitude_support": 0.0932931900024414,
+            "precision": null,
+            "recall": null,
+            "dice": null
+          },
+          "edge_and_interior": {
+            "edge_band": {
+              "reference_positive": 238955,
+              "positive_coverage": 0.26880374965997783,
+              "unknown_response": 0.05885158143376718
+            },
+            "interior": {
+              "reference_positive": 289251,
+              "positive_coverage": 0.24400261364697096,
+              "unknown_response": 0.06274903843639085
+            }
+          },
+          "response_outside_supplied_reference": 158665,
+          "reference_positive_fraction_in_support": 0.16791216532389322
+        },
+        "author_separable": {
+          "support_voxels": 3145728,
+          "reference_positive_voxels": 528206,
+          "confirmed_negative_voxels": 0,
+          "unknown_voxels": 2617522,
+          "invalid_reference_positive_voxels": 0,
+          "complete_binary_reference_in_support": false,
+          "strict_metrics_enabled": false,
+          "threshold_sweep": [
+            {
+              "threshold": 0.1,
+              "covered_reference_positive": 202498,
+              "missed_reference_positive": 325708,
+              "reference_positive_coverage": 0.3833693672544424,
+              "response_fraction_in_amplitude_support": 0.1644458770751953,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.3,
+              "covered_reference_positive": 166145,
+              "missed_reference_positive": 362061,
+              "reference_positive_coverage": 0.3145458400699727,
+              "response_fraction_in_amplitude_support": 0.12685521443684897,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.5,
+              "covered_reference_positive": 143253,
+              "missed_reference_positive": 384953,
+              "reference_positive_coverage": 0.2712066882996407,
+              "response_fraction_in_amplitude_support": 0.1047360102335612,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.7,
+              "covered_reference_positive": 119608,
+              "missed_reference_positive": 408598,
+              "reference_positive_coverage": 0.2264419563579361,
+              "response_fraction_in_amplitude_support": 0.08362197875976562,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.9,
+              "covered_reference_positive": 80910,
+              "missed_reference_positive": 447296,
+              "reference_positive_coverage": 0.15317887339409245,
+              "response_fraction_in_amplitude_support": 0.052106221516927086,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            }
+          ],
+          "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive.",
+          "at_fixed_threshold": {
+            "threshold": 0.5,
+            "covered_reference_positive": 143253,
+            "missed_reference_positive": 384953,
+            "reference_positive_coverage": 0.2712066882996407,
+            "response_fraction_in_amplitude_support": 0.1047360102335612,
+            "precision": null,
+            "recall": null,
+            "dice": null
+          },
+          "edge_and_interior": {
+            "edge_band": {
+              "reference_positive": 238955,
+              "positive_coverage": 0.27560837814651296,
+              "unknown_response": 0.06814768473683733
+            },
+            "interior": {
+              "reference_positive": 289251,
+              "positive_coverage": 0.26757038005054434,
+              "unknown_response": 0.07476193971361055
+            }
+          },
+          "response_outside_supplied_reference": 186218,
+          "reference_positive_fraction_in_support": 0.16791216532389322
+        }
+      },
+      "coverage_delta": 0.01598429400650503
+    },
+    {
+      "region": {
+        "name": "fixed_region_a",
+        "start_raw": [
+          36,
+          600,
+          900
+        ],
+        "shape_raw": [
+          128,
+          128,
+          128
+        ],
+        "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+      },
+      "scores": {
+        "author_thebe": {
+          "support_voxels": 2097152,
+          "reference_positive_voxels": 286841,
+          "confirmed_negative_voxels": 0,
+          "unknown_voxels": 1810311,
+          "invalid_reference_positive_voxels": 0,
+          "complete_binary_reference_in_support": false,
+          "strict_metrics_enabled": false,
+          "threshold_sweep": [
+            {
+              "threshold": 0.1,
+              "covered_reference_positive": 136977,
+              "missed_reference_positive": 149864,
+              "reference_positive_coverage": 0.47753633546110913,
+              "response_fraction_in_amplitude_support": 0.25182104110717773,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.3,
+              "covered_reference_positive": 104430,
+              "missed_reference_positive": 182411,
+              "reference_positive_coverage": 0.3640692927440638,
+              "response_fraction_in_amplitude_support": 0.17688608169555664,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.5,
+              "covered_reference_positive": 76024,
+              "missed_reference_positive": 210817,
+              "reference_positive_coverage": 0.26503881941563445,
+              "response_fraction_in_amplitude_support": 0.1188664436340332,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.7,
+              "covered_reference_positive": 57116,
+              "missed_reference_positive": 229725,
+              "reference_positive_coverage": 0.19912076725433253,
+              "response_fraction_in_amplitude_support": 0.08551025390625,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.9,
+              "covered_reference_positive": 35481,
+              "missed_reference_positive": 251360,
+              "reference_positive_coverage": 0.12369570598345425,
+              "response_fraction_in_amplitude_support": 0.04987907409667969,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            }
+          ],
+          "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive.",
+          "at_fixed_threshold": {
+            "threshold": 0.5,
+            "covered_reference_positive": 76024,
+            "missed_reference_positive": 210817,
+            "reference_positive_coverage": 0.26503881941563445,
+            "response_fraction_in_amplitude_support": 0.1188664436340332,
+            "precision": null,
+            "recall": null,
+            "dice": null
+          },
+          "edge_and_interior": {
+            "edge_band": {
+              "reference_positive": 142516,
+              "positive_coverage": 0.31621010974206404,
+              "unknown_response": 0.09235255631367417
+            },
+            "interior": {
+              "reference_positive": 144325,
+              "positive_coverage": 0.21450892083838558,
+              "unknown_response": 0.1005509102376923
+            }
+          },
+          "response_outside_supplied_reference": 173257,
+          "reference_positive_fraction_in_support": 0.13677644729614258
+        },
+        "author_separable": {
+          "support_voxels": 2097152,
+          "reference_positive_voxels": 286841,
+          "confirmed_negative_voxels": 0,
+          "unknown_voxels": 1810311,
+          "invalid_reference_positive_voxels": 0,
+          "complete_binary_reference_in_support": false,
+          "strict_metrics_enabled": false,
+          "threshold_sweep": [
+            {
+              "threshold": 0.1,
+              "covered_reference_positive": 117128,
+              "missed_reference_positive": 169713,
+              "reference_positive_coverage": 0.4083377202003898,
+              "response_fraction_in_amplitude_support": 0.2125105857849121,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.3,
+              "covered_reference_positive": 97325,
+              "missed_reference_positive": 189516,
+              "reference_positive_coverage": 0.33929947253007764,
+              "response_fraction_in_amplitude_support": 0.1674642562866211,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.5,
+              "covered_reference_positive": 83915,
+              "missed_reference_positive": 202926,
+              "reference_positive_coverage": 0.292548833674405,
+              "response_fraction_in_amplitude_support": 0.1400594711303711,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.7,
+              "covered_reference_positive": 70060,
+              "missed_reference_positive": 216781,
+              "reference_positive_coverage": 0.24424681269414067,
+              "response_fraction_in_amplitude_support": 0.11302947998046875,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.9,
+              "covered_reference_positive": 47252,
+              "missed_reference_positive": 239589,
+              "reference_positive_coverage": 0.16473237786787803,
+              "response_fraction_in_amplitude_support": 0.07140398025512695,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            }
+          ],
+          "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive.",
+          "at_fixed_threshold": {
+            "threshold": 0.5,
+            "covered_reference_positive": 83915,
+            "missed_reference_positive": 202926,
+            "reference_positive_coverage": 0.292548833674405,
+            "response_fraction_in_amplitude_support": 0.1400594711303711,
+            "precision": null,
+            "recall": null,
+            "dice": null
+          },
+          "edge_and_interior": {
+            "edge_band": {
+              "reference_positive": 142516,
+              "positive_coverage": 0.34902747761654834,
+              "unknown_response": 0.11557996074399476
+            },
+            "interior": {
+              "reference_positive": 144325,
+              "positive_coverage": 0.23677810497141868,
+              "unknown_response": 0.11635699631691047
+            }
+          },
+          "response_outside_supplied_reference": 209811,
+          "reference_positive_fraction_in_support": 0.13677644729614258
+        }
+      },
+      "coverage_delta": 0.027510014258770532
+    },
+    {
+      "region": {
+        "name": "fixed_region_b",
+        "start_raw": [
+          36,
+          1200,
+          1000
+        ],
+        "shape_raw": [
+          128,
+          128,
+          128
+        ],
+        "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+      },
+      "scores": {
+        "author_thebe": {
+          "support_voxels": 2097152,
+          "reference_positive_voxels": 82099,
+          "confirmed_negative_voxels": 0,
+          "unknown_voxels": 2015053,
+          "invalid_reference_positive_voxels": 0,
+          "complete_binary_reference_in_support": false,
+          "strict_metrics_enabled": false,
+          "threshold_sweep": [
+            {
+              "threshold": 0.1,
+              "covered_reference_positive": 69755,
+              "missed_reference_positive": 12344,
+              "reference_positive_coverage": 0.8496449408640787,
+              "response_fraction_in_amplitude_support": 0.16329431533813477,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.3,
+              "covered_reference_positive": 63693,
+              "missed_reference_positive": 18406,
+              "reference_positive_coverage": 0.7758072570920475,
+              "response_fraction_in_amplitude_support": 0.10858964920043945,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.5,
+              "covered_reference_positive": 58030,
+              "missed_reference_positive": 24069,
+              "reference_positive_coverage": 0.7068295594343414,
+              "response_fraction_in_amplitude_support": 0.0736398696899414,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.7,
+              "covered_reference_positive": 50997,
+              "missed_reference_positive": 31102,
+              "reference_positive_coverage": 0.6211646914091523,
+              "response_fraction_in_amplitude_support": 0.052976131439208984,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.9,
+              "covered_reference_positive": 39096,
+              "missed_reference_positive": 43003,
+              "reference_positive_coverage": 0.47620555670592823,
+              "response_fraction_in_amplitude_support": 0.03210306167602539,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            }
+          ],
+          "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive.",
+          "at_fixed_threshold": {
+            "threshold": 0.5,
+            "covered_reference_positive": 58030,
+            "missed_reference_positive": 24069,
+            "reference_positive_coverage": 0.7068295594343414,
+            "response_fraction_in_amplitude_support": 0.0736398696899414,
+            "precision": null,
+            "recall": null,
+            "dice": null
+          },
+          "edge_and_interior": {
+            "edge_band": {
+              "reference_positive": 36191,
+              "positive_coverage": 0.7094305214003481,
+              "unknown_response": 0.038509638887117684
+            },
+            "interior": {
+              "reference_positive": 45908,
+              "positive_coverage": 0.7047791234643199,
+              "unknown_response": 0.06092786602259343
+            }
+          },
+          "response_outside_supplied_reference": 96404,
+          "reference_positive_fraction_in_support": 0.03914785385131836
+        },
+        "author_separable": {
+          "support_voxels": 2097152,
+          "reference_positive_voxels": 82099,
+          "confirmed_negative_voxels": 0,
+          "unknown_voxels": 2015053,
+          "invalid_reference_positive_voxels": 0,
+          "complete_binary_reference_in_support": false,
+          "strict_metrics_enabled": false,
+          "threshold_sweep": [
+            {
+              "threshold": 0.1,
+              "covered_reference_positive": 68250,
+              "missed_reference_positive": 13849,
+              "reference_positive_coverage": 0.8313134142925005,
+              "response_fraction_in_amplitude_support": 0.13449621200561523,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.3,
+              "covered_reference_positive": 62292,
+              "missed_reference_positive": 19807,
+              "reference_positive_coverage": 0.7587424938184387,
+              "response_fraction_in_amplitude_support": 0.10201740264892578,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.5,
+              "covered_reference_positive": 57590,
+              "missed_reference_positive": 24509,
+              "reference_positive_coverage": 0.7014701762506242,
+              "response_fraction_in_amplitude_support": 0.08347511291503906,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.7,
+              "covered_reference_positive": 52056,
+              "missed_reference_positive": 30043,
+              "reference_positive_coverage": 0.6340637522990535,
+              "response_fraction_in_amplitude_support": 0.06650590896606445,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            },
+            {
+              "threshold": 0.9,
+              "covered_reference_positive": 41565,
+              "missed_reference_positive": 40534,
+              "reference_positive_coverage": 0.5062790046163778,
+              "response_fraction_in_amplitude_support": 0.04203653335571289,
+              "precision": null,
+              "recall": null,
+              "dice": null
+            }
+          ],
+          "interpretation": "Coverage of supplied positives and response area are descriptive; unknown is never a false positive.",
+          "at_fixed_threshold": {
+            "threshold": 0.5,
+            "covered_reference_positive": 57590,
+            "missed_reference_positive": 24509,
+            "reference_positive_coverage": 0.7014701762506242,
+            "response_fraction_in_amplitude_support": 0.08347511291503906,
+            "precision": null,
+            "recall": null,
+            "dice": null
+          },
+          "edge_and_interior": {
+            "edge_band": {
+              "reference_positive": 36191,
+              "positive_coverage": 0.7132988864634854,
+              "unknown_response": 0.051829369380858255
+            },
+            "interior": {
+              "reference_positive": 45908,
+              "positive_coverage": 0.6921451598849874,
+              "unknown_response": 0.06736422723132753
+            }
+          },
+          "response_outside_supplied_reference": 117470,
+          "reference_positive_fraction_in_support": 0.03914785385131836
+        }
+      },
+      "coverage_delta": -0.0053593831837172035
+    }
+  ]
+}

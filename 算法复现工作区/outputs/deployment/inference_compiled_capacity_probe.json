@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "purpose": "compiled-graph inference capacity check, existing synthetic validation volume 0",
+  "seconds": 10.491558941081166,
+  "shape": [
+    1,
+    128,
+    128,
+    128,
+    1
+  ],
+  "gpu_memory_bytes": {
+    "current": 7443200,
+    "peak": 937586176
+  }
+}

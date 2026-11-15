@@ -1,0 +1,189 @@
+{
+  "status": "passed",
+  "finished": "2026-11-14T15:03:46+08:00",
+  "files": [
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttest1.npz",
+      "bytes": 1091568,
+      "provider_md5": "37b0b800e6d043e63d4a79a62608310b"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttest2.npz",
+      "bytes": 1053314,
+      "provider_md5": "0205653ea23937a4de9f66ba28eb2ed6"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttest3.npz",
+      "bytes": 1079681,
+      "provider_md5": "c01f7f94fe5c3cacc0e3eac6ac42fbd8"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttest4.npz",
+      "bytes": 1076361,
+      "provider_md5": "9cb3c6f9c171d97ddc4f46538fb96d51"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttest5.npz",
+      "bytes": 1092287,
+      "provider_md5": "6693f3be6c432031ef212fde4aa070ce"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttest6.npz",
+      "bytes": 1084141,
+      "provider_md5": "9d67832a110868db6e0ea6978a53ffb3"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttest7.npz",
+      "bytes": 1009603,
+      "provider_md5": "1491cda6751d2541c8ecf0326e0454b8"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttrain1.npz",
+      "bytes": 917861,
+      "provider_md5": "0b393c61283986c82c804172147dcde9"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttrain2.npz",
+      "bytes": 940250,
+      "provider_md5": "898c0f7cbc5289402ecd46af3658fd8b"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttrain3.npz",
+      "bytes": 881272,
+      "provider_md5": "3ebf4981311b3300c312245f55d46c95"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttrain4.npz",
+      "bytes": 767929,
+      "provider_md5": "04728c9d7857eddfaf96edfba69e2ebd"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttrain5.npz",
+      "bytes": 764613,
+      "provider_md5": "0a25101f89bed8d60938e8fc546a89e7"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttrain6.npz",
+      "bytes": 772705,
+      "provider_md5": "c5a47e6fdc92fef6e3870e08e3da2fc7"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttrain7.npz",
+      "bytes": 937424,
+      "provider_md5": "d57832d5af92db6952fa880b5427e4f9"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttrain8.npz",
+      "bytes": 911311,
+      "provider_md5": "40e309325d7606865e6d2df589cfadb3"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faulttrain9.npz",
+      "bytes": 955922,
+      "provider_md5": "865f5fd141ab4e2e2663cbc7c77778ae"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faultval1.npz",
+      "bytes": 1088280,
+      "provider_md5": "22059e5e5155bff0f3e39e142d47c032"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/fault/faultval2.npz",
+      "bytes": 1216734,
+      "provider_md5": "3abd127cf2ce4c49823aea96cd0bc1c2"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistest1.npz",
+      "bytes": 1476208507,
+      "provider_md5": "1bd5ce5a060d19658faf09859078631d"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistest2.npz",
+      "bytes": 1544597269,
+      "provider_md5": "42ae86cff74b73dce43dec49a8c408b3"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistest3.npz",
+      "bytes": 1605001133,
+      "provider_md5": "2e576ff51ffb3f27c38d3cfabf93566a"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistest4.npz",
+      "bytes": 1610578476,
+      "provider_md5": "e2b2987359230eba382e60f85f987168"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistest5.npz",
+      "bytes": 1475926673,
+      "provider_md5": "1962ce086998dfceeeb3a8bc9fa8e756"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistest6.npz",
+      "bytes": 1295771351,
+      "provider_md5": "3aea3f13bf55c2226facbf7115605a2c"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistest7.npz",
+      "bytes": 1163971209,
+      "provider_md5": "05c004c280b36f6bc6b34723949cc47d"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistrain1.npz",
+      "bytes": 831794776,
+      "provider_md5": "534e78ab34bb0ece32ca0a9b69ee99cd"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistrain2.npz",
+      "bytes": 869268913,
+      "provider_md5": "bf2635853b8876b0b5022d95787f8d15"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistrain3.npz",
+      "bytes": 907831974,
+      "provider_md5": "a495c748c10c8777c50166f1f4ae3350"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistrain4.npz",
+      "bytes": 946948282,
+      "provider_md5": "5bd3d9ea4f0bc917c8094adb8a79338c"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistrain5.npz",
+      "bytes": 984757778,
+      "provider_md5": "8d978647692dd884b35336dfe2f634ff"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistrain6.npz",
+      "bytes": 1026095580,
+      "provider_md5": "037b6148a91c13df80cbbffa51d47475"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistrain7.npz",
+      "bytes": 1213723277,
+      "provider_md5": "53867c696953123259ed56ef05af1764"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistrain8.npz",
+      "bytes": 1231111389,
+      "provider_md5": "90d52ccc4722f7aefeaca70522aa1bbc"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seistrain9.npz",
+      "bytes": 1239650990,
+      "provider_md5": "8b0bc91b6ca766fef8a6bb04aceaa544"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seisval1.npz",
+      "bytes": 1314676313,
+      "provider_md5": "518d2979a1f90d535ebc2a44f615970f"
+    },
+    {
+      "relative_path": "02_Thebe/data/npzfiles/seis/seisval2.npz",
+      "bytes": 1391502667,
+      "provider_md5": "5fdd962b6b7190c0ce1de46b3edc8b7b"
+    }
+  ],
+  "test_samples_decoded": false,
+  "test_used_for_evaluation": false,
+  "purpose": "byte-stream integrity against registered provider version only"
+}

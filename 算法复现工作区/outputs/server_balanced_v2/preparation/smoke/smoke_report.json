@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "started": "2026-11-14T14:38:51+08:00",
+  "runtime": {
+    "python": "3.12.3",
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+    "tensorflow": "2.18.1",
+    "keras": "3.15.1",
+    "numpy": "2.0.2",
+    "requested_device": "cpu",
+    "gpus": [],
+    "gpu_details": [],
+    "precision": "float32",
+    "build": {
+      "cpu_compiler": "/usr/lib/llvm-18/bin/clang",
+      "cuda_compute_capabilities": [
+        "sm_60",
+        "sm_70",
+        "sm_80",
+        "sm_89",
+        "compute_90"
+      ],
+      "cuda_version": "12.5.1",
+      "cudnn_version": "9",
+      "is_cuda_build": true,
+      "is_rocm_build": false,
+      "is_tensorrt_build": false
+    },
+    "time": "2026-11-14T14:38:51+08:00"
+  },
+  "purpose": "32^3 central crop of training volume 0, effective batch 2; engineering check only",
+  "baseline_training_performed": false,
+  "local_gradient_steps": 3,
+  "validation_used_for_gradient": false,
+  "test_used": false,
+  "parameter_count": 1459585,
+  "author_graph_forward_max_absolute_difference": 0.0,
+  "training_loss_before": 0.09104597568511963,
+  "training_loss_after": 0.09077789634466171,
+  "step_losses": [
+    0.09104597568511963,
+    0.09095771610736847,
+    0.09086944907903671
+  ],
+  "saved_optimizer_iterations": 3,
+  "resume_next_update_max_absolute_difference": 0.0,
+  "post_restore_validation": {
+    "binary_accuracy": 0.2067718505859375,
+    "loss": 0.08364461362361908
+  },
+  "note": "3 updates plus one independent resume-verification update in memory; saved model is not a baseline",
+  "finished": "2026-11-14T14:38:57+08:00"
+}

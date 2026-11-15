@@ -11,7 +11,7 @@ from .baseline import (configure_tensorflow, get_policy, require_audit, require_
                        training_settings, verified_checkpoint, writable_path)
 from .common import WORKSPACE, model_to_raw, raw_to_model, relative_path, sha256, standardize, timestamp, write_json
 from .data import plane_stream, read_synthetic
-from .inference import author_overlap_mask, tile_starts, validate_probability
+from .inference import author_overlap_mask, separable_overlap_mask, tile_starts, validate_probability
 from .policy import NEGATIVE, POSITIVE, ReferenceAccumulator, annotation_states
 
 
@@ -23,7 +23,7 @@ def save_curve(path, report):
         writer.writerows(rows)
 
 
-def disk_sliding_predict(seismic_raw, predictor, output_path, patch=128, stride=64):
+def disk_sliding_predict(seismic_raw, predictor, output_path, patch=128, stride=64, *, fusion="author"):
     """Same author overlap and model-axis tile order as the local in-memory path.
 
     Accumulators reside in NPY memmaps, not whole-survey RAM arrays. Scratch files
@@ -32,6 +32,8 @@ def disk_sliding_predict(seismic_raw, predictor, output_path, patch=128, stride=
     """
     if seismic_raw.ndim != 3 or min(seismic_raw.shape) < patch:
         raise ValueError("Disk-backed prediction requires raw-order axes >= patch size")
+    if fusion not in ("author", "separable"):
+        raise ValueError("Choose author or separable overlap fusion")
     shape = seismic_raw.shape
     output_path = Path(output_path)
     values = np.lib.format.open_memmap(output_path.with_name("scratch_sum_raw.npy"), mode="w+", dtype="float32", shape=shape)
@@ -39,7 +41,7 @@ def disk_sliding_predict(seismic_raw, predictor, output_path, patch=128, stride=
     for section in range(shape[0]):
         values[section] = 0
         weights[section] = 0
-    mask = model_to_raw(author_overlap_mask(patch, patch - stride))
+    mask = model_to_raw((author_overlap_mask if fusion == "author" else separable_overlap_mask)(patch, patch - stride))
     count = skipped = 0
     for sample in tile_starts(shape[2], patch, stride):
         for lateral in tile_starts(shape[1], patch, stride):
@@ -67,7 +69,7 @@ def disk_sliding_predict(seismic_raw, predictor, output_path, patch=128, stride=
         validate_probability(result[section], shape[1:])
     result.flush()
     return result, {"tiles": count, "constant_tiles_skipped": skipped, "shape_raw": list(shape),
-                    "patch": patch, "stride": stride, "grid": "model-axis order; end-anchored final tiles",
+                    "patch": patch, "stride": stride, "fusion": fusion, "grid": "model-axis order; end-anchored final tiles",
                     "scratch_files": ["scratch_sum_raw.npy", "scratch_weight_raw.npy"]}
 
 
@@ -141,10 +143,16 @@ def _evaluation_model(config, tf, model_kind):
     if model.count_params() != 1459585:
         raise ValueError("Unexpected baseline model")
 
-    def predictor(array):
-        return model([array[None, ..., None]], training=False).numpy()[0, ..., 0]
+    @tf.function(input_signature=[tf.TensorSpec([1, 128, 128, 128, 1], tf.float32)])
+    def graph_predict(value):
+        return model([value], training=False)
 
-    return predictor, {"kind": model_kind, "checkpoint": str(path), "sha256": sha256(path)}
+    def predictor(array):
+        return graph_predict(array[None, ..., None]).numpy()[0, ..., 0]
+
+    return predictor, {"kind": model_kind, "checkpoint": str(path), "sha256": sha256(path),
+                       "execution": "tf.function fixed 128^3 inference graph; no weight or precision changes",
+                       "gpu_memory_limit_mb": config.get("tensorflow_gpu_memory_limit_mb")}
 
 
 def run_evaluation(config, dataset, model_kind="author", server_work=False):
@@ -157,12 +165,16 @@ def run_evaluation(config, dataset, model_kind="author", server_work=False):
     tf = configure_tensorflow(config, "gpu")
     require_gpu_smoke(config, tf)
     predictor, model_info = _evaluation_model(config, tf, model_kind)
-    out = writable_path(config, f"baseline/{config['training']['run_name']}/{model_kind}/{dataset}")
+    fusion = config.get("evaluation_fusion", "author")
+    if fusion not in ("author", "separable"):
+        raise ValueError("Choose author or separable overlap fusion")
+    result_kind = model_kind if fusion == "author" else f"{model_kind}_{fusion}"
+    out = writable_path(config, f"baseline/{config['training']['run_name']}/{result_kind}/{dataset}")
     out.mkdir(parents=True, exist_ok=True)
     if (out / "evaluation_report.json").exists():
         raise ValueError("Evaluation already has a report; preserve/archive its directory before a retry")
     report = {"status": "running", "started": timestamp(), "dataset": dataset, "split": "validation",
-              "model": model_info, "runtime": runtime_info(tf, "gpu"), "policy": policy,
+              "model": model_info, "runtime": runtime_info(tf, "gpu"), "policy": policy, "fusion": fusion,
               "acceptance_report_sha256": sha256(config["output_root"] / "audit/audit_report.json"),
               "test_used": False, "threshold_selected": False}
     write_json(out / "evaluation_report.json", report)
@@ -189,7 +201,7 @@ def run_evaluation(config, dataset, model_kind="author", server_work=False):
         else:
             arrays = cache_thebe_validation(config, audit, policy)
             probability, tiling = disk_sliding_predict(arrays["seismic"], predictor, out / "probability_raw.npy",
-                                                      config["patch_size"], config["stride"])
+                                                      config["patch_size"], config["stride"], fusion=fusion)
             cases = []
             for section in range(200):
                 one = ReferenceAccumulator(policy["thresholds"])

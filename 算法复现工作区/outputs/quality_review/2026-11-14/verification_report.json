@@ -1,0 +1,56 @@
+{
+  "checked": "2026-11-14T13:56:26+08:00",
+  "status": "passed_engineering_checks_only",
+  "recognition_quality_accepted": false,
+  "scope": "initial local inference only",
+  "pytest": {
+    "command": "python -m pytest tests -q",
+    "passed": 46,
+    "failed": 0,
+    "coverage_percent": null
+  },
+  "ruff": {
+    "command": "python -m ruff check fault_workflow tests",
+    "passed": true
+  },
+  "compileall": {
+    "command": "python -m compileall -q fault_workflow tests",
+    "passed": true
+  },
+  "types": {
+    "status": "not_run_no_configured_type_checker"
+  },
+  "git_diff_check": {
+    "passed": true
+  },
+  "local_markdown_links": {
+    "files_checked": 9,
+    "missing": []
+  },
+  "secrets_pattern_scan": {
+    "scope": "fault_workflow configs tests",
+    "findings": "only Disk-backed text matched sk- substring; no credential found by this limited scan"
+  },
+  "actual_training_recipe_guard": "verified configured BCE is rejected against actual fseg-60 balanced-loss metadata before full training",
+  "selected_repeat_max_abs_difference": {
+    "historical_demo": 0.0,
+    "fixed_region_a": 0.0,
+    "fixed_region_b": 0.0
+  },
+  "selected_code_hashes_current": true,
+  "visual_review": [
+    "historical_demo_before_after.png",
+    "fixed_region_a_before_after.png",
+    "fixed_region_b_before_after.png"
+  ],
+  "report_sha256": {
+    "quality_report.json": "046360a124217bdb333d57af69b5502f31b1c768d675a00a0e9a45b5131b1068",
+    "followup_report.json": "5459cfeb82fdeb9be23580c8c4ea3bf8bb854f132c10422aeefe0bc0f2f5ae61",
+    "wide_context/wide_report.json": "7ecce7f405fcc4ccf98cb73c590cc08e9f3f7d38593f29ab0e57e11175190401",
+    "selected/selected_report.json": "a7efd80b7df2743be49e8032741467e8a10418a85025ded60eae40e7d5f924fc",
+    "checkpoint_recipe_audit.json": "aeb99a92d69421c39f865b0844000de6a70d4595c8eb2adf6637bd5ab990ee12"
+  },
+  "training_performed": false,
+  "test_used": false,
+  "full_baseline_run": false
+}

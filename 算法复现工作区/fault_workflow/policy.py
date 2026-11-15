@@ -51,7 +51,8 @@ class ReferenceAccumulator:
                 or not np.isfinite(probability).all()
                 or np.any(probability < 0) or np.any(probability > 1)):
             raise ValueError("Invalid or misaligned evaluation inputs")
-        if np.any((states == POSITIVE) & (labels != 1)) or np.any((states == NEGATIVE) & (labels != 0)):
+        if (np.any((states == POSITIVE) & (labels != 1))
+                or np.any(((states == NEGATIVE) | (states == UNKNOWN)) & (labels != 0))):
             raise ValueError("Annotation states contradict reference labels")
         pos, neg, support = states == POSITIVE, states == NEGATIVE, states != INVALID
         self.support += int(support.sum())

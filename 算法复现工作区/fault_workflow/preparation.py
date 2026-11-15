@@ -117,14 +117,22 @@ def run_preparation(config):
             writer.writeheader()
             writer.writerows(decisions)
         probability_path = config["output_root"] / "predictions/thebe_validation_demo_probability_model.npy"
-        probability = np.load(probability_path, allow_pickle=False)
-        score = ReferenceAccumulator(policy["thresholds"])
-        score.update(states_model, raw_to_model(cached_labels), probability)
-        evaluation = score.report()
-        evaluation.update(purpose="policy demonstration on the previous label-rich ROI, NOT the baseline",
-                          probability_sha256=sha256(probability_path),
-                          state_encoding=STATE_NAMES, full_trace_support_before_crop=True,
-                          source_coordinates=demo, states_model_sha256=sha256(out / "thebe_demo_annotation_states_model.npy"))
+        if probability_path.exists():
+            probability = np.load(probability_path, allow_pickle=False)
+            score = ReferenceAccumulator(policy["thresholds"])
+            score.update(states_model, raw_to_model(cached_labels), probability)
+            evaluation = score.report()
+            evaluation.update(purpose="policy demonstration on the previous label-rich ROI, NOT the baseline",
+                              probability_sha256=sha256(probability_path),
+                              state_encoding=STATE_NAMES, full_trace_support_before_crop=True,
+                              source_coordinates=demo, states_model_sha256=sha256(out / "thebe_demo_annotation_states_model.npy"))
+        else:
+            # A clean server has no historical local prediction. Data-policy
+            # preparation must not depend on a result it is meant to precede.
+            evaluation = {"status": "not_evaluated_no_historical_demo_prediction",
+                          "source_coordinates": demo, "state_encoding": STATE_NAMES,
+                          "full_trace_support_before_crop": True,
+                          "interpretation": "Masks and full-source policy checks completed; no demo metrics fabricated. Full validation runs separately."}
         write_json(out / "thebe_demo_policy_evaluation.json", evaluation)
         if preview is not None:
             _anomaly_figure(out / "异常标签核查图.png", *preview)

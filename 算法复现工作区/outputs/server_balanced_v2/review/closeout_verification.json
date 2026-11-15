@@ -1,0 +1,16 @@
+{
+  "recorded": "2026-11-16T01:25:44.189287+08:00",
+  "pytest": {
+    "command": "python -m pytest -q",
+    "passed": 62
+  },
+  "ruff": {
+    "command": "python -m ruff check fault_workflow tests scripts/review_fusion_followup.py",
+    "status": "passed"
+  },
+  "followup_script_compile": "passed",
+  "remote_saved_result_review": "completed with input/report/cache/probability hashes checked",
+  "staged_payload_audit": "no excluded raw arrays, checkpoints, environments, archives or credential patterns in proposed files",
+  "recognition_quality_accepted": false,
+  "project_paused_by_user": true
+}

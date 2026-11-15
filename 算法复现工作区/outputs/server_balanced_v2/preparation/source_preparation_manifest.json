@@ -1,0 +1,118 @@
+{
+  "status": "source_training_prepared_not_trained",
+  "scope": "FaultSeg3D_source_only",
+  "training": {
+    "recipe": "checkpoint_balanced_v2",
+    "run_name": "faultseg_balanced_v2",
+    "epochs": 100,
+    "fixed_baseline_epoch": 60,
+    "learning_rate": 0.0001,
+    "adam_beta_1": 0.9,
+    "adam_beta_2": 0.999,
+    "adam_epsilon": 1e-07,
+    "numpy_seed": 12345,
+    "tensorflow_seed": 1234,
+    "source_volumes_per_step": 1,
+    "effective_batch_size": 2,
+    "augmentation": "identity_and_model_axis0_flip",
+    "loss": "cross_entropy_balanced",
+    "initialization": "random",
+    "precision": "float32",
+    "shuffle_training": true,
+    "shuffle_validation": true,
+    "save_each_epoch": true,
+    "learning_rate_schedule": null,
+    "early_stopping": false
+  },
+  "policy": {
+    "version": "2026-11-09-v1",
+    "thresholds": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "display_threshold": 0.5,
+    "test_locked": true,
+    "synthetic": {
+      "train_ids": [
+        0,
+        200
+      ],
+      "validation_ids": [
+        0,
+        20
+      ],
+      "annotation": "complete_binary_reference",
+      "evaluation_support": "all_voxels"
+    },
+    "thebe": {
+      "train_sections": [
+        0,
+        900
+      ],
+      "validation_sections": [
+        900,
+        1100
+      ],
+      "test_sections": [
+        1100,
+        1803
+      ],
+      "amplitude_support": "first_to_last_nonzero_sample_per_raw_trace_including_interior_zeros",
+      "positive": "supplied_positive_label_inside_amplitude_support",
+      "negative": "only_inside_separately_confirmed_complete_annotation_mask",
+      "unknown": "zero_reference_without_confirmed_complete_annotation",
+      "invalid": "outside_amplitude_support_including_any_supplied_positive",
+      "anomaly_action": "preserve_source_label_exclude_from_supervision_and_evaluation_record_coordinates",
+      "supervised_training_enabled": false,
+      "complete_annotation_mask": null,
+      "primary_outputs": [
+        "supplied_positive_coverage",
+        "response_fraction_in_amplitude_support",
+        "invalid_positive_count"
+      ],
+      "closed_world_scores_are_field_accuracy": false,
+      "label_density_roi_allowed_for_baseline": false
+    }
+  },
+  "author_sources": [
+    {
+      "relative_path": "01_FaultSeg3D/作者代码/已解压/faultSeg-0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe/train.py",
+      "sha256": "77a1e638d85dd2a9586d0af4e13666aada3173fc30877d059b7f6a043cb6007d"
+    },
+    {
+      "relative_path": "01_FaultSeg3D/作者代码/已解压/faultSeg-0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe/utils.py",
+      "sha256": "043990b7aa82a104c7ffbb2588c12b6e9286110657f678f00f73c9acecdc5c36"
+    },
+    {
+      "relative_path": "01_FaultSeg3D/作者代码/已解压/faultSeg-0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe/unet3.py",
+      "sha256": "8313c74a14c3aee63aaa3bcb90b2452d7f227c7f5fee98eb9f6687437f6fa020"
+    },
+    {
+      "relative_path": "01_FaultSeg3D/作者代码/已解压/faultSeg-0ab8ba1c10cb9e5748b0129bfe1a2fe3031b80fe/README.md",
+      "sha256": "b84f19e8fbf6cc82a1b6b1a39a635487b8bda32f628aa9417b2a83bb440723fc"
+    }
+  ],
+  "original_checkpoint_sha256": "5174031cb013e6c8a311c1c74689f473157105baf4a089e8463abf01a96349da",
+  "loss_evidence": "checkpoint training_config cross_entropy_balanced and pinned unet3.py function; BCE script is a distinct historical recipe",
+  "thebe_full_acceptance_pending": true,
+  "test_used": false
+}

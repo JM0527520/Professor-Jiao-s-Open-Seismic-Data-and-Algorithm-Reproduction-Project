@@ -1,0 +1,12 @@
+{
+  "completed_epoch": 48,
+  "checkpoint_sha256": "062af4787e88e3c65a33e775d95112fa9a55ea8b6b166965c53eb4a8f3ccae1b",
+  "metrics": {
+    "epoch": 48,
+    "train_loss": 0.011723462337395176,
+    "train_binary_accuracy": 0.9554944920539856,
+    "validation_loss": 0.027422662102617325,
+    "validation_binary_accuracy": 0.9525958776474,
+    "seconds": 193.597
+  }
+}

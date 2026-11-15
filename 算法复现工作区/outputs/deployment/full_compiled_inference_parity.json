@@ -1,0 +1,148 @@
+{
+  "status": "measured",
+  "cases": [
+    {
+      "id": 0,
+      "max_abs": 0.0006107091903686523,
+      "mean_abs": 5.549161869566888e-06,
+      "threshold_0_5_disagreements": 12
+    },
+    {
+      "id": 1,
+      "max_abs": 0.0005274415016174316,
+      "mean_abs": 3.758930688491091e-06,
+      "threshold_0_5_disagreements": 9
+    },
+    {
+      "id": 2,
+      "max_abs": 0.0007066726684570312,
+      "mean_abs": 4.123827238800004e-06,
+      "threshold_0_5_disagreements": 10
+    },
+    {
+      "id": 3,
+      "max_abs": 0.0004704594612121582,
+      "mean_abs": 4.662903393182205e-06,
+      "threshold_0_5_disagreements": 10
+    },
+    {
+      "id": 4,
+      "max_abs": 0.0006543397903442383,
+      "mean_abs": 6.374067652359372e-06,
+      "threshold_0_5_disagreements": 15
+    },
+    {
+      "id": 5,
+      "max_abs": 0.0005128085613250732,
+      "mean_abs": 5.6051203500828706e-06,
+      "threshold_0_5_disagreements": 11
+    },
+    {
+      "id": 6,
+      "max_abs": 0.000560075044631958,
+      "mean_abs": 4.900839030597126e-06,
+      "threshold_0_5_disagreements": 8
+    },
+    {
+      "id": 7,
+      "max_abs": 0.0007501840591430664,
+      "mean_abs": 5.063643129687989e-06,
+      "threshold_0_5_disagreements": 17
+    },
+    {
+      "id": 8,
+      "max_abs": 0.0005157887935638428,
+      "mean_abs": 3.892657332471572e-06,
+      "threshold_0_5_disagreements": 9
+    },
+    {
+      "id": 9,
+      "max_abs": 0.0006361305713653564,
+      "mean_abs": 5.051182142778998e-06,
+      "threshold_0_5_disagreements": 11
+    },
+    {
+      "id": 10,
+      "max_abs": 0.0005437135696411133,
+      "mean_abs": 3.395126213945332e-06,
+      "threshold_0_5_disagreements": 9
+    },
+    {
+      "id": 11,
+      "max_abs": 0.0007055401802062988,
+      "mean_abs": 7.620014912390616e-06,
+      "threshold_0_5_disagreements": 16
+    },
+    {
+      "id": 12,
+      "max_abs": 0.0005224347114562988,
+      "mean_abs": 5.805335604236461e-06,
+      "threshold_0_5_disagreements": 18
+    },
+    {
+      "id": 13,
+      "max_abs": 0.0004451572895050049,
+      "mean_abs": 4.299653028283501e-06,
+      "threshold_0_5_disagreements": 8
+    },
+    {
+      "id": 14,
+      "max_abs": 0.0005196928977966309,
+      "mean_abs": 2.8426500193745596e-06,
+      "threshold_0_5_disagreements": 9
+    },
+    {
+      "id": 15,
+      "max_abs": 0.0005901157855987549,
+      "mean_abs": 5.6939084061014e-06,
+      "threshold_0_5_disagreements": 14
+    },
+    {
+      "id": 16,
+      "max_abs": 0.0005977451801300049,
+      "mean_abs": 6.563805072801188e-06,
+      "threshold_0_5_disagreements": 9
+    },
+    {
+      "id": 17,
+      "max_abs": 0.000503242015838623,
+      "mean_abs": 5.301370492816204e-06,
+      "threshold_0_5_disagreements": 14
+    },
+    {
+      "id": 18,
+      "max_abs": 0.0005950331687927246,
+      "mean_abs": 5.948819307377562e-06,
+      "threshold_0_5_disagreements": 9
+    },
+    {
+      "id": 19,
+      "max_abs": 0.0004285573959350586,
+      "mean_abs": 6.56939255350153e-06,
+      "threshold_0_5_disagreements": 9
+    }
+  ],
+  "author_eager_at_0_5": {
+    "threshold": 0.5,
+    "covered_reference_positive": 2858016,
+    "missed_reference_positive": 174202,
+    "reference_positive_coverage": 0.9425496451772267,
+    "response_fraction_in_amplitude_support": 0.11406171321868896,
+    "precision": 0.5973995081619408,
+    "recall": 0.9425496451772267,
+    "dice": 0.7312951771506592
+  },
+  "author_graph_at_0_5": {
+    "threshold": 0.5,
+    "covered_reference_positive": 2858022,
+    "missed_reference_positive": 174196,
+    "reference_positive_coverage": 0.9425516239267757,
+    "response_fraction_in_amplitude_support": 0.11406264305114747,
+    "precision": 0.597395892339136,
+    "recall": 0.9425516239267757,
+    "dice": 0.7312930635672498
+  },
+  "maximum_probability_delta": 0.0007501840591430664,
+  "total_threshold_disagreements": 227,
+  "interpretation": "Small execution-kernel differences preserved; all final model comparisons use the same compiled graph path. No weight, threshold, or model change."
+}

@@ -1,0 +1,122 @@
+{
+  "signature": {
+    "protocol": {
+      "version": "2026-11-14-initial-inference-review-v1",
+      "scope": "local_initial_experiment_only_no_training_no_full_baseline_no_TEST",
+      "checkpoint": "fseg-60.hdf5",
+      "threshold": 0.5,
+      "diagnostic_thresholds": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "halo_raw": [
+        32,
+        32,
+        32
+      ],
+      "patch_size": 128,
+      "stride": 64,
+      "synthetic_validation_ids": [
+        0,
+        5,
+        10,
+        15,
+        19
+      ],
+      "variants": [
+        "legacy_core",
+        "halo_author",
+        "halo_separable"
+      ],
+      "thebe_regions": [
+        {
+          "name": "historical_demo",
+          "start_raw": [
+            36,
+            852,
+            926
+          ],
+          "shape_raw": [
+            128,
+            192,
+            128
+          ],
+          "selection": "previous label-density-selected demo; development case only"
+        },
+        {
+          "name": "fixed_region_a",
+          "start_raw": [
+            36,
+            600,
+            900
+          ],
+          "shape_raw": [
+            128,
+            128,
+            128
+          ],
+          "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+        },
+        {
+          "name": "fixed_region_b",
+          "start_raw": [
+            36,
+            1200,
+            1000
+          ],
+          "shape_raw": [
+            128,
+            128,
+            128
+          ],
+          "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+        }
+      ],
+      "promotion_rule": "Do not auto-promote from a single label-rich ROI. Compare coverage and unknown-area response per region at the unchanged threshold; reject variants with material coverage regressions. Human/domain acceptance still required.",
+      "boundary_band_samples": 16,
+      "known_limitations": [
+        "no confirmed negative labels for Thebe",
+        "local development regions, not independent test",
+        "sample distances are not physical metres",
+        "no threshold or checkpoint optimization in this review"
+      ]
+    },
+    "sources": [
+      {
+        "relative_path": "02_Thebe\\data\\npzfiles\\seis\\seisval1.npz",
+        "bytes": 1314676313,
+        "mtime_ns": 1793685044007002300
+      },
+      {
+        "relative_path": "02_Thebe\\data\\npzfiles\\seis\\seisval2.npz",
+        "bytes": 1391502667,
+        "mtime_ns": 1793685943005052300
+      },
+      {
+        "relative_path": "02_Thebe\\data\\npzfiles\\fault\\faultval1.npz",
+        "bytes": 1088280,
+        "mtime_ns": 1793684196008666200
+      },
+      {
+        "relative_path": "02_Thebe\\data\\npzfiles\\fault\\faultval2.npz",
+        "bytes": 1216734,
+        "mtime_ns": 1793684207179463300
+      }
+    ],
+    "data_root": "D:\\My_Files\\Project\\Jiao_Teacher_Project\\仪陇南部层位智能追踪与断层智能识别\\公开地震数据与算法复现\\公开数据集"
+  },
+  "files": {
+    "historical_demo_seismic_raw.npy": "84138da8100c58755dc97ac35d0f128c37f56a3175a7bcc3bbb9c01e9269e583",
+    "historical_demo_labels_raw.npy": "34d4278119097d3ff8b6e983128ba0c5e7e148e858152c7558abfc50dce06c6d",
+    "historical_demo_states_raw.npy": "5f5a21d03c37ea033ed17f07dcc37571352983c91426f56df7855b84cb712946",
+    "fixed_region_a_seismic_raw.npy": "74a8e9de9ce8287aa73f9c5e7cc908261eac6e4503222d359834ad4de0ce1e93",
+    "fixed_region_a_labels_raw.npy": "e7258041fb1cc9e78cb238e06bd7ba8f5bccaf441363bd7b351f4fe17ae16908",
+    "fixed_region_a_states_raw.npy": "64772ecbfbb6b03a0c675f4d471831c6424532be78e0423135dc7b2baa791c08",
+    "fixed_region_b_seismic_raw.npy": "04e3f8228d74c1904262b9483d6de9fe37ff355a4bee897c1abdb50dd634d888",
+    "fixed_region_b_labels_raw.npy": "18cad176bcd9095f5778bf0cab2b8d15084aebae4478249d1240e50295896fac",
+    "fixed_region_b_states_raw.npy": "41bcf8f2d758c34096ec7bf86c1ae92eb048ac803a8e3fada6e4cb17f719a541"
+  }
+}

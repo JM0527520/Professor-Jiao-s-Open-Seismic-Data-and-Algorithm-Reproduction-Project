@@ -1,0 +1,15 @@
+{
+  "recorded": "2026-11-14T15:02:58+08:00",
+  "purpose": "Identify the archived implementation deployed before the running source pipeline began; later inference-only updates recorded separately",
+  "launch_archive": "server_code_update.tar.gz",
+  "launch_archive_sha256": "d09fd277d6123468b9bb8a26e81a2f8b4e8a58776dad58ac69edaf6400c6f622",
+  "launch_implementation_sha256": {
+    "training.py": "d3a7e2c66d7d94efcab0590011c658c08d56d8bc605a52d1a7d12424c03b2b5b",
+    "baseline.py": "924258cbb8a64bbcc8e9d3fc8435ca7c3ec9c2aac755eebb7db9de173a0e3984",
+    "losses.py": "d0b243b23329cc028f1c6d6d0da6e9a99016ea586b8eb3d8b850306ad1e0d55f",
+    "source_stage.py": "206e53217f43c81034212aa85f93041fb9569578a88d39db86e3b98f6aa2667c"
+  },
+  "current_loss_module_matches_launch": true,
+  "current_training_module_matches_launch": true,
+  "later_changes": "bounded-memory graph inference, comparison/report tools, installer fallback; source loss and source training updates unchanged"
+}

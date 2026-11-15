@@ -109,7 +109,8 @@ def test_epoch_order_replay_and_all_ids_are_preserved():
     assert not np.array_equal(first[0][0], first[1][0])
 
 
-def test_disk_tiling_matches_in_memory_author_order(tmp_path):
+@pytest.mark.parametrize("fusion", ["author", "separable"])
+def test_disk_tiling_matches_in_memory_author_order(tmp_path, fusion):
     raw = np.arange(11 * 13 * 15, dtype=np.float32).reshape(11, 13, 15)
     calls = []
 
@@ -118,11 +119,12 @@ def test_disk_tiling_matches_in_memory_author_order(tmp_path):
         # Input-dependent spatial response exposes transposition/weight errors.
         return (1 / (1 + np.exp(-array))).astype(np.float32)
 
-    expected, info = sliding_predict(raw_to_model(raw), predictor, 8, 4)
-    actual, disk_info = disk_sliding_predict(raw, predictor, tmp_path / "probability.npy", 8, 4)
+    expected, info = sliding_predict(raw_to_model(raw), predictor, 8, 4, fusion=fusion)
+    actual, disk_info = disk_sliding_predict(raw, predictor, tmp_path / "probability.npy", 8, 4, fusion=fusion)
     np.testing.assert_array_equal(actual, model_to_raw(expected))
     assert disk_info["tiles"] == info["tiles"]
     assert isinstance(actual, np.memmap)
+    assert disk_info["fusion"] == fusion
 
 
 def test_local_commands_cannot_start_deferred_work_or_unlock_test(tmp_path):

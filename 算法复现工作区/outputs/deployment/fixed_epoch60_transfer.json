@@ -1,0 +1,9 @@
+{
+  "status": "passed_fixed_checkpoint_transfer",
+  "recorded": "2026-11-14T18:03:21+08:00",
+  "checkpoint": "epoch-060.keras",
+  "sha256": "49b5401e1dda170a91ea90b495e6db30fcc6eb31abf53007a063804dbc000385",
+  "selection": "fixed before training; not selected on Thebe",
+  "thebe_metrics_used_for_checkpoint_selection": false,
+  "recognition_quality_accepted": false
+}

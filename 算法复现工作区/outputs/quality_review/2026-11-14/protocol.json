@@ -1,0 +1,84 @@
+{
+  "version": "2026-11-14-initial-inference-review-v1",
+  "scope": "local_initial_experiment_only_no_training_no_full_baseline_no_TEST",
+  "checkpoint": "fseg-60.hdf5",
+  "threshold": 0.5,
+  "diagnostic_thresholds": [
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "halo_raw": [
+    32,
+    32,
+    32
+  ],
+  "patch_size": 128,
+  "stride": 64,
+  "synthetic_validation_ids": [
+    0,
+    5,
+    10,
+    15,
+    19
+  ],
+  "variants": [
+    "legacy_core",
+    "halo_author",
+    "halo_separable"
+  ],
+  "thebe_regions": [
+    {
+      "name": "historical_demo",
+      "start_raw": [
+        36,
+        852,
+        926
+      ],
+      "shape_raw": [
+        128,
+        192,
+        128
+      ],
+      "selection": "previous label-density-selected demo; development case only"
+    },
+    {
+      "name": "fixed_region_a",
+      "start_raw": [
+        36,
+        600,
+        900
+      ],
+      "shape_raw": [
+        128,
+        128,
+        128
+      ],
+      "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+    },
+    {
+      "name": "fixed_region_b",
+      "start_raw": [
+        36,
+        1200,
+        1000
+      ],
+      "shape_raw": [
+        128,
+        128,
+        128
+      ],
+      "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+    }
+  ],
+  "promotion_rule": "Do not auto-promote from a single label-rich ROI. Compare coverage and unknown-area response per region at the unchanged threshold; reject variants with material coverage regressions. Human/domain acceptance still required.",
+  "boundary_band_samples": 16,
+  "known_limitations": [
+    "no confirmed negative labels for Thebe",
+    "local development regions, not independent test",
+    "sample distances are not physical metres",
+    "no threshold or checkpoint optimization in this review"
+  ]
+}

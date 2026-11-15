@@ -1,0 +1,11 @@
+{
+  "recorded": "2026-11-16T01:21:50.960680+08:00",
+  "status": "paused_by_user_after_step_completion",
+  "active_project_experiment_processes": [],
+  "recognition_quality_accepted": false,
+  "test_used_for_tuning": false,
+  "next_experiment_started": false,
+  "checkpoints_and_probabilities_preserved": true,
+  "fixed_epoch60_sha256_verified": "49b5401e1dda170a91ea90b495e6db30fcc6eb31abf53007a063804dbc000385",
+  "resume_requires_user_instruction": true
+}

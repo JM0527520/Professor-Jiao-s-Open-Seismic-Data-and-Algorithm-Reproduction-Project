@@ -1,0 +1,241 @@
+{
+  "status": "diagnosis_completed_only",
+  "cases": [
+    {
+      "region": {
+        "name": "historical_demo",
+        "start_raw": [
+          36,
+          852,
+          926
+        ],
+        "shape_raw": [
+          128,
+          192,
+          128
+        ],
+        "selection": "previous label-density-selected demo; development case only"
+      },
+      "variants": {
+        "legacy_core": {
+          "threshold": 0.5,
+          "reference_positive_voxels": 528206,
+          "radii": [
+            {
+              "radius_samples": 0,
+              "reference_positive_near_prediction": 131226,
+              "reference_positive_proximity_fraction": 0.24843716277361483
+            },
+            {
+              "radius_samples": 2,
+              "reference_positive_near_prediction": 285676,
+              "reference_positive_proximity_fraction": 0.5408420199694816
+            },
+            {
+              "radius_samples": 4,
+              "reference_positive_near_prediction": 394657,
+              "reference_positive_proximity_fraction": 0.7471649318637047
+            },
+            {
+              "radius_samples": 8,
+              "reference_positive_near_prediction": 497383,
+              "reference_positive_proximity_fraction": 0.9416458730116659
+            }
+          ],
+          "distance": "L-infinity in raw array indices; maximum coordinate difference per axis",
+          "usage": "diagnosis of offsets/bandwidth versus gaps only; NOT an accuracy or object-recall metric",
+          "saved_probabilities_modified": false,
+          "used_for_numeric_promotion_gate": false
+        },
+        "halo_separable": {
+          "threshold": 0.5,
+          "reference_positive_voxels": 528206,
+          "radii": [
+            {
+              "radius_samples": 0,
+              "reference_positive_near_prediction": 147253,
+              "reference_positive_proximity_fraction": 0.2787794913348201
+            },
+            {
+              "radius_samples": 2,
+              "reference_positive_near_prediction": 321708,
+              "reference_positive_proximity_fraction": 0.6090578297103781
+            },
+            {
+              "radius_samples": 4,
+              "reference_positive_near_prediction": 431054,
+              "reference_positive_proximity_fraction": 0.8160717598815613
+            },
+            {
+              "radius_samples": 8,
+              "reference_positive_near_prediction": 513108,
+              "reference_positive_proximity_fraction": 0.9714164549437151
+            }
+          ],
+          "distance": "L-infinity in raw array indices; maximum coordinate difference per axis",
+          "usage": "diagnosis of offsets/bandwidth versus gaps only; NOT an accuracy or object-recall metric",
+          "saved_probabilities_modified": false,
+          "used_for_numeric_promotion_gate": false
+        }
+      }
+    },
+    {
+      "region": {
+        "name": "fixed_region_a",
+        "start_raw": [
+          36,
+          600,
+          900
+        ],
+        "shape_raw": [
+          128,
+          128,
+          128
+        ],
+        "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+      },
+      "variants": {
+        "legacy_core": {
+          "threshold": 0.5,
+          "reference_positive_voxels": 286841,
+          "radii": [
+            {
+              "radius_samples": 0,
+              "reference_positive_near_prediction": 82204,
+              "reference_positive_proximity_fraction": 0.28658385656164914
+            },
+            {
+              "radius_samples": 2,
+              "reference_positive_near_prediction": 179790,
+              "reference_positive_proximity_fraction": 0.6267932408546896
+            },
+            {
+              "radius_samples": 4,
+              "reference_positive_near_prediction": 241613,
+              "reference_positive_proximity_fraction": 0.84232379611004
+            },
+            {
+              "radius_samples": 8,
+              "reference_positive_near_prediction": 282409,
+              "reference_positive_proximity_fraction": 0.98454893128946
+            }
+          ],
+          "distance": "L-infinity in raw array indices; maximum coordinate difference per axis",
+          "usage": "diagnosis of offsets/bandwidth versus gaps only; NOT an accuracy or object-recall metric",
+          "saved_probabilities_modified": false,
+          "used_for_numeric_promotion_gate": false
+        },
+        "halo_separable": {
+          "threshold": 0.5,
+          "reference_positive_voxels": 286841,
+          "radii": [
+            {
+              "radius_samples": 0,
+              "reference_positive_near_prediction": 87397,
+              "reference_positive_proximity_fraction": 0.3046879630178391
+            },
+            {
+              "radius_samples": 2,
+              "reference_positive_near_prediction": 186853,
+              "reference_positive_proximity_fraction": 0.65141663848613
+            },
+            {
+              "radius_samples": 4,
+              "reference_positive_near_prediction": 244857,
+              "reference_positive_proximity_fraction": 0.8536331974857151
+            },
+            {
+              "radius_samples": 8,
+              "reference_positive_near_prediction": 282672,
+              "reference_positive_proximity_fraction": 0.9854658155563535
+            }
+          ],
+          "distance": "L-infinity in raw array indices; maximum coordinate difference per axis",
+          "usage": "diagnosis of offsets/bandwidth versus gaps only; NOT an accuracy or object-recall metric",
+          "saved_probabilities_modified": false,
+          "used_for_numeric_promotion_gate": false
+        }
+      }
+    },
+    {
+      "region": {
+        "name": "fixed_region_b",
+        "start_raw": [
+          36,
+          1200,
+          1000
+        ],
+        "shape_raw": [
+          128,
+          128,
+          128
+        ],
+        "selection": "fixed array coordinates before reading labels or new model outputs; local development check"
+      },
+      "variants": {
+        "legacy_core": {
+          "threshold": 0.5,
+          "reference_positive_voxels": 82099,
+          "radii": [
+            {
+              "radius_samples": 0,
+              "reference_positive_near_prediction": 57100,
+              "reference_positive_proximity_fraction": 0.6955017722505755
+            },
+            {
+              "radius_samples": 2,
+              "reference_positive_near_prediction": 81555,
+              "reference_positive_proximity_fraction": 0.9933738535183133
+            },
+            {
+              "radius_samples": 4,
+              "reference_positive_near_prediction": 82099,
+              "reference_positive_proximity_fraction": 1.0
+            },
+            {
+              "radius_samples": 8,
+              "reference_positive_near_prediction": 82099,
+              "reference_positive_proximity_fraction": 1.0
+            }
+          ],
+          "distance": "L-infinity in raw array indices; maximum coordinate difference per axis",
+          "usage": "diagnosis of offsets/bandwidth versus gaps only; NOT an accuracy or object-recall metric",
+          "saved_probabilities_modified": false,
+          "used_for_numeric_promotion_gate": false
+        },
+        "halo_separable": {
+          "threshold": 0.5,
+          "reference_positive_voxels": 82099,
+          "radii": [
+            {
+              "radius_samples": 0,
+              "reference_positive_near_prediction": 58397,
+              "reference_positive_proximity_fraction": 0.7112997722262147
+            },
+            {
+              "radius_samples": 2,
+              "reference_positive_near_prediction": 81745,
+              "reference_positive_proximity_fraction": 0.9956881326203729
+            },
+            {
+              "radius_samples": 4,
+              "reference_positive_near_prediction": 82099,
+              "reference_positive_proximity_fraction": 1.0
+            },
+            {
+              "radius_samples": 8,
+              "reference_positive_near_prediction": 82099,
+              "reference_positive_proximity_fraction": 1.0
+            }
+          ],
+          "distance": "L-infinity in raw array indices; maximum coordinate difference per axis",
+          "usage": "diagnosis of offsets/bandwidth versus gaps only; NOT an accuracy or object-recall metric",
+          "saved_probabilities_modified": false,
+          "used_for_numeric_promotion_gate": false
+        }
+      }
+    }
+  ],
+  "not_used_as_promotion_score": true,
+  "original_probability_files_modified": false
+}

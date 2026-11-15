@@ -1,0 +1,39 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "tensorflow": "2.18.1",
+  "keras": "3.15.1",
+  "numpy": "2.0.2",
+  "requested_device": "gpu",
+  "gpus": [
+    "/physical_device:GPU:0"
+  ],
+  "gpu_details": [
+    {
+      "compute_capability": [
+        8,
+        6
+      ],
+      "device_name": "NVIDIA GeForce RTX 3060"
+    }
+  ],
+  "precision": "float32",
+  "build": {
+    "cpu_compiler": "/usr/lib/llvm-18/bin/clang",
+    "cuda_compute_capabilities": [
+      "sm_60",
+      "sm_70",
+      "sm_80",
+      "sm_89",
+      "compute_90"
+    ],
+    "cuda_version": "12.5.1",
+    "cudnn_version": "9",
+    "is_cuda_build": true,
+    "is_rocm_build": false,
+    "is_tensorrt_build": false
+  },
+  "time": "2026-11-14T14:38:49+08:00",
+  "status": "passed",
+  "full_training_started": false
+}

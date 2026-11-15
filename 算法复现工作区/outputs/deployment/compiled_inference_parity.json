@@ -1,0 +1,25 @@
+{
+  "status": "measured_not_promoted",
+  "max_abs_delta_vs_saved_eager_prediction": 0.0006107091903686523,
+  "mean_abs_delta": 5.549161869566888e-06,
+  "repeat_max_abs_delta": 0.0,
+  "first_seconds": 1.6665324307978153,
+  "steady_seconds": 0.5330882156267762,
+  "threshold_0_5_disagreements": 12,
+  "shape": [
+    128,
+    128,
+    128
+  ],
+  "gpu_memory_bytes": {
+    "current": 7443200,
+    "peak": 937586176
+  },
+  "model": {
+    "kind": "author",
+    "checkpoint": "/home/zjm/faultseg_project/公开数据集/01_FaultSeg3D/预训练模型与预测示例/fseg-60.hdf5",
+    "sha256": "5174031cb013e6c8a311c1c74689f473157105baf4a089e8463abf01a96349da",
+    "execution": "tf.function fixed 128^3 inference graph; no weight or precision changes",
+    "gpu_memory_limit_mb": 1152
+  }
+}
